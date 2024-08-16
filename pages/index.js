@@ -1,29 +1,28 @@
-import HBottom from '../components/header/hbottom';
-import HomeDetailOne from '../components/home/DetailOne';
-import HomeDetailTwo from '../components/home/DetailTwo';
-import Futured from '../components/home/futured';
-import Header from '../components/layout/header';
-import HomePricing from '../components/home/pricing';
-import HomeNewsLater from '../components/home/NewsLater';
-import LayoutAppGrid from '../components/layout/AppGrid';
-import Footer from '../components/layout/footer';
-import HomeDuelSlider from '../components/home/DuelSlider';
+import EducationHeaderBottom from '../components/header/EducationBottom';
+import EducationDepertment from '../components/Education/Deperments';
+import EducationDetailOne from '../components/Education/DetailOne';
+import EducationTestimonial from '../components/Education/EduTestimonial';
+import RegisterBanner from '../components/Education/RegisterBanner';
+import EducationTeacher from '../components/Education/Teachers';
+import TrustedCompany from '../components/Education/TrustedCompany';
+import EducationFooter from '../components/layout/EducationFooter';
+import EducationHeader from '../components/layout/EducationHeader';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <header>
-        <Header />
-        <HBottom />
+        <EducationHeader />
+        <EducationHeaderBottom />
       </header>
-      <Futured />
-      <HomeDetailOne />
-      <HomeDetailTwo />
-      <LayoutAppGrid />
-      <HomePricing />
-      <HomeDuelSlider />
-      <HomeNewsLater />
-      <Footer />
+      <TrustedCompany />
+      <EducationDetailOne />
+      <EducationDepertment />
+      <EducationTeacher />
+      <EducationTestimonial />
+      <RegisterBanner />
+      <EducationFooter />
     </>
   );
-}
+};
+export default Home;
