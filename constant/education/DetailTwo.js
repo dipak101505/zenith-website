@@ -1,9 +1,9 @@
 const EducationDetailTwo = {
   Title: 'At Zenith We Help to Create Possibility & Success!',
   subTitle:
-    'Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before.',
+    'The ability to work hard consistently and analytical thought process that is developed with competitive exam preparation is a skill that stays with the student for life.',
   CoverImg: '/assets/images/education/success-students.png',
-  VideoURL: 'https://www.youtube.com/watch?v=ScMzIvxBSi4&t=17s',
-  actionBtn: 'Get Started Today',
+  VideoURL: 'https://www.youtube.com/watch?v=bboVVCjt9nA&t=10s&ab_channel=ZENITHINSTITUTE',
+  actionBtn: 'Our Results',
 };
 export default EducationDetailTwo;

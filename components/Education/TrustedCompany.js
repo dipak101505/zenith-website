@@ -16,8 +16,8 @@ const TrustedCompany = () => {
             <TrustedCompanList val="IITJEE" />
             <TrustedCompanList val="WBJEE" />
             <TrustedCompanList val="NEET" />
-            <TrustedCompanList val="BITSAT" />
             <TrustedCompanList val="FOUNDATION" />
+            <TrustedCompanList val="ROBOTICS & AI" />
           </div>
         </div>
       </div>

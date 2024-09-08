@@ -23,7 +23,7 @@ return(
 
     <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
         <div className="ag-hero-figure">
-            <img src="assets/images/education/edu-hero-figure.png" alt="" className="img-fulid"/>
+            <img src="https://agencico-react.vercel.app/assets/images/education/edu-hero-figure.png" alt="" className="img-fulid"/>
 
             <div className="florting-mail-label">
                 <div className="icon"><i className="bi bi-envelope"></i></div>

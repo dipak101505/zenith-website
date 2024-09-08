@@ -11,12 +11,11 @@ return(
 <div className="container">
 <div className="row align-items-center gy-4">
     <div className="col-xxl-4 col-lg-5">
-    <div className="edu-section-title text-start">Introduce with Our
-        Famous Teacher</div>
+    <div className="edu-section-title text-start">Our In-famous Mentors</div>
     </div>
     <div className="col-xxl-8 col-lg-7 text-lg-end">
         <div className="more-btn">
-            <a href="about.html" className="edu-btn-fill">View All Teachers</a>
+            <a href="about.html" className="edu-btn-fill">View All Mentors</a>
         </div>
     </div>
 </div>
@@ -24,20 +23,20 @@ return(
     
     <EduTeacherItem 
      img="assets/images/education/instructors/ins1.png"
-     name="Sellina"
-     position="Director"
+     name="Varun Goenka"
+     position="Chief Mentor Physics"
     />
 
     <EduTeacherItem 
      img="assets/images/education/instructors/ins2.png"
-     name="Sellina"
-     position="Director"
+     name="Amit Bachhawat"
+     position="Chief Mentor Maths"
     />
 
     <EduTeacherItem 
      img="assets/images/education/instructors/ins3.png"
-     name="Sellina"
-     position="Director"
+     name="Dr. Ritesh Pandey"
+     position="Cheif Mentor Chemistry"
     />
 </div>
 </div>

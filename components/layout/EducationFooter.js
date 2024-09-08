@@ -19,7 +19,7 @@ return(
         <p className="f-about-texts">{FooterConstant.subTitle}</p>
         <ul className="footer-social-links d-flex gap-3 ">
             <li><Link href={FooterConstant.GoogleLink}><a><i className="bi bi-google"></i></a></Link></li>
-            <li><Link href={FooterConstant.TwitterLink}><a><i className="bi bi-twitter"></i></a></Link></li>
+            <li><Link href={FooterConstant.TwitterLink}><a><i className="bi bi-youtube"></i></a></Link></li>
             <li><Link href={FooterConstant.InstagramLink}><a><i className="bi bi-instagram"></i></a></Link></li>
             <li><Link href={FooterConstant.LinkedinLink}><a><i className="bi bi-linkedin"></i></a></Link></li>
         </ul>
@@ -29,12 +29,14 @@ return(
     <div className="row">
         <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
             <div className="footer-widget">
-                <h4 className="footer-widget-title">Services</h4>
+                <h4 className="footer-widget-title">Courses</h4>
                 <ul className="footer-links">
-                    <li><Link href="/"><a>Design</a></Link></li>
-                    <li><Link href="/"><a>Development</a></Link></li>
-                    <li><Link href="/"><a>Marketing</a></Link></li>
-                    <li><Link href="/"><a>Content Writing</a></Link></li>
+                    <li><Link href="/"><a>IIT JEE</a></Link></li>
+                    <li><Link href="/"><a>WBJEE</a></Link></li>
+                    <li><Link href="/"><a>NEET</a></Link></li>
+                    <li><Link href="/"><a>Foundation</a></Link></li>
+                    <li><Link href="/"><a>Robotics & AI	</a></Link></li>
+                    <li><Link href="/"><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>
         </div>  
@@ -43,19 +45,26 @@ return(
                 <h4 className="footer-widget-title">Company</h4>
                 <ul className="footer-links">
                     <li><Link href="/"><a>About</a></Link></li>
-                    <li><Link href="/"><a>Terms</a></Link></li>
-                    <li><Link href="/"><a>Privacy Policy</a></Link></li>
-                    <li><Link href="/"><a>Careers</a></Link></li>       
+                    <li><Link href="/"><a>Results</a></Link></li>
+                    <li><Link href="/"><a>Franchisee</a></Link></li>
+                    <li><Link href="/"><a>Job Openings</a></Link></li>  
+                    <li><Link href="/"><a>Privacy Policy</a></Link></li>  
+                    <li><Link href="/"><a>School Tie-up	</a></Link></li>       
                 </ul>
             </div>
         </div>
         <div className="col-lg-4 col-md-4 d-flex justify-content-lg-center pt-4 pt-lg-0">
             <div className="footer-widget">
-                <h4 className="footer-widget-title">Job Info</h4>
+                <h4 className="footer-widget-title">Centres</h4>
                 <ul className="footer-links">
-                    <li><Link href="/"><a>Select</a></Link></li>
-                    <li><Link href="/"><a>Services</a></Link></li>
-                    <li><Link href="/"><a>Payment</a></Link></li>       
+                    <li><Link href="/"><a>Saltlake</a></Link></li>
+                    <li><Link href="/"><a>Phoolbagan</a></Link></li>
+                    <li><Link href="/"><a>Howrah</a></Link></li>
+                    <li><Link href="/"><a>Andul</a></Link></li>
+                    <li><Link href="/"><a>Serampore</a></Link></li>
+                    <li><Link href="/"><a>Chandannagar</a></Link></li>
+                    <li><Link href="/"><a>Mogra</a></Link></li> 
+                    <li><Link href="/"><a>Rampurhat</a></Link></li>
                 </ul>
             </div>
         </div>

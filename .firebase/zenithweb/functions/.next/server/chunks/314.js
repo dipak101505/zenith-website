@@ -341,18 +341,18 @@ const Footer = ()=>{
 /* harmony export */ });
 const FooterConstant = {
     Logo: "/assets/images/logo.png",
-    subTitle: "Professionally scale cross functional human capital and extensive technology.",
+    subTitle: "The idea of Zenith was born out of the urge to change the  way students currently prepare for IIT JEE | WBJEE | NEET | Foundation",
     GoogleLink: "/",
     LinkedinLink: "/",
     TwitterLink: "/",
     InstagramLink: "/",
     copyrightText: "Copyright\xa9chakri.All right reserved",
     copyrightTwo: "<p>Copyright\xa9<a href='/'>chakri</a>.All right reserved</p>",
-    phone: "971 5546 963",
-    email: "example@gmail.com",
-    address: [
-        "Dhaka, Bangladesh"
-    ]
+    phone: "905 1509 444",
+    email: "zenithinsti@gmail.com",
+    // address: [
+    //     "Dhaka, Bangladesh"
+    // ]
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FooterConstant);
 

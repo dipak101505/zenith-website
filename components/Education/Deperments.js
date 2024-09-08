@@ -11,38 +11,56 @@ return(
 <div className="container">
     <div className="row justify-content-center">
         <div className="col-xxl-4 col-lg-6">
-            <h2 className="edu-section-title">We Have Most of Popular Departments</h2>
+            <h2 className="edu-section-title">Why Zenith?</h2>
         </div>
     </div>
     <div className="row gy-4 mt-45">
 
     <EducationDepertmentItem
      img="assets/images/education/departments/depertment2.png"
-     name="Artificial Intelligence"
-     desc="Assertively parallel task synergistic deliverables after high-quality."
+     name="Experienced Mentors"
+     desc="Our Mentors have immense experience of guiding students to premiere institutes of India and abroad."
     />
 
     <EducationDepertmentItem
      img="assets/images/education/departments/depertment2.png"
-     name="Civil Engineering"
-     desc="Assertively parallel task synergistic deliverables after high-quality."
+     name="Structured Course"
+     desc="Our course is designed for in depth understanding and application of concepts for entrance as well as boards."
     />
 
     <EducationDepertmentItem
      img="assets/images/education/departments/depertment2.png"
-     name="Business Studies"
-     desc="Assertively parallel task synergistic deliverables after high-quality."
+     name="Hybrid Learning"
+     desc="We also have option for Live/Recorded classes to facilitate learning from remote areas."
+    />
+
+    <EducationDepertmentItem
+     img="assets/images/education/departments/depertment2.png"
+     name="Regular Mock Test"
+     desc="Our course includes regular proctored mock tests so that students can gauge themselves and improve upon the exam taking strategy."
+    />
+
+    <EducationDepertmentItem
+     img="assets/images/education/departments/depertment2.png"
+     name="Scholarship"
+     desc="ZST - Zenith Scholarship Test can be taken in offline or online mode, it helps meritorious students in their preparation."
+    />
+
+    <EducationDepertmentItem
+     img="assets/images/education/departments/depertment2.png"
+     name="Best Results"
+     desc="We have consistently produced best results in Kolkata for JEE/ NEET examination by each passing year since our inception."
     />
 
     </div>
 
-    <div className="row justify-content-center mt-60">
+    {/* <div className="row justify-content-center mt-60">
         <div className="col-lg-5 text-center">
             <div className="view-more-btn">
                 <Link href="/"><a className="edu-btn-fill">View All Department</a></Link>
             </div>
         </div>
-    </div>
+    </div> */}
 </div>
 </div>
 </>

@@ -31,11 +31,13 @@ return(
         <div className="testi-card-header">
             <div className="reviwer-info">
                 <div className="reviewer-avater">
-                    <img src="assets/images/education/reviewer-avater2.png" alt=""/>
+                    <img src="assets/images/education/student3.png" alt=""/>
                 </div>
                 <div className="reviewer-self">
-                    <h4>Jaquon Hart</h4>
-                    <span>Civil Engineer</span>
+                    <h4>Pranay Agarwal
+                    </h4>
+                    <span>BHS | IIT Kanpur
+                    </span>
                 </div>
             </div>
             <ul className="reviewer-rating d-flex ">
@@ -48,7 +50,7 @@ return(
         </div>
         <div className="testi-card-body">
             <p>
-                “With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.” 
+                “I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level.” 
             </p>
         </div>
     </div>
@@ -61,11 +63,12 @@ return(
             <div className="testi-card-header">
                 <div className="reviwer-info">
                     <div className="reviewer-avater">
-                        <img src="assets/images/education/reviewer-avater.png" alt=""/>
+                        <img src="assets/images/education/student2.png" alt=""/>
                     </div>
                     <div className="reviewer-self">
-                        <h4>Jaquon Hart</h4>
-                        <span>Civil Engineer</span>
+                        <h4>Shreya Sinha</h4>
+                        <span>MBBS | National Medical College
+                        </span>
                     </div>
                 </div>
                 <ul className="reviewer-rating d-flex">
@@ -78,7 +81,7 @@ return(
             </div>
             <div className="testi-card-body">
                 <p>
-                    “With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.” 
+                “I owe all my success to my mentors at Zenith and my parents. Varun Sir is one of the best teacher I have met. The way he delivers the lecture and his notes are sufficient for establishing firm base in concepts for Physics.” 
                 </p>
             </div>
         </div>
@@ -86,11 +89,13 @@ return(
             <div className="testi-card-header">
                 <div className="reviwer-info">
                     <div className="reviewer-avater">
-                        <img src="assets/images/education/reviewer-avater.png" alt=""/>
+                        <img src="assets/images/education/student1.png" alt=""/>
                     </div>
                     <div className="reviewer-self">
-                        <h4>Jaquon Hart</h4>
-                        <span>Civil Engineer</span>
+                        <h4>Rishabh Agarwal
+                        </h4>
+                        <span>DPS | IIT Kharagpur
+                        </span>
                     </div>
                 </div>
                 <ul className="reviewer-rating d-flex">
@@ -103,10 +108,37 @@ return(
             </div>
             <div className="testi-card-body">
                 <p>
-                    “With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.” 
+                “The mentors at Zenith helped me throughout the 2 years. The credit for my success goes to all the three mentors Varun Sir, Radhesh Sir, Amit Sir. They were available at every stage for any query that I had whilst guiding me on how to crack the examination.” 
                 </p>
             </div>
         </div>
+        {/* <div className="edu-testimonial-card">
+            <div className="testi-card-header">
+                <div className="reviwer-info">
+                    <div className="reviewer-avater">
+                        <img src="assets/images/education/reviewer-avater.png" alt=""/>
+                    </div>
+                    <div className="reviewer-self">
+                        <h4>Pranay Agarwal
+                        </h4>
+                        <span>BHS | IIT Kanpur
+                        </span>
+                    </div>
+                </div>
+                <ul className="reviewer-rating d-flex">
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                </ul>
+            </div>
+            <div className="testi-card-body">
+                <p>
+                “I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level.” 
+                </p>
+            </div>
+        </div> */}
         </Carousel>
 
     </div>
@@ -114,9 +146,9 @@ return(
 </div>
 <div className="col-xxl-4 col-lg-5">
 <div className="edu-testimonial-right">
-    <h2 className="edu-section-title text-start">5000 Reviews from
+    <h2 className="edu-section-title text-start">100s Reviews from
         Our Successful Students!</h2>
-    <p>Reactively recapitalize intermediated e-commerce after sticky applications. Dynamically intermediate viral testing procedures through technically sound.</p>
+    <p>We have a never ending relationship with our students, they keep coming back to us even during their college and beyond.</p>
 </div>
 </div>
 </div>

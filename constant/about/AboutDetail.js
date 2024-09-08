@@ -1,7 +1,7 @@
 
 const AboutDetail={
     Title: "An <span>Exceptionally</span> unique experience Tailored to you",
-    short_desc:"Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before",
+    short_desc:"The ability to work hard consistently and analytical thought process that is developed with competitive exam preparation is a skill that stays with the student for life.",
     services:[
         "Organize your data",
         "Always in sync",
