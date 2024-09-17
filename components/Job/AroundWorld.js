@@ -16,7 +16,7 @@ return(
             <h1>20k+ Job Seeker Find their Job Around the <span className="title-mark title-mark-section">World</span></h1>
         </div>
         <div className="around-world-content wow animate fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-            <p>Intrinsically disintermediation economically sound process improvements after market positioning. Professionally scale cross functional human capital and extensive technology. Authoritatively e-enable stand-alone initiatives </p>
+            <p>Intrinsically disintermediation economically sound process improvements after market positioning. The idea of Zenith was born out of the urge to change the  way students currently prepare for IIT JEE | WBJEE | NEET | Foundation Authoritatively e-enable stand-alone initiatives </p>
             <div className="around-world-btn-wrap">
                 <Link href="/"><a className="common-btn btn-style-2">Find Your Job</a></Link>
             </div>

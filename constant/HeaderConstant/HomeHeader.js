@@ -1,5 +1,5 @@
 const HOMEHEADER = {
-  HomeTitle: 'Start Your\n        IIT | NEET Education',
+  HomeTitle: 'Start Your\n        IIT JEE | NEET Education',
   HomeSubtitle:
     'If you are aiming for IIT JEE | WBJEE | NEET and study in Class VII to XII. This is the right place to kickstart your journey.',
   ActionBtnText: 'Contact Us',

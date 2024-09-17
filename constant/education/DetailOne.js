@@ -1,5 +1,5 @@
 const EducationDetailOne = {
-  Title: 'Start Your\n      IIT | NEET Education',
+  Title: 'Start Your\n      IITJEE | NEET Education',
   subTitle:
     'If you are aiming for IIT JEE | WBJEE | NEET and study in Class VII to XII. This is the right place to kickstart your journey.',
   actionBtn: 'Enquire',

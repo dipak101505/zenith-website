@@ -17,37 +17,37 @@ return(
     <div className="row gy-4 mt-45">
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/1. Experienced Mentors.png"
      name="Experienced Mentors"
      desc="Our Mentors have immense experience of guiding students to premiere institutes of India and abroad."
     />
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/2. Structured Course.png"
      name="Structured Course"
      desc="Our course is designed for in depth understanding and application of concepts for entrance as well as boards."
     />
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/3. Hybrid Learning.png"
      name="Hybrid Learning"
      desc="We also have option for Live/Recorded classes to facilitate learning from remote areas."
     />
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/4. Regular Mock Test.png"
      name="Regular Mock Test"
      desc="Our course includes regular proctored mock tests so that students can gauge themselves and improve upon the exam taking strategy."
     />
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/5. Scholarship.png"
      name="Scholarship"
      desc="ZST - Zenith Scholarship Test can be taken in offline or online mode, it helps meritorious students in their preparation."
     />
 
     <EducationDepertmentItem
-     img="assets/images/education/departments/depertment2.png"
+     img="assets/images/why-zenith/6. Best Results.png"
      name="Best Results"
      desc="We have consistently produced best results in Kolkata for JEE/ NEET examination by each passing year since our inception."
     />
