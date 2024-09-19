@@ -45,12 +45,12 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
         <div className="hrdd-section-title text-capitalize">
-            <h1>Best dedicated <span>team</span></h1>
+            <h1>Best Dedicated <span>Mentors</span></h1>
         </div>
     </div>
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 mobt-24">
         <div className="section-text wow animate flipInX" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <p>We have 700 plus official workers and thousands of remote workers. They do work them dedicated and they are expert in the particular topic.</p>
+            <p>The faculty members at Zenith are dedicated educators, fostering a collaborative environment that encourages critical thinking and personal growth among students.</p>
         </div>
     </div>
 </div>

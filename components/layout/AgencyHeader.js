@@ -61,11 +61,8 @@ return(
                     <Link href="/"><a className="active">Home</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="/"><a>Sass</a></Link></li>
-                        <li><Link href="/travel"><a>Travel</a></Link></li>
-                        <li><Link href="/education"><a>Education</a></Link></li>
-                        <li><Link href="/job"><a>Job Finding</a></Link></li>
-                        <li><Link href="/agency"><a>Digital Agency</a></Link></li>
+                    <li><Link href="/"><a>Online Course</a></Link></li>
+                    <li><Link href="/"><a>Online Test</a></Link></li>
                     </ul>
                 </li>
                 <li><Link href="/about"><a>About</a></Link></li>

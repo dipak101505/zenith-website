@@ -22,31 +22,31 @@ const AboutFutured = () => {
             <FuturedItem
               icon="/assets/images/icon/featured-icon-1.png"
               title="IIT JEE"
-              desc="Assertively parallel task synergistic deliverables after high-quality"
+              desc="Engineering aspirants preparing for IITJEE, WBJEE, BITSAT, COMEDK etc."
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-2.png"
               title="NEET"
-              desc="Assertively parallel task synergistic deliverables after high-quality"
+              desc="Medical aspirants aiming to get into AIIMS and Govt Medical college."
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-3.png"
-              title="WBJEE"
-              desc="Assertively parallel task synergistic deliverables after high-quality"
+              title="Robotics & AI"
+              desc="This course sparks curiosity in science and math for early learners in grades 5-10."
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-4.png"
               title="Class 7-10"
-              desc="Assertively parallel task synergistic deliverables after high-quality"
+              desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-5.png"
               title="Olympiad"
-              desc="Assertively parallel task synergistic deliverables after high-quality"
+              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
             />
           </div>
         </div>

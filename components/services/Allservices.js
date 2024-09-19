@@ -31,7 +31,7 @@ return(
 
 <ServiceItem
   Icon="bi bi-graph-up"
-  title="Embedded Analytics"
+  title="Laboratory Experience"
   desc="Get a powerful analytics tool in your own brand name and enhance the predictive behaviors."
   actionBtn="Learn More"
  />

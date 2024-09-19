@@ -1,6 +1,7 @@
 import BreadCrumb from '../components/header/breadcrumb';
 import Header from '../components/layout/header';
 import Footer from '../components/layout/footer';
+import FuturedItem from '../components/about/Futured/FuturedItem';
 
 const Contact = () => {
   return (
@@ -21,47 +22,54 @@ const Contact = () => {
                 className="contact-input"
               >
                 <div className="contact-title">
-                  <h1>Send Us A Message</h1>
+                  <h1>Our Centres</h1>
                 </div>
-                <div className="row">
-                  <div className="col-xl-6 col-lg-6 col-sm-12 col-12">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Enter your name"
-                    />
-                  </div>
-                  <div className="col-xl-6 col-lg-6 col-sm-12 col-12">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Enter your email address"
-                    />
-                  </div>
-                  <div className="col-xl-12 col-lg-12 col-sm-12 col-12">
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="4"
-                      placeholder="Write your message..."
-                    ></textarea>
-                  </div>
-                  <div className="col-xl-12 col-lg-12 col-sm-12 col-12">
-                    <label className="shop-check">
-                      Save my name, email, and website in this browser for the
-                      next time.
-                      <input type="checkbox" />
-                      <span className="checkmark"></span>
-                    </label>
-                  </div>
-                  <div className="contact-btn-wrap">
-                    <button type="submit" className="common-btn btn-hrrd-1">
-                      Send Message
-                    </button>
-                  </div>
-                  <p className="form-message"></p>
-                </div>
+                <div className="row justify-content-center mt-50">
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-1.png"
+              title="Saltlake"
+              desc="Engineering aspirants preparing for IITJEE, WBJEE, BITSAT, COMEDK etc."
+            />
+
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-2.png"
+              title="PhoolBagan"
+              desc="Medical aspirants aiming to get into AIIMS and Govt Medical college."
+            />
+
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-3.png"
+              title="Howrah"
+              desc="This course sparks curiosity in science and math for early learners in grades 5-10."
+            />
+
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-4.png"
+              title="Andul"
+              desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."
+            />
+
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-5.png"
+              title="Srerampore"
+              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+            />
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-5.png"
+              title="Chandannagar"
+              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+            />
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-5.png"
+              title="Mogra"
+              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+            />
+            <FuturedItem
+              icon="/assets/images/icon/featured-icon-1.png"
+              title="RampurHath"
+              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+            />
+          </div>
               </form>
             </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">
@@ -78,26 +86,25 @@ const Contact = () => {
                       <ul>
                         <li>
                           <i className="bi bi-envelope"></i>{' '}
-                          <a href="mailto:Support@saasland.com">
-                            Support@saasland.com
+                          <a href="mailto:support@zenithinstitute.co.in">
+                            support@zenithinstitute.co.in
                           </a>
                         </li>
                         <li>
                           <i className="bi bi-telephone"></i>{' '}
-                          <a href="tel:01761111456">+44 (0) 30 546 7865</a>
+                          <a href="tel:01761111456">+91 905150 9444 </a>
                         </li>
                       </ul>
                     </div>
                   </div>
                   <div className="contact-details">
                     <div className="contact-details-title">
-                      <h3>Office Address</h3>
+                      <h3>Head Office</h3>
                     </div>
                     <div className="contact-details-info">
                       <ul>
                         <li>
-                          <i className="bi bi-geo-alt-fill"></i> 100 Banbridge
-                          Road, London, United Kingdom
+                          <i className="bi bi-geo-alt-fill"></i>14 Watkins Lane, Gokul Apartment, Block B, 1st Floor, Howrah - 711101
                         </li>
                       </ul>
                     </div>
@@ -115,7 +122,7 @@ const Contact = () => {
             <div className="col-lg-12">
               <div className="location-map mt-100">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647631.9534293488!2d0.4267046465731676!3d50.74847355442899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc24ce7a6c143b%3A0x40af13e8163cda0!2s62179%20Wissant%2C%20France!5e1!3m2!1sen!2sbd!4v1647867201053!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8875746394356!2d88.34951967526091!3d22.594213385168503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a92365a7af%3A0xe02c5d246bfcabf5!2s14%20Watkins%20Ln%2C%20Gokul%20Apartment%2C%20Block%20B%2C%201st%20Floor%2C%20Howrah%2C%20West%20Bengal%20711101!5e0!3m2!1sen!2sin!4v1695127958214!5m2!1sen!2sin"
                   style={{ border: 0 }}
                   aria-hidden="false"
                   tabIndex="0"

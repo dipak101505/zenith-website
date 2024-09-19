@@ -1,7 +1,7 @@
 const EducationDetailTwo = {
   Title: 'At Zenith We Help to Create Possibility & Success!',
   subTitle:
-    'The ability to work hard consistently and analytical thought process that is developed with competitive exam preparation is a skill that stays with the student for life.',
+    'The idea of Zenith was born out of the urge to change the way students currently prepare for the engineering and medical entrance examination. We at Zenith have included international best practices to get best results in:',
   CoverImg: '/assets/images/education/success-students.png',
   VideoURL: 'https://www.youtube.com/watch?v=bboVVCjt9nA&t=10s&ab_channel=ZENITHINSTITUTE',
   actionBtn: 'Our Results',

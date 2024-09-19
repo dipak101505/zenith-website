@@ -30,14 +30,16 @@ return(
     <div className="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
         <div className="single-widget">
             <div className="footer-title">
-                <h3>Services</h3>
+                <h3>Courses</h3>
             </div>
             <div className="footer-link">
                 <ul>
-                    <li><Link href="/"><a>Documentation</a></Link></li>
-                    <li><Link href="/"><a>Design</a></Link></li>
-                    <li><Link href="/"><a>Themes</a></Link></li>
-                    <li><Link href="/"><a>Illustrations</a></Link></li>
+                    <li><Link href="/"><a>IITJEE</a></Link></li>
+                    <li><Link href="/"><a>WBJEE</a></Link></li>
+                    <li><Link href="/"><a>NEET</a></Link></li>
+                    <li><Link href="/"><a>Foundation</a></Link></li>
+                    <li><Link href="/"><a>Robotics & AI</a></Link></li>
+                    <li><Link href="/"><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>
         </div>
@@ -45,14 +47,16 @@ return(
     <div className="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
         <div className="single-widget">
             <div className="footer-title">
-                <h3>Community</h3>
+                <h3>Company</h3>
             </div>
             <div className="footer-link">
                 <ul>
                     <li><Link href="/"><a>About</a></Link></li>
-                    <li><Link href="/"><a>Terms</a></Link></li>
+                    <li><Link href="/"><a>Results</a></Link></li>
+                    <li><Link href="/"><a>Franchisee</a></Link></li>
+                    <li><Link href="/"><a>Job Openings</a></Link></li>
                     <li><Link href="/"><a>Privacy Policy</a></Link></li>
-                    <li><Link href="/"><a>Careers</a></Link></li>
+                    <li><Link href="/"><a>School Tie-up</a></Link></li>
                 </ul>
             </div>
         </div>
@@ -60,13 +64,18 @@ return(
     <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
         <div className="single-widget">
             <div className="footer-title">
-                <h3>Job Info</h3>
+                <h3>Centres</h3>
             </div>
             <div className="footer-link">
                 <ul>
-                    <li><Link href="/"><a>Select</a></Link></li>
-                    <li><Link href="/"><a>Services</a></Link></li>
-                    <li><Link href="/"><a>Payment</a></Link></li>
+                <li><Link href="/"><a>Saltlake</a></Link></li>
+                <li><Link href="/"><a>Phoolbagan</a></Link></li>
+                <li><Link href="/"><a>Howrah</a></Link></li>
+                <li><Link href="/"><a>Andul</a></Link></li>
+                <li><Link href="/"><a>Serampore</a></Link></li>
+                <li><Link href="/"><a>Chandannagar</a></Link></li>
+                <li><Link href="/"><a>Mogra</a></Link></li>
+                <li><Link href="/"><a>Rampurhat</a></Link></li>
                 </ul>
             </div>
         </div>
@@ -78,9 +87,9 @@ return(
             </div>
             <div className="contact-info">
                 <ul>
-                    <li>Call : <span>{FooterConstant.phone}</span></li>
-                    <li>Email : <span>{FooterConstant.email}</span></li>
-                    <li>Address : <span>{FooterConstant.address[0]}</span></li>
+                    <li><a href="tel:+919051509444">Call : <span>9051509444</span></a></li>
+                    <li><a href="mailto:zenithinsti@gmail.com">Email : <span>zenithinsti@gmail.com</span></a></li>
+                    <li>Address : <span>India</span></li>
                 </ul>
             </div>
         </div>

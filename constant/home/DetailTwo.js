@@ -2,11 +2,11 @@
 const HomeConstantTwo={
   "Title":"<span>Collaborate</span> with your team anytime, anywhere.",
   "CoverImage":"/assets/images/shape/collaborate-hrrd.png",
-  "desc":"The ability to work hard consistently and analytical thought process that is developed with competitive exam preparation is a skill that stays with the student for life.",
-  "Fetured1":"Organize your data",
-  "Fetured2":"Always in sync",
-  "Fetured3":"Work with any team",
-  "Fetured4":"Embedded analytics",
-  "ActionBtn":"Get Started Today"
+  "desc":"The idea of Zenith was born out of the urge to change the way students currently prepare for the engineering and medical entrance examination. We at Zenith have included international best practices to get best results in:",
+  "Fetured1":"IIT’ian Faculty",
+  "Fetured2":"One-on-One Doubts Session",
+  "Fetured3":"IIT Kharagpur Trip",
+  "Fetured4":"Laboratory Experience",
+  "ActionBtn":"Courses"
 }
 export default HomeConstantTwo

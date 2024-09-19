@@ -46,12 +46,13 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
         <div className="hrdd-section-title text-capitalize">
-            <h1>What  our <span>client</span> say</h1>
+            <h1>What  our <span>Students</span> say</h1>
         </div>
     </div>
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 mobt-24">
         <div className="section-text wow animate flipInX" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <p>Trusted by over 40,000 worldwide customer since 2010. It’s awesome service. Land from day very fill that midst stars one dominion.</p>
+            <p>Students appreciate the supportive environment, engaging teaching methods, and personalized attention, highlighting how these factors enhance their learning experience significantly.
+            </p>
         </div>
     </div>
 </div>

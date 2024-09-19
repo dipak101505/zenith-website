@@ -56,17 +56,17 @@ return(
 <div className="row justify-content-center">
 <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
     <div className="hrdd-section-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
-        <h1>Our <span>Latest</span> Work</h1>
-        <p className="latest-text">We Create custom landing pages with Saasland and converts more visitors than any website. visually appearing.</p>
+        <h1>Our <span>Results</span></h1>
+        <p className="latest-text">Our students consistently excel, reflecting our commitment to academic excellence.</p>
     </div>
     <div className="work-link text-center">
         <ul>
-            <li className={`filter ${Tab==='all'?'active':''}`} onClick={e=>setTTab('all')}>All</li>
-            <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('ui')}>UI/UX</li>
-            <li className={`filter ${Tab==='development'?'active':''}`} onClick={e=>setTTab('development')}>Development</li>
-            <li className={`filter ${Tab==='graphic'?'active':''}`} onClick={e=>setTTab('graphic')}>Graphic Design</li>
-            <li className={`filter ${Tab==='motion'?'active':''}`} onClick={e=>setTTab('motion')}>Motion</li>
-            <li className={`filter ${Tab==='branding'?'active':''}`} onClick={e=>setTTab('branding')}>Branding</li>
+            <li className={`filter ${Tab==='all'?'active':''}`} onClick={e=>setTTab('all')}>2024</li>
+            <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('ui')}>2023</li>
+            <li className={`filter ${Tab==='development'?'active':''}`} onClick={e=>setTTab('development')}>2022</li>
+            <li className={`filter ${Tab==='graphic'?'active':''}`} onClick={e=>setTTab('graphic')}>2021</li>
+            <li className={`filter ${Tab==='motion'?'active':''}`} onClick={e=>setTTab('motion')}>2020</li>
+            <li className={`filter ${Tab==='branding'?'active':''}`} onClick={e=>setTTab('branding')}>2019</li>
         </ul>
     </div>
 </div>

@@ -1,27 +1,23 @@
 
 const AboutDetail={
     Title: "An <span>Exceptionally</span> unique experience Tailored to you",
-    short_desc:"The ability to work hard consistently and analytical thought process that is developed with competitive exam preparation is a skill that stays with the student for life.",
+    short_desc:"The idea of Zenith was born out of the urge to change the way students currently prepare for the engineering and medical entrance examination. We at Zenith have included international best practices to get best results in:",
     services:[
-        "Organize your data",
-        "Always in sync",
-        "Work with any team",
-        "Embedded analytics"
+        "IIT’ian Faculty",
+        "One-on-One Doubts Session",
+        "IIT Kharagpur Trip",
+        "Laboratory Experience"
     ],
-    actionBtn:"Get Started Today",
+    actionBtn:"Courses",
     leftImage:"/assets/images/about/excpt-img.png",
     feature:[
         {
-            title: "Our Customer",
-            short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
+            title: "Our Vision",
+            short_desc: "Impart quality education and focus on skill development to empower the youth of the country."
         },
         {
-            title: "Our Product",
-            short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
-        },
-        {
-            title: "Our Services",
-            short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
+            title: "Our Mission",
+            short_desc: "To inculcate in students a love for science and to fan their curiosity so that they develop analytical problem solving skills along with conceptual clarity."
         }
     ]
 }
