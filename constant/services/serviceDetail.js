@@ -1,10 +1,10 @@
 
 const serviceDetail={
-   Title: "We provide best business <span>solutions</span>",
+   Title: "We Provide Best Learning <span>Environment</span>",
    coverImage: "/assets/images/service/service-solution.png",
-   subTitle: "Saasland is a exclusive project management agency. we provide better solutions for you. We Create custom landing pages with Saasland and converts more visitors than any website. create visually appearing data visualizations and insightful dashboards in minutes.",
-   btnTextOne: "Courses",
-   btnTextTwo: "Watch Demo"
+   subTitle: "We provide Foundation (Physics, Chemistry, Mathematics & Biology) and Robotics Courses for students of class VII - X and IIT JEE & NEET Courses for students of class XI, XII and XII Pass. We have been able to produce best results in Howrah year after year in IIT JEE, WBJEE and NEET.",
+   btnTextOne: "Contact Us",
+   btnTextTwo: "Why Zenith"
 }
 
 export default serviceDetail

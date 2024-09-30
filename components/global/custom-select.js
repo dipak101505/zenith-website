@@ -7,12 +7,9 @@ const [selected,setSelected] = useState('')
 const [visible,setVisible] = useState(false)
 const [Edited,setEdited] = useState(false)
 
-useEffect(()=>{
-
-setOptions(props.options)  
-setSelected(props.options[0])  
-
-},[])
+useEffect(() => {
+  setOptions(props.options);
+}, [props.options]);
 
 function change_select(o){
     !Edited?setEdited(true):setEdited(false)

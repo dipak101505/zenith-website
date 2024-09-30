@@ -9,6 +9,7 @@ import EducationFooter from '../components/layout/EducationFooter';
 import EducationHeader from '../components/layout/EducationHeader';
 import posthog from 'posthog-js'
 import EduFAQ from '../components/Education/EduFaq';
+import AboutFutured from '../components/about/AboutFutured';
 
 posthog.init('phc_nmyGRxvQ6rV7nYaLfKMO4g1reR4wRpNwJS9Ajoo31FD',
     {
@@ -24,7 +25,9 @@ const Home = () => {
         <EducationHeader />
         <EducationHeaderBottom />
       </header>
-      <TrustedCompany />
+      <div style={{ marginTop: '40px' }}>
+      <AboutFutured/>
+      </div>
       <EducationDetailOne />
       <EducationDepertment />
       <EducationTeacher />

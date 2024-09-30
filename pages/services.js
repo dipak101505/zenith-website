@@ -7,16 +7,17 @@ import ServiceNewsletter from '../components/services/Newsletter';
 import SolutionArea from '../components/services/solutionsection';
 import TestimonialClient from '../components/services/TestimonialClient';
 import Footer from '../components/layout/footer';
+import AboutFutured from '../components/about/AboutFutured';
 
 const Services = () => {
   return (
     <>
       <header>
         <Header />
-        <BreadCrumb pagename="Service Us" />
+        <BreadCrumb pagename="Zenith Howrah" />
       </header>
       <SolutionArea />
-      <AllServices />
+      <AboutFutured />
       <ServicePricing />
       <AllCounter />
       <TestimonialClient />

@@ -40,13 +40,15 @@ const HBottom = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="hrrd-hero-img-wrap">
                 <div className="hrrd-hero-img">
-                  <img src={HOMEHEADER.ConverImage} alt="" />
+                  <Image src={HOMEHEADER.ConverImage} alt="" width={100} height={50} />
                   <div className="hrrd-hero-post">
                     <h4>Post Type</h4>
                     <div className="hrrd-hero-post-shape">
-                      <img
+                      <Image
                         src="assets/images/shape/hrrd-hero-post.png"
                         alt=""
+                        width={100}
+                        height={50}
                       />
                       <Link href="/">
                         <a>
@@ -85,15 +87,19 @@ const HBottom = () => {
             </div>
           </div>
         </div>
-        <img
+        <Image
           className="shape hrrd-hero-shape"
           src="assets/images/shape/hrrd-hero-shape.png"
           alt=""
+          width={100}
+          height={50}
         />
-        <img
+        <Image
           className="shape hrrd-hero-shape-top"
           src="assets/images/shape/hrrd-hero-shape-top.png"
           alt=""
+          width={100}
+          height={50}
         />
       </div>
 
@@ -103,7 +109,7 @@ const HBottom = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="hrrd-hero-img-wrap-mobile">
                 <div className="hrrd-hero-img">
-                  <img src="assets/images/hrrd-hero-img-mobile.png" alt="" />
+                  <Image src="assets/images/hrrd-hero-img-mobile.png" alt="" width={100} height={50} />
                 </div>
               </div>
             </div>
@@ -118,27 +124,35 @@ const HBottom = () => {
                 <div className="hrrd-hero-client-logo">
                   <ul>
                     <li>
-                      <img
+                      <Image
                         src="assets/images/client-logo/hrrd-client-logo-1.png"
                         alt=""
+                        width={100}
+                        height={50}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src="assets/images/client-logo/hrrd-client-logo-2.png"
                         alt=""
+                        width={100}
+                        height={50}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src="assets/images/client-logo/hrrd-client-logo-1.png"
                         alt=""
+                        width={100}
+                        height={50}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src="assets/images/client-logo/hrrd-client-logo-2.png"
                         alt=""
+                        width={100}
+                        height={50}
                       />
                     </li>
                   </ul>
@@ -147,10 +161,12 @@ const HBottom = () => {
             </div>
           </div>
         </div>
-        <img
+        <Image
           className="shape hrrd-hero-shape"
           src="/assets/images/shape/hrrd-hero-shape.png"
           alt=""
+          width={100}
+          height={50}
         />
       </div>
     </>

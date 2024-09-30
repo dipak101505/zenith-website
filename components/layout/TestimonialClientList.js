@@ -18,7 +18,7 @@ return(
             <li><i className="bi bi-star-fill"></i></li>
             <li><i className="bi bi-star-fill"></i></li>
         </ul>
-        <p>I’ve downloaded Hrrd from my Google Play  about 1 years ago. This make the prototype process so easy and faster. I feel it is a best app for prototype.</p>
+        <p>{props.review}</p>
     </div>
 </div>
 </>

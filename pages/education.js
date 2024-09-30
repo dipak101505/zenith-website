@@ -7,6 +7,7 @@ import EducationTeacher from '../components/Education/Teachers';
 import TrustedCompany from '../components/Education/TrustedCompany';
 import EducationFooter from '../components/layout/EducationFooter';
 import EducationHeader from '../components/layout/EducationHeader';
+import AboutFutured from '../components/about/AboutFutured';
 
 const Education = () => {
   return (
@@ -15,6 +16,7 @@ const Education = () => {
         <EducationHeader />
         <EducationHeaderBottom />
       </header>
+      <AboutFutured />
       <TrustedCompany />
       <EducationDetailOne />
       <EducationDepertment />

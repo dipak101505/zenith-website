@@ -18,10 +18,10 @@ return(
 
 {isVisible?
 <div className="row">
-    <CounupItem title="Happy Customer" countUp={20000}/>
-    <CounupItem title="Five Star Review" countUp={5000}/>
-    <CounupItem title="Award Winner" countUp={100}/>
-    <CounupItem title="Country Using Our Service" countUp={50}/>
+    <CounupItem title="Centre" countUp={8}/>
+    <CounupItem title="Successful Students" countUp={1000}/>
+    <CounupItem title="IITians" countUp={100}/>
+    <CounupItem title="MBBS" countUp={100}/>
 </div>:null
 }
 

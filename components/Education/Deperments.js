@@ -31,7 +31,7 @@ return(
     <EducationDepertmentItem
      img="assets/images/why-zenith/3. Hybrid Learning.png"
      name="Hybrid Learning"
-     desc="We also have option for Live/Recorded classes to facilitate learning from remote areas."
+     desc="We offer live and recorded classes with doubt-clearing sessions, supporting remote learners and ensuring comprehensive understanding."
     />
 
     <EducationDepertmentItem

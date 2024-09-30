@@ -20,14 +20,12 @@ return(
     </div>
     <div className="pricing-plan-details">
         <ul>
-            <li>1 Landingzone Asset</li>
-            <li>10 Illustration Asset</li>
-            <li>10 Template Animation</li>
-            <li>15 Icon Asset</li>
-            <li>10 Photos Asset</li>
+            {props.list?.map((item, index) => (
+                <li key={index}>{item}</li>
+            ))}
         </ul>
         <div className="pricing-plan-btn-wrap">
-            <Link href=""><a>Buy Package</a></Link>
+            <Link href=""><a>{props.prize}</a></Link>
         </div>
     </div>
 </div>
