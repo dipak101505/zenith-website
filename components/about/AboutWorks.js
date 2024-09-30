@@ -7,37 +7,31 @@ const AboutWorkGrid=()=>{
 const [Tab,setTab] = useState('all')
 const [Items,setItems] = useState([
     {
-        tab: ["all","ui"],
+        tab: ["all","2023"],
         img: "/assets/images/Results/R1.jpg",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
-        tab: ["all","development"],
+        tab: ["all","2022"],
         img: "/assets/images/Results/R2.jpg",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
-        tab: ["all","ui"],
+        tab: ["all","2021"],
         img: "/assets/images/Results/R3.jpg",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
-        tab: ["all","graphic"],
+        tab: ["all","2020"],
         img: "/assets/images/Results/R4.jpg",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
-        tab: ["all","motion"],
-        img: "/assets/images/Results/R5.jpg",
-        name: "Zenith Institute",
-        title: "An Altar for Science Enthusiasts"
-    },
-    {
-        tab: ["all","branding"],
+        tab: ["all","2019"],
         img: "/assets/images/Results/R5.jpg",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
@@ -61,12 +55,12 @@ return(
     </div>
     <div className="work-link text-center">
         <ul>
-            <li className={`filter ${Tab==='all'?'active':''}`} onClick={e=>setTTab('all')}>2024</li>
-            <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('ui')}>2023</li>
-            <li className={`filter ${Tab==='development'?'active':''}`} onClick={e=>setTTab('development')}>2022</li>
-            <li className={`filter ${Tab==='graphic'?'active':''}`} onClick={e=>setTTab('graphic')}>2021</li>
-            <li className={`filter ${Tab==='motion'?'active':''}`} onClick={e=>setTTab('motion')}>2020</li>
-            <li className={`filter ${Tab==='branding'?'active':''}`} onClick={e=>setTTab('branding')}>2019</li>
+            <li className={`filter ${Tab==='all'?'active':''}`} onClick={e=>setTTab('all')}>Results</li>
+            <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('2023')}>2023</li>
+            <li className={`filter ${Tab==='development'?'active':''}`} onClick={e=>setTTab('2022')}>2022</li>
+            <li className={`filter ${Tab==='graphic'?'active':''}`} onClick={e=>setTTab('2021')}>2021</li>
+            <li className={`filter ${Tab==='motion'?'active':''}`} onClick={e=>setTTab('2020')}>2020</li>
+            <li className={`filter ${Tab==='branding'?'active':''}`} onClick={e=>setTTab('2019')}>2019</li>
         </ul>
     </div>
 </div>
