@@ -1,7 +1,15 @@
-import Link from "next/link"
+import { useState } from "react"
 import serviceDetail from "../../constant/services/serviceDetail"
+import StudentForm from "../header/StudentForm";
 
 const SolutionArea=()=>{
+    const [showForm, setShowForm] = useState(false);
+    const handleImageClick = () => {
+        setShowForm(true);
+      };
+    const handleCloseForm = () => {
+        setShowForm(false);
+      };
 return(
 <>
 <div className="solutions-area positioning pb-100">
@@ -15,8 +23,10 @@ return(
         <p>{serviceDetail.subTitle}</p>
     </div>
     <div className="solutions-btn-wrap d-xl-flex align-items-center justify-content-xl-between g-1 wow animate fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-        <Link href="/"><a className="common-btn btn-hrrd-1">{serviceDetail.btnTextOne}</a></Link>
-        <Link href="/"><a className="common-btn btn-hrrd-2 popup-youtube"><i className="bi bi-play-circle-fill"></i>{serviceDetail.btnTextTwo}</a></Link>
+        <a className="common-btn btn-hrrd-1" onClick={handleImageClick}>{serviceDetail.btnTextOne}</a>
+        <a href="https://www.youtube.com/watch?v=bboVVCjt9nA&t=10s&ab_channel=ZENITHINSTITUTE" target="_blank" rel="noopener noreferrer" className="common-btn btn-hrrd-2 popup-youtube">
+            <i className="bi bi-play-circle-fill"></i>{serviceDetail.btnTextTwo}
+        </a>
     </div>
 </div>
 <div className="col-xxl-7 col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 mobt-50">
@@ -35,6 +45,7 @@ return(
         </div>
     </div>
 </div>
+{showForm && <StudentForm onClose={handleCloseForm} />}
 </div> 
 </div>
 </div>

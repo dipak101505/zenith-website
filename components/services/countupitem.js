@@ -11,7 +11,7 @@ return(
      end={props.countUp}
      duration={5}
      thousandsSeparator=","
-     />
+     />+
     </h1>
     <p>{props.title}</p>
 </div>

@@ -28,46 +28,58 @@ const Contact = () => {
             <FuturedItem
               icon="/assets/images/icon/featured-icon-1.png"
               title="Saltlake"
-              desc="Engineering aspirants preparing for IITJEE, WBJEE, BITSAT, COMEDK etc."
+              desc="BK 61, Salt Lake Bypass, near Water Tank, No 8, Bidhannagar, West Bengal 700091 (Near Karunamoyee)"
+              phone="9051509444"
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-2.png"
               title="PhoolBagan"
-              desc="Medical aspirants aiming to get into AIIMS and Govt Medical college."
+              desc="1st Floor, 263, Hem Chandra Naskar Road, Kolkata, West Bengal 700010
+(Near Phoolbagan Metro)"
+              phone="9051509444"
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-3.png"
               title="Howrah"
-              desc="This course sparks curiosity in science and math for early learners in grades 5-10."
+              desc="Gokul Apartment, Block B, 1st Floor, 14 Watkins Lane, Howrah, West Bengal - 711101
+(Near Howrah AC Market)."
+              phone="9051509444"
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-4.png"
               title="Andul"
-              desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."
+              desc="Andul Road, Andul Mouri Rd, near Andul Purbapara Street, Andul, Howrah, West Bengal 711302
+(Near Dr Lal Path Lab Andul)."
+              phone="810000 7626"
             />
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-5.png"
-              title="Srerampore"
-              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+              title="Serampore"
+              desc="623, Grand Trunk Rd, Battala, Serampore, Hooghly, West Bengal 712201
+(Opp Anjali Jewellers)."
+              phone="9123357543"
             />
             <FuturedItem
               icon="/assets/images/icon/featured-icon-5.png"
               title="Chandannagar"
-              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+              desc="540, Mankundu Station Rd, Near Pirtala, Mahadanga Colony, Mankundu, Chandannagar, West Bengal 712139."
+              phone="9123357543"
             />
             <FuturedItem
               icon="/assets/images/icon/featured-icon-5.png"
               title="Mogra"
-              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+              desc="Mogra Triveni Road, P.O & P.S - Mogra, Dist - Hooghly, West Bengal – 712 148."
+              phone="9123357543"
             />
             <FuturedItem
               icon="/assets/images/icon/featured-icon-1.png"
-              title="RampurHath"
-              desc="Foundation courses are apt for students taking Science & Maths Olympiads."
+              title="RampurHat"
+              desc="New Hospital Road, Near Rampurhat Govt. Medical College & Hospital, Rampurhat, W.B.-731224 (Near New Janseva Diagnostic Centre)"
+              phone="8777434458"
             />
           </div>
               </form>

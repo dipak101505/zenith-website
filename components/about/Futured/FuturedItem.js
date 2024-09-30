@@ -1,4 +1,3 @@
-
 const FuturedItem=(props)=>{
 return(
 <>
@@ -10,6 +9,7 @@ return(
     <div className="featured-content">
         <h2>{props.title}</h2>
         <p>{props.desc}</p>
+        <a href={`tel:${props.phone}`}>{props.phone}</a>
     </div>
 </div>
 </div>
