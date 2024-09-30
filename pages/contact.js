@@ -9,6 +9,9 @@ const Contact = () => {
       <header>
         <Header />
         <BreadCrumb pagename="Contact" />
+        <Head>
+        <meta name="google-site-verification" content="pQ2uQZlh9difEF6x0ctRrH2c17yBbXtDG10mYT7h2Zw" />
+      </Head>
       </header>
 
       <div className="contact-area">
