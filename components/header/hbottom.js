@@ -109,7 +109,7 @@ const HBottom = () => {
             </div>
             <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mobt-50">
               <div className="hrrd-hero-content">
-                <h1>Start Your \n        IIT JEE | NEET Education</h1>
+                <h1>Start Your \n        IIT JEE | NEET Preparation</h1>
                 <div className="hrrd-hero-btn-wrap">
                   <a className="common-btn btn-hrrd-1" href="services.html">
                     Get 15 Day Trial

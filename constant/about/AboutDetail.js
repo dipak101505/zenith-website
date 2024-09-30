@@ -9,7 +9,7 @@ const AboutDetail={
         "Laboratory Experience"
     ],
     actionBtn:"Courses",
-    leftImage:"/assets/images/about/excpt-img.png",
+    leftImage:"/assets/images/about/excpt-img.jpg",
     feature:[
         {
             title: "Our Vision",

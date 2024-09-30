@@ -89,7 +89,7 @@ return(
     </div>
     <div className="col-xxl-3 col-xl-4 col-lg-2 d-none d-lg-block">
         <div className="menu-btn-wrap">
-            <Link href="/"><a className="edu-btn">Contact Now</a></Link>
+            <a href="tel:+919051509444" className="edu-btn">Contact Now</a>
         </div>
     </div>
 </div>

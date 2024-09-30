@@ -15,34 +15,19 @@ return(
 </div>
 <div className="row row-cols-1 row-cols-xl-5 row-cols-lg-5 row-cols-md-2  row-cols-sm-2 mt-50">
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/happy/1.jpg"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/happy/2.jpg"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/happy/3.jpg"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/happy/4.jpg"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/happy/5.jpg"
     />
 </div>
 </div>

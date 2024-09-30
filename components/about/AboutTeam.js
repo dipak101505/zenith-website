@@ -60,36 +60,71 @@ return(
       {...SliderSetting}
      >
 
-      <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
 
-      <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
+    <AboutTeamItem 
+       pic="/assets/images/education/instructors/ins1.png"
+       name="Varun Goenka"
+       position={
+        <>
+            Chief Mentor Physics <br />
+            IIT Kharagpur, NIT Trichy
+        </>
+    }
+    />
+        <AboutTeamItem 
+            pic="/assets/images/education/instructors/ins2.png"
+            name="Amit Bachhawat"
+            position={
+                <>
+                    Chief Mentor Mathematics<br />
+                    IIT Roorkee
+                </>
+            }
+        />
 
-     <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
+        <AboutTeamItem 
+            pic="/assets/images/education/instructors/ins3.png"
+            name="Dr Ritesh Pandey"
+            position={
+                <>
+                    Chief Mentor Chemistry<br />
+                    St Xavier’s College
+                </>
+            }
+        />
 
-     <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
+        <AboutTeamItem 
+            pic="/assets/images/about/1. Payel Kundu - Mentor Biology - M.Sc in Zoology.png"
+            name="Payel Kundu"
+            position={
+                <>
+                    Biology Mentor<br />
+                    Msc Calcutta University
+                </>
+            }
+        />
 
-      <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
+        <AboutTeamItem 
+            pic="/assets/images/about/2. Sandipan Shah - Mentor Physics - M.Sc Astrophysics.png"
+            name="Sandipan Shah"
+            position={
+                <>
+                    Physics Mentor<br />
+                    MSc Astrophysics
+                </>
+            }
+        />
 
+        <AboutTeamItem 
+            pic="/assets/images/about/3. Swagata Saha - M.Sc in Chemistry - IIT Hyderabad.png"
+            name="Swagata Saha"
+            position={
+                <>
+                    Chemistry Mentor<br />
+                    IIT Hyderabad
+                </>
+            }
+        />
      </Carousel>
     </div>
 </div>
