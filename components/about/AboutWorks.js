@@ -8,39 +8,39 @@ const [Tab,setTab] = useState('all')
 const [Items,setItems] = useState([
     {
         tab: ["all","ui"],
-        img: "/assets/images/about/latest-3.png",
-        name: "UI/UX & Dev",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R1.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","development"],
-        img: "/assets/images/about/latest-3.png",
-        name: "UI/UX & Dev",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R2.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","ui"],
-        img: "/assets/images/about/latest-3.png",
-        name: "Development",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R3.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","graphic"],
-        img: "/assets/images/about/latest-3.png",
-        name: "Graphic",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R4.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","motion"],
-        img: "/assets/images/about/latest-3.png",
-        name: "Motion",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R5.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","branding"],
-        img: "/assets/images/about/latest-3.png",
-        name: "Branding",
-        title: "Gadding Market eCommerce Website Design and Development"
+        img: "/assets/images/Results/R5.jpg",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
     }
 ])
 

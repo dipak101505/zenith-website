@@ -39,7 +39,7 @@ const AboutFutured = () => {
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-4.png"
-              title="Class 7-10"
+              title="Foundation Class 7-10"
               desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."
             />
 

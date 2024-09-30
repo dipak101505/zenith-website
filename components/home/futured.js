@@ -43,7 +43,7 @@ const Futured = () => {
             <FutureItem
               AnimeDelay="700ms"
               icon="/assets/images/icon/featured-icon-4.png"
-              title="Class 7-10"
+              title="Foundation Class 7-10"
               desc="Assertively parallel task synergistic deliverables after high-quality"
             />
 
