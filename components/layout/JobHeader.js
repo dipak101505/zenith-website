@@ -68,7 +68,7 @@ return(
                     </ul>
                 </li>
                 <li><Link href="/about"><a>About</a></Link></li>
-                <li><Link href="/services"><a>Services</a></Link></li>
+                <li><Link href="/services"><a>Courses</a></Link></li>
                 <li>
                     <Link href="/"><a>Blog</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>

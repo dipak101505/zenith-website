@@ -65,35 +65,35 @@ return(
  >   
   <TestimonialClientList
    name="Rakhi Ghosh"
-   pic="/assets/images/about/client-img-1.png"
+   pic="/assets/images/about/rakhi.png"
    position="Kalyani Medical College"
    review="When I came here just before 12 I couldn't think of clearing NEET. Now I am among the 10% who clears neet in 1st attempt. From scaring physics to clearing JEE mainly for it. Thank you to the entire team."
   /> 
 
   <TestimonialClientList
    name="Atiksh Agarwal"
-   pic="/assets/images/about/client-img-2.png"
+   pic="/assets/images/about/Atik.png"
    position="IIT Delhi"
    review="When I joined zenith I was struggling with physics. Soon enough, through the help and guidance I received it became my most scoring subject. Highly recommended. Wouldn't be in IITD without Team Zenith."
   /> 
 
   <TestimonialClientList
    name="Shreya Sinha"
-   pic="/assets/images/about/client-img-2.png"
+   pic="/assets/images/about/shreya.png"
    position="National Medical College"
    review="I owe all my success to my mentors at Zenith and my parents. Varun Sir is one of the best teacher I have met. The way he delivers the lecture and his notes are sufficient for establishing firm base in concepts for Physics."
   /> 
 
   <TestimonialClientList
    name="Rishabh Agarwal"
-   pic="/assets/images/about/client-img-4.png"
+   pic="/assets/images/about/rishabh.png"
    position="IIT Kharagpur"
    review="The mentors at Zenith helped me throughout the 2 years. The credit for my success goes to all the three mentors Varun Sir, Radhesh Sir, Amit Sir. They were available at every stage for any query that I had whilst guiding me on how to crack the examination."
   /> 
 
   <TestimonialClientList
    name="Pranay Agarwal"
-   pic="/assets/images/about/client-img-3.png"
+   pic="/assets/images/about/pranay.png"
    position="IIT Kanpur"
    review="I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level."
   /> 
