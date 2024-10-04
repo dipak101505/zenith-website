@@ -235,8 +235,45 @@ const StudentForm = ({ onClose }) => {
           createdAt: serverTimestamp()
         };
 
+        // Submit to Firebase
         const docRef = await addDoc(collection(db, 'zenithForm'), formDataWithTimestamp);
         console.log('Document written with ID: ', docRef.id);
+
+        // Send to Telegram
+        const telegramBotToken = '7585008198:AAHpfFwWVh4oOQJIy8xVP0HFTHyK3MpnHAA';
+        const chatId = 7345131891;
+
+        // Format the message without timestamp
+        const messageLines = Object.entries(formData).map(([key, value]) => `${key}: ${value}`);
+        const message = `New form submission:\n\n${messageLines.join('\n')}`;
+
+        console.log('Sending to Telegram:', {
+          url: `https://api.telegram.org/bot${telegramBotToken}/sendMessage`,
+          body: { chat_id: chatId, text: message }
+        });
+
+        const response = await fetch(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: message,
+          }),
+        });
+
+        console.log('Telegram API response:', {
+          status: response.status,
+          statusText: response.statusText,
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          console.error('Telegram API Error:', errorData);
+          throw new Error(`Failed to send message to Telegram: ${response.status} ${response.statusText}`);
+        }
+
         setSnackbar({
           show: true,
           message: 'Form submitted successfully, we will reach you soon!',
@@ -247,7 +284,7 @@ const StudentForm = ({ onClose }) => {
           onClose();
         }, 3000);
       } catch (error) {
-        console.error('Error adding document: ', error);
+        console.error('Error submitting form: ', error);
         setSnackbar({
           show: true,
           message: 'An error occurred while submitting the form. Please try again.',
