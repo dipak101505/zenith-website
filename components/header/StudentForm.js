@@ -240,8 +240,8 @@ const StudentForm = ({ onClose }) => {
         console.log('Document written with ID: ', docRef.id);
 
         // Send to Telegram
-        const telegramBotToken = '7585008198:AAHpfFwWVh4oOQJIy8xVP0HFTHyK3MpnHAA';
-        const chatId = 7345131891;
+        const telegramBotToken = process.env.TELEGRAM_BOT_TOKEN;
+        const chatId = process.env.TELEGRAM_CHAT_ID;
 
         // Format the message without timestamp
         const messageLines = Object.entries(formData).map(([key, value]) => `${key}: ${value}`);
