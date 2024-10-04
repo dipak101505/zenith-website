@@ -11,7 +11,7 @@ return(
 <div className="container">
 <div className="row align-items-center gy-4">
     <div className="col-xxl-4 col-lg-5">
-    <div className="edu-section-title text-start">Our In-famous Mentors</div>
+    <div className="edu-section-title text-start">Our Mentors</div>
     </div>
     <div className="col-xxl-8 col-lg-7 text-lg-end">
         <div className="more-btn">

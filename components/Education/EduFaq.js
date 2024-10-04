@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const faqData = [
   {
     question: "What courses are available at Zenith Institute?",
-    answer: "Zenith prepares students for engineering and medical entrance exams such as IITJEE, BITSAT, WBJEE, NEET and Olympiads. Students from class VII to XII and 12 pass can avail the above courses."
+    answer: "Zenith prepares students for engineering and medical entrance exams such as IITJEE, BITSAT, WBJEE, NEET and Olympiads. Students from class VII to XII and XII pass can avail the above courses."
   },
   {
     question: "Where can I study for the above courses at Zenith?",
