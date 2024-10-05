@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Script from 'next/script';
 import { useEffect, useState } from 'react';
 import Preloader from './Preloader';
 import animateScrollTo from 'animated-scroll-to';
@@ -32,7 +31,6 @@ const Layout = ({ children }) => {
           type="image/gif"
           sizes="20x20"
         />
-        
       </Head>
 
       {loading ? <Preloader /> : null}
@@ -47,27 +45,6 @@ const Layout = ({ children }) => {
       </div>
 
       {children}
-
-      <Script src="/assets/js/wow.min.js" />
-      <Script
-          id="voiceflow-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(d, t) {
-                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-                v.onload = function() {
-                  window.voiceflow.chat.load({
-                    verify: { projectID: '66dd6913e86178552f18fabd' },
-                    url: 'https://general-runtime.voiceflow.com',
-                    versionID: 'production'
-                  });
-                }
-                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-              })(document, 'script');
-            `
-          }}
-        />
     </>
   );
 };
