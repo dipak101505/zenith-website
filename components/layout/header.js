@@ -34,7 +34,12 @@ const Header = () => {
 		} catch (err) {}
 	}
 
-	const isActive = (path) => router.pathname === path ? "active" : ""
+	const isActive = (path) => {
+		if (path === '/') {
+		  return router.pathname === '/' ? 'active' : ''
+		}
+		return router.pathname.startsWith(path) ? 'active' : ''
+	  }
 
 	return (
 		<>
@@ -70,7 +75,20 @@ const Header = () => {
 												<li><Link href="/"><a>Online Test</a></Link></li>
 											</ul>
 										</li>
-										<li><Link href="/about"><a className={isActive("/about")}>About</a></Link></li>
+										<li className="has-child-menu">
+											<Link href="/about"><a className={isActive("/about")}>About</a></Link>
+											<i className="fl" onClick={ToggleSubMenu}>+</i>
+											<ul className="sub-menu">
+												<li><Link href="/about/howrah"><a>Howrah</a></Link></li>
+												<li><Link href="/about/Serampore"><a>Serampore</a></Link></li>
+												<li><Link href="/about/andul"><a>Andul</a></Link></li>
+												<li><Link href="/about/phoolbagan"><a>Phoolbagan</a></Link></li>
+												<li><Link href="/about/saltlake"><a>Salt Lake</a></Link></li>
+												<li><Link href="/about/chandannagar"><a>Chandannagar</a></Link></li>
+												<li><Link href="/about/mogra"><a>Mogra</a></Link></li>
+												<li><Link href="/about/rampurHat"><a>RampurHat</a></Link></li>
+											</ul>
+										</li>
 										<li><Link href="/services"><a className={isActive("/services")}>Courses</a></Link></li>
 										<li className="has-child-menu">
 											<Link href="/blog"><a className={isActive("/blog")||isActive("/blog-detail")}>Blog</a></Link>
@@ -98,7 +116,6 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
-
 		</>
 	)
 }

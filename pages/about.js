@@ -3,7 +3,6 @@ import AboutFutured from '../components/about/AboutFutured';
 import AboutTeam from '../components/about/AboutTeam';
 import AboutWorkGrid from '../components/about/AboutWorks';
 import AboutDetailOne from '../components/about/DetailOne';
-import TestimonialClient from '../components/about/TestimonialClient';
 import LayoutAppGrid from '../components/layout/AppGrid';
 import Header from '../components/layout/header';
 import LayoutNewsLater from '../components/layout/NewsLater';
@@ -21,7 +20,7 @@ const About = () => {
       <AboutWorkGrid />
       <AboutTeam />
       <LayoutAppGrid />
-      <TestimonialClient />
+      {/* <TestimonialClient /> */}
       <LayoutNewsLater />
       <Footer />
     </>
