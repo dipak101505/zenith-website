@@ -71,8 +71,8 @@ const Header = () => {
 											<Link href="/"><a className={isActive("/")}>Home</a></Link>
 											<i className="fl" onClick={ToggleSubMenu}>+</i>
 											<ul className="sub-menu">
-												<li><Link href="/"><a>Online Course</a></Link></li>
-												<li><Link href="/"><a>Online Test</a></Link></li>
+												<li><Link href="https://online.zenithinstitute.co.in/"><a>Online Course</a></Link></li>
+												<li><Link href="https://zenithinstitute.theonlinetests.com/"><a>Online Test</a></Link></li>
 											</ul>
 										</li>
 										<li className="has-child-menu">

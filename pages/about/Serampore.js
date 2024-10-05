@@ -14,7 +14,7 @@ const Services = () => {
     <>
       <header>
         <Header />
-        <BreadCrumb pagename="Zenith Howrah" />
+        <BreadCrumb pagename="Zenith Serampore" />
       </header>
       <SolutionArea />
       <AboutFutured />

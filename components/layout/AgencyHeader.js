@@ -61,8 +61,8 @@ return(
                     <Link href="/"><a className="active">Home</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                    <li><Link href="/"><a>Online Course</a></Link></li>
-                    <li><Link href="/"><a>Online Test</a></Link></li>
+                    <li><Link href="https://online.zenithinstitute.co.in/"><a>Online Course</a></Link></li>
+                    <li><Link href="https://zenithinstitute.theonlinetests.com/"><a>Online Test</a></Link></li>
                     </ul>
                 </li>
                 <li><Link href="/about"><a>About</a></Link></li>

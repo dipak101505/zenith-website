@@ -1,29 +1,29 @@
 import BreadCrumb from '../../components/header/breadcrumb';
-import AboutFutured from '../../components/about/AboutFutured';
-import AboutTeam from '../../components/about/AboutTeam';
-import AboutWorkGrid from '../../components/about/AboutWorks';
-import AboutDetailOne from '../../components/about/DetailOne';
-import LayoutAppGrid from '../../components/layout/AppGrid';
 import Header from '../../components/layout/header';
-import LayoutNewsLater from '../../components/layout/NewsLater';
+import AllCounter from '../../components/services/Allcounter';
+import ServicePricing from '../../components/services/AllPricing';
+import AllServices from '../../components/services/Allservices';
+import ServiceNewsletter from '../../components/services/Newsletter';
+import SolutionArea from '../../components/services/solutionsection';
+import TestimonialClient from '../../components/services/TestimonialClient';
 import Footer from '../../components/layout/footer';
+import AboutFutured from '../../components/about/AboutFutured';
 
-const About = () => {
+const Services = () => {
   return (
     <>
       <header>
         <Header />
-        <BreadCrumb pagename="About Us" />
+        <BreadCrumb pagename="Zenith Saltlake" />
       </header>
-      <AboutDetailOne />
+      <SolutionArea />
       <AboutFutured />
-      <AboutWorkGrid />
-      <AboutTeam />
-      <LayoutAppGrid />
-      {/* <TestimonialClient /> */}
-      <LayoutNewsLater />
+      <ServicePricing />
+      <AllCounter />
+      <TestimonialClient />
+      <ServiceNewsletter />
       <Footer />
     </>
   );
 };
-export default About;
+export default Services;
