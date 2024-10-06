@@ -86,7 +86,7 @@ const Header = () => {
 												<li><Link href="/about/saltlake"><a>Salt Lake</a></Link></li>
 												<li><Link href="/about/chandannagar"><a>Chandannagar</a></Link></li>
 												<li><Link href="/about/mogra"><a>Mogra</a></Link></li>
-												<li><Link href="/about/rampurHat"><a>RampurHat</a></Link></li>
+												<li><Link href="/about/rampurHat"><a>Rampurhat</a></Link></li>
 											</ul>
 										</li>
 										<li><Link href="/services"><a className={isActive("/services")}>Courses</a></Link></li>
