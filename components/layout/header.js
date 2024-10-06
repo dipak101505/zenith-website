@@ -90,6 +90,7 @@ const Header = () => {
 											</ul>
 										</li>
 										<li><Link href="/services"><a className={isActive("/services")}>Courses</a></Link></li>
+										<li><Link href="/results"><a className={isActive("/results")}>Results</a></Link></li>
 										<li className="has-child-menu">
 											<Link href="/"><a className={isActive("/blog")||isActive("/blog-detail")}>Blog</a></Link>
 											<i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>

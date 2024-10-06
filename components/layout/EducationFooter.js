@@ -44,12 +44,12 @@ return(
             <div className="footer-widget ">
                 <h4 className="footer-widget-title">Company</h4>
                 <ul className="footer-links">
-                    <li><Link href="/"><a>About</a></Link></li>
-                    <li><Link href="/"><a>Results</a></Link></li>
-                    <li><Link href="/"><a>Franchisee</a></Link></li>
-                    <li><Link href="/"><a>Job Openings</a></Link></li>  
-                    <li><Link href="/"><a>Privacy Policy</a></Link></li>  
-                    <li><Link href="/"><a>School Tie-up	</a></Link></li>       
+                    <li><Link href="/about"><a>About</a></Link></li>
+                    <li><Link href="/results"><a>Results</a></Link></li>
+                    <li><Link href="/franchisee"><a>Franchisee</a></Link></li>
+                    <li><Link href="/job-openings"><a>Job Openings</a></Link></li>  
+                    <li><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>  
+                    <li><Link href="/school-tie-up"><a>School Tie-up	</a></Link></li>       
                 </ul>
             </div>
         </div>
