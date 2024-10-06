@@ -81,11 +81,11 @@ return(
                 </li>
                 <li><Link href="/services"><a>Courses</a></Link></li>
                 <li className="has-child-menu">
-                    <Link href="/blog"><a>Blog</a></Link>
+                    <Link href="/"><a>Blog</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="/blog"><a>Blog</a></Link></li>
-                        <li><Link href="/blog-detail"><a>Blog Details</a></Link></li>
+                        <li><Link href="/"><a>Blog</a></Link></li>
+                        <li><Link href="/"><a>Blog Details</a></Link></li>
                     </ul>
                 </li>
                 <li><Link href="/contact"><a>Contact </a></Link></li>

@@ -172,9 +172,9 @@ const StudentForm = ({ onClose }) => {
         severity: 'success',
       });
   
-    const classOptions = ['Class 1-4','Class 5', 'Class 6', 'Class 7', 'Class 8', 'Class 9', 'Class 10', 'Class 11', 'Class 12','12 Pass'];
+    const classOptions = ['Class 1-4','Class 5-6', 'Class 7-8', 'Class 9-10', 'Class 11-12','12 Pass'];
     const centreOptions = ['Howrah', 'Phoolbagan', 'Serampore', 'Andul', 'Saltlake', 'Chandannagar', 'Mogra', 'Rampurhat'];
-    const courseOptions = ['IIT JEE', 'NEET','Foundation' ,'Olympiad','Robotics ', 'Artificial Intelligence', 'Coding', 'Aptitude'];
+    const courseOptions = ['IIT JEE', 'NEET','Foundation', 'Boards' ,'Olympiad','Robotics ', 'Artificial Intelligence', 'Coding', 'Maths & Aptitude'];
   
     useEffect(() => {
       const handleClickOutside = (event) => {

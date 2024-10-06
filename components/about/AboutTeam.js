@@ -99,7 +99,7 @@ return(
             position={
                 <>
                     Biology Mentor<br />
-                    Msc Calcutta University
+                    MSc Calcutta University
                 </>
             }
         />
@@ -122,6 +122,28 @@ return(
                 <>
                     Chemistry Mentor<br />
                     IIT Hyderabad
+                </>
+            }
+        />
+
+        <AboutTeamItem 
+            pic="/assets/images/about/Amit Sarkar - Mentor Maths - Msc Mathematics.png"
+            name="Amit Sarkar"
+            position={
+                <>  
+                    Mathematics Mentor<br />
+                    MSc Mathematics
+                </>
+            }
+        />
+
+        <AboutTeamItem 
+            pic="/assets/images/about/Alpheswar Pandit - Administration Head - University of Bath.png"
+            name="Alpheswar Pandit"
+            position={
+                <>
+                    Career Counsellor<br />
+                    University of Bath
                 </>
             }
         />
