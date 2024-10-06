@@ -146,7 +146,7 @@ return(
 </div>
 <div className="col-xxl-4 col-lg-5">
 <div className="edu-testimonial-right">
-    <h2 className="edu-section-title text-start">100s of Reviews from
+    <h2 className="edu-section-title text-start">Reviews from
         Our Beloved Students!</h2>
     <p>We have a never ending relationship with our students, they keep coming back to us even during their college and beyond.</p>
 </div>
