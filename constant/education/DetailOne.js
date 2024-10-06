@@ -5,7 +5,7 @@ const EducationDetailOne = {
   actionBtn: 'Enquire',
   flotingMail: { title: 'Congratulation!', subTitle: 'You are selected' },
   flotingStudent: {
-    number: '1k +',
+    number: '5k +',
     title: 'Happy Students',
     groupImg: 'assets/images/education/avater-group.png',
   },

@@ -50,7 +50,7 @@ class MyDocument extends Document {
                     });
                   });
 
-                  formContainer.addEventListener('submit', function (event) {
+                  formContainer.addEventListener('submit', async function (event) {
                     event.preventDefault();
                     const inputs = ['name', 'email', 'phone', 'age'].map(field => formContainer.querySelector('.' + field));
                     
@@ -63,10 +63,49 @@ class MyDocument extends Document {
 
                     formContainer.querySelector('.submit').remove();
 
+                    const formData = Object.fromEntries(inputs.map(input => [input.name, input.value]));
+
+                    // Dispatch a custom event with the form data
+                    const customEvent = new CustomEvent('formSubmitted', { detail: formData });
+                    document.dispatchEvent(customEvent);
+
                     window.voiceflow.chat.interact({
                       type: 'Response_Submitted',
-                      payload: Object.fromEntries(inputs.map(input => [input.name, input.value])),
+                      payload: formData,
                     });
+
+                    // Send data to Telegram
+                    const telegramBotToken = '${process.env.TELEGRAM_BOT_TOKEN}';
+                    const chatId = '${process.env.TELEGRAM_CHAT_ID}';
+
+                    const messageLines = Object.entries(formData).map(([key, value]) => \`\${key}: \${value}\`);
+                    const message = \`New form submission:\\n\\n\${messageLines.join('\\n')}\`;
+
+                    console.log('Sending to Telegram:', {
+                      url: \`https://api.telegram.org/bot\${telegramBotToken}/sendMessage\`,
+                      body: { chat_id: chatId, text: message }
+                    });
+
+                    try {
+                      const response = await fetch(\`https://api.telegram.org/bot\${telegramBotToken}/sendMessage\`, {
+                        method: 'POST',
+                        headers: {
+                          'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                          chat_id: chatId,
+                          text: message,
+                        }),
+                      });
+
+                      if (!response.ok) {
+                        throw new Error('Failed to send message to Telegram');
+                      }
+
+                      console.log('Message sent to Telegram successfully');
+                    } catch (error) {
+                      console.error('Error sending message to Telegram:', error);
+                    }
                   });
 
                   element.appendChild(formContainer);
