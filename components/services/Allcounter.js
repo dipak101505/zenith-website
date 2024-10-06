@@ -19,9 +19,9 @@ return(
 {isVisible?
 <div className="row">
     <CounupItem title="Centre" countUp={8}/>
-    <CounupItem title="Successful Students" countUp={1000}/>
-    <CounupItem title="IITians" countUp={100}/>
-    <CounupItem title="MBBS" countUp={100}/>
+    <CounupItem title="Successful Students" countUp={5000}/>
+    <CounupItem title="IITians" countUp={500}/>
+    <CounupItem title="MBBS" countUp={500}/>
 </div>:null
 }
 

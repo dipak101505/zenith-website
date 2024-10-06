@@ -9,7 +9,7 @@ return(
     <CountUp 
      isCounting={true}
      end={props.countUp}
-     duration={5}
+     duration={3}
      thousandsSeparator=","
      />+
     </h1>
