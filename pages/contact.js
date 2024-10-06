@@ -35,7 +35,7 @@ const Contact = () => {
 
             <FuturedItem
               icon="/assets/images/icon/featured-icon-2.png"
-              title="PhoolBagan"
+              title="Phoolbagan"
               desc="1st Floor, 263, Hem Chandra Naskar Road, Kolkata, West Bengal 700010
 (Near Phoolbagan Metro)"
               phone="9051509444"
@@ -78,7 +78,7 @@ const Contact = () => {
             />
             <FuturedItem
               icon="/assets/images/icon/featured-icon-1.png"
-              title="RampurHat"
+              title="Rampurhat"
               desc="New Hospital Road, Near Rampurhat Govt. Medical College & Hospital, Rampurhat, W.B.-731224 (Near New Janseva Diagnostic Centre)"
               phone="8777434458"
             />
