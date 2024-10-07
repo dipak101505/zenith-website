@@ -27,7 +27,7 @@ return(
             </h2>
             <p>{EducationDetailTwo.subTitle}</p>
             <div className="success-btn">
-                <Link href="/"><a className="edu-btn-fill">{EducationDetailTwo.actionBtn}</a></Link>
+                <Link href="results"><a className="edu-btn-fill">{EducationDetailTwo.actionBtn}</a></Link>
             </div>
         </div>
     </div>

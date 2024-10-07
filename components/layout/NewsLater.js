@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 const LayoutNewsLater=(props)=>{
 return(
@@ -11,12 +12,11 @@ return(
         <div className="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
                 <div className="hrdd-section-title hrrd-subscribe-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <h1>Want to <span>Discuss</span> about JEE|NEET Prep?</h1> 
-                    <button className="common-btn btn-hrrd-1">Enquire</button>
-                </div>
-                <form action="/" className="wow animate flipInX" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        {/* <input type="text" placeholder="Email"/> */}
+                    <Link href="/contact">
                         <button className="common-btn btn-hrrd-1">Enquire</button>
-                </form>
+                    </Link>
+                </div>
+                
             </div>
         </div>
     </div>

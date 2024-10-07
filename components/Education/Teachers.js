@@ -15,7 +15,7 @@ return(
     </div>
     <div className="col-xxl-8 col-lg-7 text-lg-end">
         <div className="more-btn">
-            <a href="about.html" className="edu-btn-fill">View All Mentors</a>
+            <a href="about" className="edu-btn-fill">View All Mentors</a>
         </div>
     </div>
 </div>

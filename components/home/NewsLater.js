@@ -9,7 +9,7 @@ return(
     <div className="hrrd-subscribe-wrap">
         <div className="row align-items-center justify-content-center">
         <div className="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
-                <div className="hrdd-section-title hrrd-subscribe-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
+            <div className="hrdd-section-title hrrd-subscribe-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <h1>Want to <span>Discuss</span> about JEE|NEET Prep?</h1> 
                     <button className="common-btn btn-hrrd-1">Enquire</button>
                 </div>
