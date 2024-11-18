@@ -68,14 +68,14 @@ return(
             </div>
             <div className="footer-link">
                 <ul>
-                <li><Link href="/"><a>Saltlake</a></Link></li>
-                <li><Link href="/"><a>Phoolbagan</a></Link></li>
-                <li><Link href="/"><a>Howrah</a></Link></li>
-                <li><Link href="/"><a>Andul</a></Link></li>
-                <li><Link href="/"><a>Serampore</a></Link></li>
-                <li><Link href="/"><a>Chandannagar</a></Link></li>
-                <li><Link href="/"><a>Mogra</a></Link></li>
-                <li><Link href="/"><a>Rampurhat</a></Link></li>
+                <li><Link href="/about/saltlake"><a>Saltlake</a></Link></li>
+                    <li><Link href="/about/phoolbagan"><a>Phoolbagan</a></Link></li>
+                    <li><Link href="/about/howrah"><a>Howrah</a></Link></li>
+                    <li><Link href="/about/andul"><a>Andul</a></Link></li>
+                    <li><Link href="/about/Serampore"><a>Serampore</a></Link></li>
+                    <li><Link href="/about/chandannagar"><a>Chandannagar</a></Link></li>
+                    <li><Link href="/about/mogra"><a>Mogra</a></Link></li>
+                    <li><Link href="/about/rampurHat"><a>Rampurhat</a></Link></li>
                 </ul>
             </div>
         </div>

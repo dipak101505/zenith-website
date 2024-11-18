@@ -2,7 +2,7 @@ import { useState } from "react"
 import serviceDetail from "../../constant/services/serviceDetail"
 import StudentForm from "../header/StudentForm";
 
-const SolutionArea=()=>{
+const SolutionArea=({centerDetail})=>{
     const [showForm, setShowForm] = useState(false);
     const handleImageClick = () => {
         setShowForm(true);
