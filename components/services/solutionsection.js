@@ -2,7 +2,7 @@ import { useState } from "react"
 import serviceDetail from "../../constant/services/serviceDetail"
 import StudentForm from "../header/StudentForm";
 
-const SolutionArea=({centerDetail})=>{
+const SolutionArea=({ title, image, description })=>{
     const [showForm, setShowForm] = useState(false);
     const handleImageClick = () => {
         setShowForm(true);
@@ -31,14 +31,22 @@ return(
 </div>
 <div className="col-xxl-7 col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 mobt-50">
     <div className="collaborate-img-wrap">
-        <img src={serviceDetail.coverImage} alt=""/>
+        {image ? 
+            <img src={image} alt="" className="img-fluid w-100"/> 
+            : 
+            <img src={serviceDetail.coverImage} alt="" className="img-fluid w-100"/>
+        }
         {/* <div className="engagement-cart">
             <img src="assets/images/engagement-cart.png" alt=""/>
         </div> */}
         <div className="testimonial-cart">
             <div className="testimonial-cart-people">
                 <h3>Zenith Institute</h3>
+                {description?
+                <h6>{description}</h6>
+                :
                 <h6>Zenith Howrah</h6>
+                }
             </div>
             <p>An Altar for Science Enthusiasts</p>
             <i className="bx bxs-quote-right"></i>
