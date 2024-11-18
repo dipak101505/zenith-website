@@ -1,27 +1,33 @@
-import Link from "next/link"
+import { useState } from 'react';
+import StudentForm from '../../header/StudentForm';
 
-const EducationDepertmentItem=(props)=>{
-return(
-<>
-<div className="col-lg-4 col-md-6">
-<div className="edu-department-single">
-    <div className="edu-department-thumb">
-        <Link href="/">
-        <a>
-            <img src={props.img} alt=""/>
-        </a>
-        </Link>
-    </div>
-    <div className="edu-department-disc">
-        <h3 className="department-title"><Link href="/"><a>{props.name}</a></Link></h3>
-        <p>{props.desc}</p>
-        {/* <div className="d-btn">
-            <Link href="/"><a>Learn More <i className="bi bi-arrow-right"></i></a></Link>
-        </div> */}
-    </div>
-</div>
-</div>
-</>
-)
-}
-export default EducationDepertmentItem
+const EducationDepertmentItem = ({ img, name, desc }) => {
+    const [showForm, setShowForm] = useState(false);
+
+    const handleClick = () => {
+        setShowForm(true);
+    };
+
+    const handleCloseForm = () => {
+        setShowForm(false);
+    };
+
+    return (
+        <>
+            <div className="col-lg-4 col-md-6" onClick={handleClick} style={{ cursor: 'pointer' }}>
+                <div className="edu-department-single wow animated fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                    <div className="department-img">
+                        <img src={img} alt="" />
+                    </div>
+                    <div className="department-content">
+                        <h4>{name}</h4>
+                        <p>{desc}</p>
+                    </div>
+                </div>
+            </div>
+            {showForm && <StudentForm onClose={handleCloseForm} />}
+        </>
+    );
+};
+
+export default EducationDepertmentItem;
