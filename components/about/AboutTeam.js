@@ -62,7 +62,7 @@ return(
 
 
     <AboutTeamItem 
-       pic="/assets/images/education/instructors/ins1.png"
+       pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e"
        name="Varun Goenka"
        position={
         <>
@@ -72,7 +72,7 @@ return(
     }
     />
         <AboutTeamItem 
-            pic="/assets/images/education/instructors/ins2.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins2.png?alt=media&token=5d1a6b55-f73a-4998-ab56-8ce006339799"
             name="Amit Bachhawat"
             position={
                 <>
@@ -83,7 +83,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/education/instructors/ins3.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins3.png?alt=media&token=b5fe4a3b-dbf6-466d-b2b0-8cfd9ea60e25"
             name="Dr Ritesh Pandey"
             position={
                 <>
@@ -94,7 +94,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/1. Payel Kundu - Mentor Biology - M.Sc in Zoology.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F1.%20Payel%20Kundu%20-%20Mentor%20Biology%20-%20M.Sc%20in%20Zoology.png?alt=media&token=0cab216d-c43b-4a09-adb7-7863754613db"
             name="Payel Kundu"
             position={
                 <>
@@ -105,7 +105,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/2. Sandipan Shah - Mentor Physics - M.Sc Astrophysics.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F2.%20Sandipan%20Shah%20-%20Mentor%20Physics%20-%20M.Sc%20Astrophysics.png?alt=media&token=0c70dc58-14bb-4737-8ee0-f4fd9a96f781"
             name="Sandipan Shah"
             position={
                 <>
@@ -116,7 +116,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/3. Swagata Saha - M.Sc in Chemistry - IIT Hyderabad.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F3.%20Swagata%20Saha%20-%20M.Sc%20in%20Chemistry%20-%20IIT%20Hyderabad.png?alt=media&token=1bcfa030-ff4b-4b6f-8048-d125ab8360cc"
             name="Swagata Saha"
             position={
                 <>
@@ -127,7 +127,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/Amit Sarkar - Mentor Maths - Msc Mathematics.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FAmit%20Sarkar%20-%20Mentor%20Maths%20-%20Msc%20Mathematics.png?alt=media&token=f4ce300c-2066-4b10-843a-c561d2d97d8c"
             name="Amit Sarkar"
             position={
                 <>  
@@ -138,7 +138,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/Alpheswar Pandit - Administration Head - University of Bath.png"
+            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FAlpheswar%20Pandit%20-%20Administration%20Head%20-%20University%20of%20Bath.png?alt=media&token=8404d374-e969-4ede-96e0-c5bfb810807f"
             name="Alpheswar Pandit"
             position={
                 <>

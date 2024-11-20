@@ -46,7 +46,7 @@ const EducationHeaderBottom = () => {
 
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="/assets/images/education/edu-hero-figure.png" alt="" className="img-fulid"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fedu-hero-figure.png?alt=media&token=3795d40f-815f-434e-9951-b68bcf352813" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>
@@ -85,7 +85,7 @@ const EducationHeaderBottom = () => {
 
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="/assets/images/education/robotics.png" alt="" className="img-fulid"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Frobotics.png?alt=media&token=b546ddac-d547-47ce-b0ec-5bf981b0546c" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>
@@ -124,7 +124,7 @@ const EducationHeaderBottom = () => {
 
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="/assets/images/education/new-centre.png" alt="" className="img-fulid"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fnew-centre.png?alt=media&token=17f0814b-8cbc-4e23-8d6f-4e81de78b717" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>

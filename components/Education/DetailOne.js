@@ -16,7 +16,7 @@ return(
             </a>
             </Link>
             <div className="vactor-shape1 position-absolute d-none d-lg-block wow fadeInLeft animated" data-wow-duration="2000ms">
-                <img src="assets/images/education/shapes/edu-vactor1.svg" alt=""/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fedu-vactor1.svg?alt=media&token=dad838a5-8294-4d98-87af-466a7457677c" alt=""/>
             </div>
         </div>
     </div>

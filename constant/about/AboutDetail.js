@@ -9,7 +9,7 @@ const AboutDetail={
         "Laboratory Experience"
     ],
     actionBtn:"Courses",
-    leftImage:"/assets/images/about/excpt-img.jpg",
+    leftImage:"https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fexcpt-img.jpg?alt=media&token=e9221f92-baef-4fee-b9d5-25d878b3f899",
     feature:[
         {
             title: "Our Vision",

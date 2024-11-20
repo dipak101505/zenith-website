@@ -20,7 +20,7 @@ return(
 <>
 <div className="edu-testimonial-style">
 <div className="vactor-shape position-absolute d-none d-lg-block end-0 wow fadeInRight" data-wow-duration="2000ms">
-    <img src="assets/images/education/shapes/edu-vactor4.svg" alt=""/>
+    <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fedu-vactor4.svg?alt=media&token=385354b9-12ca-4afd-af89-f14d8341f222edu-vactor4.svg" alt=""/>
 </div>
 <div className="container">
 
@@ -31,7 +31,7 @@ return(
         <div className="testi-card-header">
             <div className="reviwer-info">
                 <div className="reviewer-avater">
-                    <img src="assets/images/education/student3.png" alt=""/>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fstudent3.png?alt=media&token=25e04ef2-d934-4350-854b-11cb1c72cfa2" alt=""/>
                 </div>
                 <div className="reviewer-self">
                     <h4>Pranay Agarwal
@@ -63,7 +63,7 @@ return(
             <div className="testi-card-header">
                 <div className="reviwer-info">
                     <div className="reviewer-avater">
-                        <img src="assets/images/education/student2.png" alt=""/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fstudent2.png?alt=media&token=334975e1-e9bd-43a7-b704-7b56213d0ba5" alt=""/>
                     </div>
                     <div className="reviewer-self">
                         <h4>Shreya Sinha</h4>
@@ -89,7 +89,7 @@ return(
             <div className="testi-card-header">
                 <div className="reviwer-info">
                     <div className="reviewer-avater">
-                        <img src="assets/images/education/student1.png" alt=""/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fstudent1.png?alt=media&token=4fa94dec-c979-47ec-abc0-9071550209d0" alt=""/>
                     </div>
                     <div className="reviewer-self">
                         <h4>Rishabh Agarwal

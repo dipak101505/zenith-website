@@ -8,31 +8,31 @@ const [Tab,setTab] = useState('all')
 const [Items,setItems] = useState([
     {
         tab: ["all","2023"],
-        img: "/assets/images/Results/R1.jpg",
+        img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR1.jpg?alt=media&token=6b26a43b-bba8-4bbf-bae2-35cec95e7dc8",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","2022"],
-        img: "/assets/images/Results/R2.jpg",
+        img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR2.jpg?alt=media&token=2441e72c-3c6b-4839-ac8a-043670c7fff3",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","2021"],
-        img: "/assets/images/Results/R3.jpg",
+        img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR3.jpg?alt=media&token=3574c32d-ee05-40c6-afc9-86b443273282",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","2020"],
-        img: "/assets/images/Results/R4.jpg",
+        img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR4.jpg?alt=media&token=c8126ccb-8f86-4fb4-adaf-bb849e9f3fd2",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },
     {
         tab: ["all","2019"],
-        img: "/assets/images/Results/R5.jpg",
+        img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR5.jpg?alt=media&token=8b0869ce-4dd0-4d9f-8289-054e11e35e6d",
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     }

@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <title>Zenith Institute IIT JEE NEET Foundation</title>
         <link
           rel="icon"
-          href="/assets/images/fav.png"
+          href="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffav.png?alt=media&token=c6ca14f0-7033-4d90-aedc-ee782b109f0a"
           type="image/gif"
           sizes="20x20"
         />

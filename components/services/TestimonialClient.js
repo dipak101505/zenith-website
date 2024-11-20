@@ -65,35 +65,35 @@ return(
  >   
   <TestimonialClientList
    name="Rakhi Ghosh"
-   pic="/assets/images/about/rakhi.png"
+   pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Frakhi.png?alt=media&token=264612a7-0320-49da-aa88-263063be7aab"
    position="Kalyani Medical College"
    review="When I came here just before 12 I couldn't think of clearing NEET. Now I am among the 10% who clears neet in 1st attempt. From scaring physics to clearing JEE mainly for it. Thank you to the entire team."
   /> 
 
   <TestimonialClientList
    name="Atiksh Agarwal"
-   pic="/assets/images/about/Atik.png"
+   pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FAtik.png?alt=media&token=e5327fae-0f9c-44e4-af58-5756fe8789ac"
    position="IIT Delhi"
    review="When I joined zenith I was struggling with physics. Soon enough, through the help and guidance I received it became my most scoring subject. Highly recommended. Wouldn't be in IITD without Team Zenith."
   /> 
 
   <TestimonialClientList
    name="Shreya Sinha"
-   pic="/assets/images/about/shreya.png"
+   pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fshreya.png?alt=media&token=54d07779-486e-47b8-8007-509b1032f839"
    position="National Medical College"
    review="I owe all my success to my mentors at Zenith and my parents. Varun Sir is one of the best teacher I have met. The way he delivers the lecture and his notes are sufficient for establishing firm base in concepts for Physics."
   /> 
 
   <TestimonialClientList
    name="Rishabh Agarwal"
-   pic="/assets/images/about/rishabh.png"
+   pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Frishabh.png?alt=media&token=587b335d-8e73-4d90-95f6-261f5e078cf1"
    position="IIT Kharagpur"
    review="The mentors at Zenith helped me throughout the 2 years. The credit for my success goes to all the three mentors Varun Sir, Radhesh Sir, Amit Sir. They were available at every stage for any query that I had whilst guiding me on how to crack the examination."
   /> 
 
   <TestimonialClientList
    name="Pranay Agarwal"
-   pic="/assets/images/about/pranay.png"
+   pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fpranay.png?alt=media&token=faa6b533-7a46-4dc8-b148-909520916cd4"
    position="IIT Kanpur"
    review="I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level."
   /> 

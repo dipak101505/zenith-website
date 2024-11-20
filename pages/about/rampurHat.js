@@ -18,7 +18,7 @@ const Services = () => {
       </header>
       <SolutionArea 
         title="Welcome to Zenith <span>Rampurhat</span>"
-        image="/assets/images/about/Rampurhat.jpg"
+        image="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FRampurhat.jpg?alt=media&token=4e7eb95c-11dd-4b97-93ae-7eaf66648139"
         description="Zenith Rampurhat "
       />
       <AboutFutured />

@@ -7,7 +7,7 @@ return(
 <div className="collaborate-img-wrap">
     <img src={HomeConstantTwo.CoverImage} alt="" />
     <div className="engagement-cart">
-        <img src="/assets/images/engagement-cart.png" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fengagement-cart.png?alt=media&token=6417cfa2-885d-42b9-8605-86071a9bf620" alt="" />
     </div>
     <div className="testimonial-cart">
         <div className="testimonial-cart-people">

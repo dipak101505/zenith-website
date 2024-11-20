@@ -27,14 +27,14 @@ const Contact = () => {
                 </div>
                 <div className="row justify-content-center mt-50">
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-1.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
               title="Saltlake"
               desc="BK 61, Salt Lake Bypass, near Water Tank, No 8, Bidhannagar, West Bengal 700091 (Near Karunamoyee)"
               phone="9051509444"
             />
 
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-2.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
               title="Phoolbagan"
               desc="1st Floor, 263, Hem Chandra Naskar Road, Kolkata, West Bengal 700010
 (Near Phoolbagan Metro)"
@@ -42,7 +42,7 @@ const Contact = () => {
             />
 
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-3.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
               title="Howrah"
               desc="Gokul Apartment, Block B, 1st Floor, 14 Watkins Lane, Howrah, West Bengal - 711101
 (Near Howrah AC Market)."
@@ -50,7 +50,7 @@ const Contact = () => {
             />
 
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-4.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-4.png?alt=media&token=e65c9cfe-8ef6-45cd-acb5-b951370e6dc3"
               title="Andul"
               desc="Andul Road, Andul Mouri Rd, near Andul Purbapara Street, Andul, Howrah, West Bengal 711302
 (Near Dr Lal Path Lab Andul)."
@@ -58,26 +58,26 @@ const Contact = () => {
             />
 
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-5.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Serampore"
               desc="623, Grand Trunk Rd, Battala, Serampore, Hooghly, West Bengal 712201
 (Opp Anjali Jewellers)."
               phone="9123357543"
             />
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-5.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Chandannagar"
               desc="540, Mankundu Station Rd, Near Pirtala, Mahadanga Colony, Mankundu, Chandannagar, West Bengal 712139."
               phone="9123357543"
             />
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-5.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Mogra"
               desc="Mogra Triveni Road, P.O & P.S - Mogra, Dist - Hooghly, West Bengal – 712 148."
               phone="9123357543"
             />
             <FuturedItem
-              icon="/assets/images/icon/featured-icon-1.png"
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Rampurhat"
               desc="New Hospital Road, Near Rampurhat Govt. Medical College & Hospital, Rampurhat, W.B.-731224 (Near New Janseva Diagnostic Centre)"
               phone="8777434458"
