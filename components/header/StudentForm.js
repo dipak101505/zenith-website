@@ -411,7 +411,7 @@ const StudentForm = ({ onClose }) => {
         </FormGrid>
 
         <ButtonGroup>
-          <Button type="button" onClick={onClose} style={{ backgroundColor: '#6c757d' }}>Cancel</Button>
+          <Button type="button" onClick={onClose} style={{ backgroundColor: '#6c757d' }}>Maybe Later</Button>
           <Button type="submit" style={{ backgroundColor: '#ffa600' }}>Submit</Button>
         </ButtonGroup>
       </Form>
