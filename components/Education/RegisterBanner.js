@@ -15,9 +15,9 @@ return(
             <h2 className="register-section-title edu-section-title text-start text-white">
             Want to Discuss about your JEE | NEET Journey?
             </h2>
-            <div className="arrow-vactor d-none d-lg-block">
+            {/* <div className="arrow-vactor d-none d-lg-block">
                 <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffav.png?alt=media&token=c6ca14f0-7033-4d90-aedc-ee782b109f0a" alt=""/>
-            </div>
+            </div> */}
         </div>
         <div className="col-xxl-4 col-lg-4">
             <div className="register-btn text-lg-center">
