@@ -311,7 +311,7 @@ const StudentForm = ({ onClose }) => {
   return (
     <FormContainer>
       <Form onSubmit={handleSubmit}>
-        <FormTitle>Student Details</FormTitle>
+        <FormTitle>🚀 Book Your Free Counseling Session!</FormTitle>
         
         <FormGrid>
           <FormGroup>

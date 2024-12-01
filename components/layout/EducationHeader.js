@@ -63,7 +63,7 @@ return(
                     <Link href="/"><a className="active">Home</a></Link>
                     <i className="fl flaticon-plus"  onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="https://online.zenithinstitute.co.in/"><a>Online Course</a></Link></li>
+                        <li><Link href="https://lms-eight-chi.vercel.app"><a>Online Course</a></Link></li>
                         <li><Link href="https://zenithinstitute.theonlinetests.com/"><a>Online Test</a></Link></li>
                         {/* <li><Link href="/education"><a>Education</a></Link></li>
                         <li><Link href="/job"><a>Job Finding</a></Link></li>

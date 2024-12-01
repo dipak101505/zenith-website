@@ -71,7 +71,7 @@ const Header = () => {
 											<Link href="/"><a className={isActive("/")}>Home</a></Link>
 											<i className="fl" onClick={ToggleSubMenu}>+</i>
 											<ul className="sub-menu">
-												<li><Link href="https://online.zenithinstitute.co.in/"><a>Online Course</a></Link></li>
+												<li><Link href="https://lms-eight-chi.vercel.app"><a>Online Course</a></Link></li>
 												<li><Link href="https://zenithinstitute.theonlinetests.com/"><a>Online Test</a></Link></li>
 											</ul>
 										</li>
@@ -102,14 +102,14 @@ const Header = () => {
 										<li><Link href="/contact"><a className={isActive("/contact")}>Contact</a></Link></li>
 									</ul>
 									<div className="menu-btn-wrap d-block d-lg-none">
-										<Link href="https://online.zenithinstitute.co.in/"><a className="common-btn btn-hrrd-2">Courses</a></Link>
+										<Link href="https://lms-eight-chi.vercel.app"><a className="common-btn btn-hrrd-2">Courses</a></Link>
 										<Link href="https://zenithinstitute.theonlinetests.com/"><a className="common-btn btn-hrrd-1">Tests</a></Link>
 									</div>
 								</nav>
 							</div>
 							<div className="col-xxl-3 col-xl-4 col-lg-3 d-none d-lg-block">
 								<div className="menu-btn-wrap">
-									<Link href="https://online.zenithinstitute.co.in/"><a className="common-btn btn-hrrd-2">Courses</a></Link>
+									<Link href="https://lms-eight-chi.vercel.app"><a className="common-btn btn-hrrd-2">Courses</a></Link>
 									<Link href="https://zenithinstitute.theonlinetests.com/"><a className="common-btn btn-hrrd-1">Tests</a></Link>
 								</div>
 							</div>

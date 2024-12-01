@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import EducationDetailOne from "../../constant/education/DetailOne";
 import StudentForm from './StudentForm';  // Make sure to adjust the import path as needed
@@ -9,8 +9,16 @@ import EducationDetailOne3 from '../../constant/education/DetailOne3';
 const EducationHeaderBottom = () => {
   const [showForm, setShowForm] = useState(false);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowForm(true);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const handleActionButtonClick = (e) => {
-    e.preventDefault();
+    e?.preventDefault();
     setShowForm(true);
   };
 
