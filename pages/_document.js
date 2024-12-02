@@ -5,6 +5,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <meta name="google-site-verification" content="8ew6lZ1mNcVQ5rRnj3TovWrq6lmycRjh7I9r7a0-N0M" />
+
           <script dangerouslySetInnerHTML={{
             __html: `
               window.FormExtension = {
