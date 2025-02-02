@@ -77,6 +77,8 @@ return(
                         <li><Link href="/about/chandannagar"><a>Chandannagar</a></Link></li>
                         <li><Link href="/about/mogra"><a>Mogra</a></Link></li>
                         <li><Link href="/about/rampurHat"><a>Rampurhat</a></Link></li>
+                        <li><Link href="/about/Birnagar"><a>Birnagar</a></Link></li>
+                        <li><Link href="/about/Narayanpur"><a>Narayanpur</a></Link></li>
                     </ul>
                 </li>
                 <li><Link href="/services"><a>Courses</a></Link></li>
