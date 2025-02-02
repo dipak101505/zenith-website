@@ -82,6 +82,18 @@ const Contact = () => {
               desc="New Hospital Road, Near Rampurhat Govt. Medical College & Hospital, Rampurhat, W.B.-731224 (Near New Janseva Diagnostic Centre)"
               phone="8777434458"
             />
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
+              title="Birnagar"
+              desc="Raiganj, Uttardinajpur, West Bengal -733134 (Near NBSTC Bus stand)"
+              phone="9051509444"
+            />
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
+              title="Narayanpur"
+              desc="Opp State Bus Stand, Near Zeno Health, Balurghat, West Bengal - 733101"
+              phone="9933173579"
+            />
           </div>
               </form>
             </div>
