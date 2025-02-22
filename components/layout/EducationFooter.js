@@ -65,6 +65,8 @@ return(
                     <li><Link href="/about/chandannagar"><a>Chandannagar</a></Link></li>
                     <li><Link href="/about/mogra"><a>Mogra</a></Link></li>
                     <li><Link href="/about/rampurHat"><a>Rampurhat</a></Link></li>
+                    <li><Link href="/about/Raiganj"><a>Raiganj</a></Link></li>
+                    <li><Link href="/about/Balurghat"><a>Balurghat</a></Link></li>
                 </ul>
             </div>
         </div>
