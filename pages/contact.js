@@ -67,8 +67,8 @@ const Contact = () => {
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Chandannagar"
-              desc="540, Mankundu Station Rd, Near Pirtala, Mahadanga Colony, Mankundu, Chandannagar, West Bengal 712139."
-              phone="9123357543"
+              desc="Bara Bazar, State Bank lane, Opposite to Sunity Poly Clinic, Barabazar Chandannagar West Bengal - 712136."
+              phone="8777388316"
             />
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
