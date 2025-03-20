@@ -9,7 +9,7 @@ return(
          <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="breadcrumb-text text-center">
                <h1>{props.pagename}</h1>
-               <p><Link href="/"><a>Home</a></Link> / {props.pagename}</p>
+               <p>{props.pagename}</p>
             </div>
          </div>
       </div>
