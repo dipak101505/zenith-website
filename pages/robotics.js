@@ -5,7 +5,7 @@ import Footer from '../components/layout/footer';
 import BreadCrumb from '../components/header/breadcrumb';
 import Header from '../components/layout/header';
 import AllCounter from '../components/services/Allcounter';
-import ServicePricing from '../components/services/AllPricing';
+import RoboticsPricing from '../components/services/roboticsPricing';
 import AllServices from '../components/services/Allservices';
 import ServiceNewsletterRobotics from '../components/services/NewsletterRobotics';
 import SolutionArea from '../components/services/solutionsection';
@@ -18,7 +18,7 @@ const RoboticsPage = () => {
         <>
             <EducationHeader />
             <Robotics />
-            <ServicePricing />
+            <RoboticsPricing />
             <AllCounter />
             
             <AboutFutured />

@@ -83,6 +83,18 @@ const Contact = () => {
               phone="8777434458"
             />
             <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
+              title="Dunlop"
+              desc="Bhajan Complex, Near Dunlop Old Gurudwara, Behind Monginis, Dunlop, Saket Nagar, Bonhooghly Government Colony, Kolkata, Baranagar, West Bengal 700108, India."
+              phone="9836644061"
+            />
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
+              title="VIP Road"
+              desc="137 VIP Road, P.S Magnum, Above Domino’s, Unit No. 110/109, PIN- 700052"
+              phone="9903312612"
+            />
+            <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
               title="Raiganj"
               desc="Raiganj, Uttardinajpur, West Bengal -733134 (Near NBSTC Bus stand)"

@@ -1,0 +1,1251 @@
+[1mdiff --git a/components/about/AboutFutured.js b/components/about/AboutFutured.js[m
+[1mindex ad2c5c2..abde3ef 100644[m
+[1m--- a/components/about/AboutFutured.js[m
+[1m+++ b/components/about/AboutFutured.js[m
+[36m@@ -23,14 +23,14 @@[m [mconst AboutFutured = () => {[m
+               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"[m
+               title="IIT JEE"[m
+               desc="Engineering aspirants preparing for IITJEE, WBJEE, BITSAT, COMEDK etc."[m
+[31m-              link="/"[m
+[32m+[m[32m              link="/IITJEE"[m
+             />[m
+ [m
+             <FuturedItem[m
+               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"[m
+               title="NEET"[m
+               desc="Medical aspirants aiming to get into AIIMS and Govt Medical college."[m
+[31m-              link="/"[m
+[32m+[m[32m              link="/NEET"[m
+             />[m
+             <FuturedItem[m
+               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"[m
+[36m@@ -42,7 +42,7 @@[m [mconst AboutFutured = () => {[m
+               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-4.png?alt=media&token=e65c9cfe-8ef6-45cd-acb5-b951370e6dc3"[m
+               title="Foundation Class 7-10"[m
+               desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."[m
+[31m-              link="/"[m
+[32m+[m[32m              link="/foundation"[m
+             />[m
+ [m
+             <FuturedItem[m
+[1mdiff --git a/pages/IITJEE.js b/pages/IITJEE.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9de0eda[m
+[1m--- /dev/null[m
+[1m+++ b/pages/IITJEE.js[m
+[36m@@ -0,0 +1,520 @@[m
+[32m+[m[32mimport Header from '../components/layout/header';[m
+[32m+[m[32mimport BreadCrumb from '../components/header/breadcrumb';[m
+[32m+[m[32mimport { useState } from 'react';[m
+[32m+[m[32mimport { v4 as uuidv4 } from 'uuid';[m
+[32m+[m[32mimport CommentBox from '../components/blog/CommentBox';[m
+[32m+[m
+[32m+[m[32mconst IITJEE = () => {[m
+[32m+[m[32m  const [Tabs, setTabs] = useState([[m
+[32m+[m[32m    'Physics',[m
+[32m+[m[32m    'Chemistry',[m
+[32m+[m[32m    'Mathematics',[m
+[32m+[m[32m    'IIT JEE Syllabus',[m
+[32m+[m[32m    'Exam Strategy',[m
+[32m+[m[32m    'Preparation Tips',[m
+[32m+[m[32m    'Mock Tests',[m
+[32m+[m[32m    'Important Topics',[m
+[32m+[m[32m  ]);[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <>[m
+[32m+[m[32m      <header>[m
+[32m+[m[32m        <Header />[m
+[32m+[m[32m        <BreadCrumb pagename="IIT JEE Coaching" />[m
+[32m+[m[32m      </header>[m
+[32m+[m[32m      <div className="blog-details-area">[m
+[32m+[m[32m        <div style={{maxWidth:"1200px"}} className="container">[m
+[32m+[m[32m          <div className="row">[m
+[32m+[m[32m            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">[m
+[32m+[m[32m              <div className="blog-post-wrap blog-post-details">[m
+[32m+[m[32m                <h1>[m
+[32m+[m[32m                  IIT JEE Coaching for Engineering Aspirants[m
+[32m+[m[32m                </h1>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-person-fill"></i> by Zenith LMS[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-calendar3"></i> Updated March 2025[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <div className="details-post-img">[m
+[32m+[m[32m                  <img[m
+[32m+[m[32m                    className="w-100"[m
+[32m+[m[32m                    src="/assets/images/iit-jee-coaching/banner.jpg"[m
+[32m+[m[32m                    alt="IIT JEE Coaching for Engineering Aspirants"[m
+[32m+[m[32m                  />[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <p >[m
+[32m+[m[32m                    JEE Main 2025, organized by the National Testing Agency (NTA), is a computer-based online examination (CBT mode) that serves as an entrance to securing admission into esteemed engineering programs in India. This distinguished exam, marks the initial phase of the IIT Joint Entrance Examination, allowing the students to show their perseverance towards getting through this exam and begin their journey towards top engineering Institutes in India.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    For many aspiring students, it is a vision to secure a seat in one of the most esteemed Indian Institutes of Technology and this vision is the reason behind their preparation for JEE Mains. These Indian Institutes of technology are known for world-class education, excellent research opportunities, top-notch infrastructure and faculty, and the most important being outstanding placements. JEE Mains is the first level for those who wish to join the IITs and set their career on an upward path.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    The first step in your journey towards getting admission in an IIT is to be aware and adhere to the important dates of JEE Mains. These dates will will keep you notified from the release of application form till the announcement of your results. Keep an eye on the official JEE Main website and notifications from the National Testing Agency (NTA) for any updates or changes to these dates.[m[41m [m
+[32m+[m[32m                </p>[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                    One of the first things to do as a JEE 2025 aspirant is to keep a close watch on the important dates related to JEE Main 2025. Here’s a list of the most important JEE Main 2025 dates as per the schedule released by the NTA.[m
+[32m+[m[32m                </p>[m
+[32m+[m
+[32m+[m[32m                <table[m[41m [m
+[32m+[m[32m                    border="1"[m[41m [m
+[32m+[m[32m                    cellpadding="10"[m[41m [m
+[32m+[m[32m                    cellspacing="0"[m[41m [m
+[32m+[m[32m                    style={{ width: "100%", borderCollapse: "collapse" }}[m
+[32m+[m[32m                    >[m
+[32m+[m[32m                    <thead>[m
+[32m+[m[32m                        <tr>[m
+[32m+[m[32m                        <th>Events</th>[m
+[32m+[m[32m                        <th>Session 2 Dates</th>[m
+[32m+[m[32m                        </tr>[m
+[32m+[m[32m                    </thead>[m
+[32m+[m[32m                    <tbody>[m
+[32m+[m[32m                        <tr>[m
+[32m+[m[32m                        <td>Release date of JEE Mains admit card</td>[m
+[32m+[m[32m                        <td>March 28, 2025 (April 2, 3, 4)</td>[m
+[32m+[m[32m                        </tr>[m
+[32m+[m[32m                        <tr>[m
+[32m+[m[32m                        <td>JEE Mains 2025 exam date session 2</td>[m
+[32m+[m[32m                        <td>April 2, 3, 4, 7, 8, and 9, 2025</td>[m
+[32m+[m[32m                        </tr>[m
+[32m+[m[32m                        <tr>[m
+[32m+[m[32m                        <td>NTA JEE Answer key release date</td>[m
+[32m+[m[32m                        <td>Fourth week of April 2025</td>[m
+[32m+[m[32m                        </tr>[m
+[32m+[m[32m                        <tr>[m
+[32m+[m[32m                        <td>Last date to challenge provisional answer key</td>[m
+[32m+[m[32m                        <td>April 2025</td>[m
+[32m+[m[32m                        </tr>[m
+[32m+[m[32m                    </tbody>[m
+[32m+[m[32m                </table>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div className="blog-details-wrap">[m
+[32m+[m[32m                <div className="details-post-content">[m
+[32m+[m[32m                    <h1>JEE Main 2025 Reservation Criteria</h1>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    The JEE Main Reservation Criteria is designed in such a way that even the poorest child gets a fair opportunity. It considers various categories, including Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Economically Weaker Sections (EWS), and Persons with Disabilities (PwD), to provide equitable opportunities to aspirants.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m[32m                    <h3>Reservation Criteria for JEE Main 2025</h3>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                    <li><strong>OBCs:</strong> 27%</li>[m
+[32m+[m[32m                    <li><strong>SC:</strong> 15%</li>[m
+[32m+[m[32m                    <li><strong>ST:</strong> 7.5%</li>[m
+[32m+[m[32m                    <li><strong>Persons with Disabilities (PwD):</strong> 5% of all seats in all colleges are reserved according to the Rights of Persons with Disabilities Act, 2016.</li>[m
+[32m+[m[32m                    <li><strong>State Quotas in Telangana:</strong> Three different state quotas including Home State Quota, Andhra Pradesh State Quota, and Other State Quota.</li>[m
+[32m+[m[32m                    <li><strong>Female Candidates:</strong> 5% of total seats are reserved for female candidates in all institutes participating in the JEE Main seat allocation process.</li>[m
+[32m+[m[32m                    <li><strong>NITs Quotas:</strong> 50% of seats in NITs are under Home State Quota and the other 50% fall under the Other State Quota.</li>[m
+[32m+[m[32m                    <li><strong>Vacant Home State Quota Seats:</strong> If any Home State Quota seats are left vacant, they are converted to All India Seats for the same category.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Exam Pattern</h1>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    Understanding the JEE Main exam pattern plays a critical role in the preparation of the JEE Main examination. The exam pattern covers details such as the number of questions, marking scheme, subject-wise distribution, and examination mode. With good knowledge of the syllabus and the exam pattern, you can prepare your strategy according to your needs.[m
+[32m+[m[32m                    </p>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    The JEE Main exam pattern has remained consistent with a few updates here and there over the years. The JEE Main 2025 exam pattern was released by the NTA on the official website. Candidates can refer to the exam pattern as provided below:[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m[32m                    <h3>JEE Main 2025 Paper 1 Exam Pattern</h3>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                    <li><strong>Sections:</strong> Paper 1 comprises three sections, namely Physics, Chemistry, and Mathematics. Each section is vital, contributing equally to your final score.</li>[m
+[32m+[m[32m                    <li><strong>Question Type:</strong> The paper consists of Multiple Choice Questions (MCQs), wherein you choose the correct answer from the provided options. Additionally, there are Numerical Value-based Questions where you need to enter a numerical answer with precision.</li>[m
+[32m+[m[32m                    <li><strong>Total Questions:</strong> You'll face a total of 90 questions, with 30 questions in each subject – Physics, Chemistry, and Mathematics.</li>[m
+[32m+[m[32m                    <li><strong>Marking Scheme:</strong> For MCQs, you earn 4 marks for a correct answer and lose 1 mark for each incorrect response. For Numerical Value-based Questions, there is no negative marking.</li>[m
+[32m+[m[32m                    <li><strong>Duration:</strong> The examination spans 3 hours, offering ample time to answer all questions with composure.</li>[m
+[32m+[m[32m                    <li><strong>Language:</strong> You can choose to attempt the paper in English, Hindi, or other regional languages, based on your preference.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Paper II & III Exam Pattern</h1>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    JEE Main offers more than engineering examinations. It offers courses like Bachelors in Architecture (BArch) and Bachelors in Planning (BPlan). These papers are specially designed for aspiring architects and planners, having a unique exam pattern.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m[32m                    <h3>Paper II Exam Pattern</h3>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    Paper II is a three-hour examination, combining Mathematics, Aptitude, and Drawing Test sections. It is designed to assess your mathematical prowess, aesthetic aptitude, and drawing abilities, all of which are crucial for a successful career in architecture.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m[32m                    <h3>Paper III Exam Pattern</h3>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    Paper III is also a three-hour examination, covering Mathematics, Aptitude, and Planning-based Questions. It gauges your mathematical proficiency, aptitude for planning, and problem-solving abilities, preparing you for a career in urban and regional planning.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Mains 2025 Eligibility Criteria</h1>[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    As a JEE Mains 2025 aspirant, the first thing that you need to make sure of is that you fulfill the eligibility criteria of the examination. The eligibility criteria include academic qualifications, nationality, age, etc. There are also many relaxations available for certain categories, so you should check if you fall under those categories as well.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m[32m                    <p>[m
+[32m+[m[32m                    Aspirants should meet specific academic and age-related prerequisites, with slight variations based on their chosen courses – B.E./B.Tech, B.Arch, or B.Planning. These criteria are formulated to ensure that every candidate possesses the knowledge and skills required to excel in this examination. It's vital to grasp these criteria to confirm your eligibility and take that crucial first step toward a future brimming with academic excellence and endless possibilities.[m
+[32m+[m[32m                    </p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Eligibility Criteria</h1>[m
+[32m+[m[32m                    <p>Here is an overview of the main eligibility criteria for appearing in JEE Main 2025:</p>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li>Candidates must have qualified Class 12 board exams in the year 2022, 2023, or appearing in 2024 will be eligible to apply for JEE Main exam 2025.</li>[m
+[32m+[m[32m                        <li>Should be in the final year of the examination of 10+2.</li>[m
+[32m+[m[32m                        <li>Candidate in intermediate or two-year Pre-University examination conducted by a recognized Board/University.</li>[m
+[32m+[m[32m                        <li>The Joint Service Wing of the National Defence Academy is eligible provided they have a two-year course.</li>[m
+[32m+[m[32m                        <li>Passed 10+2 conducted by the National Institute of Open Schooling with a minimum of five subjects.</li>[m
+[32m+[m[32m                        <li>A 3-year diploma holder will also be eligible for JEE Main.</li>[m
+[32m+[m[32m                        <li>Students from the National Institute of Open Schooling (NIOS) appearing for 10+2 should select the State for eligibility.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <p><strong>JEE Main Nationality Criteria :</strong></p>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li>The candidate should be a citizen of India.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <p><strong>JEE Main Age Criteria :</strong></p>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li>There is no limit on the upper age for appearing in JEE Main 2025.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Application Form</h1>[m
+[32m+[m[32m                    <p>The students interested in filling the JEE Main 2025 application form can visit the official website of NTA - <a href="https://www.nta.ac.in" target="_blank">https://www.nta.ac.in</a>. The candidates need to fill the form and apply through online mode for JEE Main 2025 Exam. There is no provision for offline submission of the JEE Main application form. You will be able to see an ‘Apply Online’ link on the official website which will lead you to the application form. Fill it and submit the fee.</p>[m
+[32m+[m
+[32m+[m[32m                    <p>Completing the JEE Main application form requires providing accurate personal and academic details, selecting the preferred examination mode and centers, and uploading essential documents. However, before filling out the JEE Main Application Form, it is vital to familiarize yourself with the eligibility criteria, required documents, and application deadlines. Ensuring that all information is precise and up to date is of utmost importance, as any discrepancies could affect your candidature.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Step-By-Step Process to Fill JEE Main Online Application Form</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>Visit the official website - <a href="https://jeemain.nta.nic.in" target="_blank">jeemain.nta.nic.in</a> - for applying for the JEE Main.</li>[m
+[32m+[m[32m                        <li>Click on ‘Apply Online’.</li>[m
+[32m+[m[32m                        <li>An application form page will open up.</li>[m
+[32m+[m[32m                        <li>Fill up this application form.</li>[m
+[32m+[m[32m                        <li>When prompted, select New Registration. You may be asked some basic details such as your name, phone number, email address, date of birth, category, nationality, academic details, and your exam centre preference.</li>[m
+[32m+[m[32m                        <li>Once registered, you will be asked to upload a scanned copy of your documents in a specific format and size. Make sure you stick to the document specifications to avoid rejection of your application.</li>[m
+[32m+[m[32m                        <li>Pay the application fee through online or offline mode.</li>[m
+[32m+[m[32m                        <li>Check all the information you have entered in the application form. You may not be able to change some of these details later.</li>[m
+[32m+[m[32m                        <li>Submit your application form.</li>[m
+[32m+[m[32m                        <li>Once submitted, you will see a confirmation page. Take a print of this page for reference purposes.</li>[m
+[32m+[m[32m                        <li>Upon the completion of this process, you will receive a provisional registration number on your registered mobile number and email address.</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 List of Documents Required for Application Form</h1>[m
+[32m+[m[32m                    <p>It is essential to have all the documents at your reach, to ensure smooth and hassle-free process of the application form. Here is a comprehensive list of documents you'll need when filling out the JEE Main application form:</p>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>Age Proof: Birth certificate</li>[m
+[32m+[m[32m                        <li>Class 12 mark sheet with 75% or above aggregate marks</li>[m
+[32m+[m[32m                        <li>Identity proof</li>[m
+[32m+[m[32m                        <li>Citizenship certificate</li>[m
+[32m+[m[32m                        <li>Passport size photograph</li>[m
+[32m+[m[32m                        <li>Candidate’s signature</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <p>These documents serve as proof that all the information you have provided is accurate. It's essential to verify the specific document requirements in the JEE Main Information Bulletin for the year of your examination, as they may be subject to updates and changes. There is a very specific format you need to follow while uploading these documents. Make sure you follow the instructions so that your application is not rejected.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Application Fee Mode of Payment</h1>[m
+[32m+[m[32m                    <p>Paying the JEE Main 2025 Application Fee is an important step in the application process. It is essential to understand the modes of payment available and follow the guidelines. You can pay the fee for the JEE Main application form either through offline mode or online mode. The modes are mentioned below:</p>[m
+[32m+[m
+[32m+[m[32m                    <table border="1" cellPadding="10" cellSpacing="0" style={{width: "100%", borderCollapse: "collapse"}}>[m
+[32m+[m[32m                        <thead>[m
+[32m+[m[32m                            <tr>[m
+[32m+[m[32m                                <th>Online Payment Methods</th>[m
+[32m+[m[32m                                <th>Description</th>[m
+[32m+[m[32m                            </tr>[m
+[32m+[m[32m                        </thead>[m
+[32m+[m[32m                        <tbody>[m
+[32m+[m[32m                            <tr>[m
+[32m+[m[32m                                <td>Credit/Debit Cards</td>[m
+[32m+[m[32m                                <td>You can use various credit or debit cards (except Master/Visa card) to pay the fee.</td>[m
+[32m+[m[32m                            </tr>[m
+[32m+[m[32m                            <tr>[m
+[32m+[m[32m                                <td>Net Banking</td>[m
+[32m+[m[32m                                <td>You can pay through the net banking facility of your bank.</td>[m
+[32m+[m[32m                            </tr>[m
+[32m+[m[32m                            <tr>[m
+[32m+[m[32m                                <td>UPI</td>[m
+[32m+[m[32m                                <td>You can use UPI (Unified Payments Interface) for a quick and convenient payment.</td>[m
+[32m+[m[32m                            </tr>[m
+[32m+[m[32m                            <tr>[m
+[32m+[m[32m                                <td>Paytm</td>[m
+[32m+[m[32m                                <td>You can also use Paytm services for making payments.</td>[m
+[32m+[m[32m                            </tr>[m
+[32m+[m[32m                        </tbody>[m
+[32m+[m[32m                    </table>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Application Form Correction</h1>[m
+[32m+[m[32m                    <p>It is important to note that once you have submitted your JEE Main application form, you cannot edit some details. This is why candidates are advised to go through the details they enter in the application form very carefully.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Syllabus</h1>[m
+[32m+[m[32m                    <p>The syllabus for JEE Main 2025 includes important topics of Physics, Chemistry, and Mathematics of NCERT Class 11 and 12. JEE Main syllabus 2025 will be made public by the National Testing Agency (NTA) in November 2025. Meanwhile, students can check last year's syllabus to prepare for the upcoming JEE Main exam.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>High-weightage JEE Main Physics Topics</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li><b>Laws of Motion</b> - Under this unit, important topics to keep in mind are Force and Inertia, Newton’s First Law of Motion; Momentum, Newton’s Second Law of Motion; and Impulse, Newton’s Third Law of Motion. The weightage of these topics is 4%.</li>[m
+[32m+[m[32m                        <li><b>Gravitation</b> - The universal law of gravitation. Acceleration due to gravity and its variation with altitude and depth. The topic has a weightage of 2%.</li>[m
+[32m+[m[32m                        <li><b>Properties of Solids and Liquids</b> - Elastic behaviour, Stress-strain relationship, Hooke’s Law, Young’s Modulus, Modulus of rigidity.</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>High-weightage JEE Main Chemistry Topics</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li><b>States of Matter</b> - Classification of matter into solid, Liquid, and Gaseous states.</li>[m
+[32m+[m[32m                        <li><b>Atomic Structure</b> - Thomson and Rutherford atomic models and their limitations; Nature of electromagnetic radiation, Photoelectric effect; Spectrum of the hydrogen atom.</li>[m
+[32m+[m[32m                        <li><b>Equilibrium</b> - Equilibrium involving chemical processes, Ionic equilibrium, Equilibria involving physical processes.</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>High-weightage JEE Main Mathematics Topics</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li><b>Sets, Relations and Functions</b> - Sets and their representation: Union, intersection and complement of sets and their algebraic properties; Power set; Relation, Type of relations, equivalence relations, functions; one-one, into and onto functions, the composition of functions.</li>[m
+[32m+[m[32m                        <li><b>Matrices and Determinants</b> - Matrices, algebra of matrices, type of matrices, determinants and matrices of order two and three, properties of determinants, evaluation of determinants.</li>[m
+[32m+[m[32m                        <li><b>Mathematical Inductions</b> - Principle of Mathematical Induction and its simple applications.</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Recommended Reference Books</h1>[m
+[32m+[m[32m                    <p>JEE Main, a highly competitive exam, not only requires commitment and consistency but also the right resources to succeed in this exam. As there are many study materials available in the market, it is very crucial to select the correct material. We have created a list of recommended reference books to help you navigate the vast sea of knowledge and achieve your academic goals:</p>[m
+[32m+[m[32m                    <p>The NCERT books are the best source of preparation for JEE Main 2025 Syllabus. Most of the questions asked in JEE Main are from NCERT books. Use other books for reference to understand concepts and to practice more. Here are some books that experts recommend you should follow to crack JEE Main 2025:</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>Best Reference Books for JEE Main 2025 Physics Preparation</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>NCERT Books - Class 11 and 12</li>[m
+[32m+[m[32m                        <li>H.C. Verma – Concepts of Physics Vol I and II</li>[m
+[32m+[m[32m                        <li>I.E. Irodov – Problems in General Physics</li>[m
+[32m+[m[32m                        <li>Halliday, Resnick, and Walker – Fundamentals of Physics</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>Best Reference Books for JEE Main 2025 Chemistry Preparation</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>NCERT Books – Class 11 and Class 12</li>[m
+[32m+[m[32m                        <li>Numerical Chemistry by P. Bahadur</li>[m
+[32m+[m[32m                        <li>Organic Chemistry - J.D. Lee</li>[m
+[32m+[m[32m                        <li>Inorganic Chemistry - Morrison and Boyd</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <h1>Best Reference Books for JEE Main 2025 Maths Preparation</h1>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>NCERT Books - Class 11 and 12</li>[m
+[32m+[m[32m                        <li>S. L. Loney – Trigonometry</li>[m
+[32m+[m[32m                        <li>S. L. Loney – Coordinate Geometry</li>[m
+[32m+[m[32m                        <li>Hall and Knight – Higher Algebra</li>[m
+[32m+[m[32m                        <li>I.A. Maron – Problems in Calculus of One Variable</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <p>These recommended reference books have been widely acknowledged by JEE Main toppers and educators as valuable resources. However, understanding the JEE Main syllabus and exam pattern is equally essential, and then preparing a strategy according to your strengths, weaknesses, and dedication will be the key to excel in this exam.</p>[m
+[32m+[m
+[32m+[m[32m                    <p>Always ensure that you stay up-to-date with the latest editions of these reference books and any additional study materials that may be introduced.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Admit Card</h1>[m
+[32m+[m[32m                    <p>JEE Main admit cards will be released by the authorities anytime soon. Candidates can visit the official website - <a href="https://jeemain.nta.nic.in" target="_blank">jeemain.nta.nic.in</a> to download the hall tickets. Candidates are first issued a provisional JEE Main admit card. It will only be considered valid if all the eligibility criteria are met. Some of the important details that will be mentioned on the admit card are:</p>[m
+[32m+[m[32m                    <ol>[m
+[32m+[m[32m                        <li>Candidate’s name</li>[m
+[32m+[m[32m                        <li>Father’s name</li>[m
+[32m+[m[32m                        <li>Roll number</li>[m
+[32m+[m[32m                        <li>Category</li>[m
+[32m+[m[32m                        <li>Date of examination</li>[m
+[32m+[m[32m                        <li>Exam Centre venue</li>[m
+[32m+[m[32m                        <li>Reporting time</li>[m
+[32m+[m[32m                        <li>Exam Duration</li>[m
+[32m+[m[32m                        <li>Photograph</li>[m
+[32m+[m[32m                    </ol>[m
+[32m+[m
+[32m+[m[32m                    <p>As soon as you download JEE Main admit cards, you should make sure that all these details are correct. In case of any discrepancy, you should contact JEE Main’s helpline immediately.</p>[m
+[32m+[m
+[32m+[m[32m                    <p>On the day of the exam, you need to present your JEE Main admit card to the exam coordinators and invigilators, failing which you will not be allowed to appear in the exam. You should keep the admit card safe even after the exam, as you will need to carry it to the counselling rounds as well. Experts suggest that you should keep your admit card safe until you finally get admission to an institute.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>Important Points to Note Regarding JEE Main Admit Cards:</h1>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li>You can download admit cards online mode only.</li>[m
+[32m+[m[32m                        <li>NTA does not issue duplicate admit cards at the exam centre.</li>[m
+[32m+[m[32m                        <li>Pay attention to the guidelines to affix a postcard size photograph on the admit card.</li>[m
+[32m+[m[32m                        <li>In case of any discrepancy, you can contact the official authorities at NTA.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m[32m                    <p>As there are multiple security checks involved on the day of the exam, be sure to reach the venue well ahead of the entry time. Also, note that only candidates with valid admit cards are allowed to enter the examination center.</p>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 Best Preparation Tips</h1>[m
+[32m+[m[32m                    <p>To effectively prepare for the JEE Main 2025 Exam, students can follow these comprehensive tips:</p>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li>● Make a strategy specifically designed for you according to your strengths and weaknesses.</li>[m
+[32m+[m[32m                        <li>● Get accustomed with the previous year questions to understand the structure and type of questions.</li>[m
+[32m+[m[32m                        <li>● Keep the subjects in hierarchy of importance and focus needed by you and make detailed notes on important topics.</li>[m
+[32m+[m[32m                        <li>● Concentrate on strengthening your fundamentals in Physics, Chemistry, and Mathematics, this will help in building a strong foundation.</li>[m
+[32m+[m[32m                        <li>● To enhance your understanding, practice, solve problems from the NCERT textbooks and also practice additional questions.</li>[m
+[32m+[m[32m                        <li>● Practice mock tests, assess your performance, identify your mistakes and try correcting them to achieve accuracy.</li>[m
+[32m+[m[32m                        <li>● To stay motivated, keep your goals in mind and minimize distractions like mobile phones.</li>[m
+[32m+[m[32m                        <li>● Refer to the books recommended for preparation.</li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m[32m                    <h1>JEE Main 2025 FAQs</h1>[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                        <li><strong>Q1. What is the full form of JEE Main?</strong>[m
+[32m+[m[32m                            <p>Ans. JEE Main full form is the Joint Entrance Examination (Main). It's a highly competitive engineering entrance exam conducted for admission in BE/BTech/BArch/BPlan courses offered by various public and private engineering colleges across India.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q2. What is the purpose of JEE Main?</strong>[m
+[32m+[m[32m                            <p>Ans. Presently, JEE Mains serves as a single highly competitive engineering entrance examination to get admission into any engineering or architecture college in India.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q3. What is the updated date of the JEE Main 2025 exam?</strong>[m
+[32m+[m[32m                            <p>Ans. The exact dates for JEE Main 2025 have been mentioned above for both the sessions. The entire schedule will be released soon and will be provided above on the page.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q4. How do I find my JEE Main 2025 exam city details?</strong>[m
+[32m+[m[32m                            <p>Ans. NTA released the JEE (Main) 2025 Exam City Intimation Slip on the official website - jeemain.nta.nic.in. Candidates can log in to the NTA website and download the intimation slip to find out details of their exam city and centre.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q5. Which colleges accept JEE Main scores?</strong>[m
+[32m+[m[32m                            <p>Ans. Engineering colleges that accept JEE Main scores for the purpose of admission are NITs, IIITs, GFTIs as well as some state engineering colleges and private colleges.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q6. What is the difference between JEE Main and JEE Advanced?</strong>[m
+[32m+[m[32m                            <p>Ans. You need to qualify for JEE Main to get admission into any engineering or architecture college in India. JEE Advanced is required to get admission into an IIT.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q7. What are the general eligibility requirements for JEE Main 2025?</strong>[m
+[32m+[m[32m                            <p>Ans. The general eligibility criteria include a minimum 10+2 qualification or its equivalent with specific subjects, as well as an age limit.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q8. Can candidates with a gap year in their academic studies apply for JEE Main?</strong>[m
+[32m+[m[32m                            <p>Ans. Yes, candidates with gap years are eligible for JEE Main. There's no specific restriction regarding gap years.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q9. What is the procedure for filling out the JEE Main application form?</strong>[m
+[32m+[m[32m                            <p>Ans. The application process involves registration, filling the form, document upload, and fee payment. Follow the step-by-step guide on the official website.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q10. How do I choose the preferred mode of payment for the application fee?</strong>[m
+[32m+[m[32m                            <p>Ans. You can pay the application fee online via debit/credit card, net banking, or through an e-challan at designated banks.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q11. Is there a deadline for submitting the JEE Main application form, and are there any late fees for applications?</strong>[m
+[32m+[m[32m                            <p>Ans. Yes, there is a deadline for application submission. Late fees are charged for applications submitted after the regular deadline. Check the official notification for specific dates and late fee details.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q12. What is the exam pattern for JEE Main 2025 Paper 1?</strong>[m
+[32m+[m[32m                            <p>Ans. Paper 1 includes Physics, Chemistry, and Mathematics, with a mix of MCQs and Numerical Value-based Questions.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q13. How does the exam pattern for Paper 2 (B.Arch) differ from Paper 1 (B.E./B.Tech)?</strong>[m
+[32m+[m[32m                            <p>Ans. Paper 2 focuses on Mathematics, Aptitude, and a Drawing Test, while Paper 1 covers Physics, Chemistry, and Mathematics.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q14. Can you explain the exam pattern for Paper 3 (B.Planning)?</strong>[m
+[32m+[m[32m                            <p>Ans. Paper 3 includes Mathematics, Aptitude, and Planning-based Questions. It's specific to candidates interested in planning programs.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q15. What are the best reference books for JEE Main Physics preparation?</strong>[m
+[32m+[m[32m                            <p>Ans. Some recommended books include H.C. Verma's "Concepts of Physics" and "Fundamentals of Physics" by Halliday, Resnick, and Walker.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q16. Can you recommend some high-quality reference books for JEE Main Chemistry?</strong>[m
+[32m+[m[32m                            <p>Ans. "Physical Chemistry" by O.P. Tandon and "Organic Chemistry" by Morrison and Boyd are excellent choices.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q17. What are the most recommended reference books for JEE Main Mathematics?</strong>[m
+[32m+[m[32m                            <p>Ans. Books like R.D. Sharma's "Mathematics" and "Higher Algebra" by Hall and Knight are highly regarded.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q18. How can analyzing previous year question papers benefit JEE Main aspirants?</strong>[m
+[32m+[m[32m                            <p>Ans. It helps in understanding the areas of focus, question patterns, time management, and most importantly adds to the practice.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q19. Where can I find subject-wise analyses of previous year JEE Main question papers with solutions?</strong>[m
+[32m+[m[32m                            <p>Ans. You can find these analyses on various educational websites, coaching centers, or by referring to official JEE Main websites.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                        <li><strong>Q20. Are there any key takeaways from previous year papers that can help in my JEE Main preparation?</strong>[m
+[32m+[m[32m                            <p>Ans. Previous papers can provide insights into the distribution of topics, difficulty levels, and the type of questions asked, allowing you to tailor your study strategy effectively.</p>[m
+[32m+[m[32m                        </li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                </div>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <div[m
+[32m+[m[32m                    style={{[m
+[32m+[m[32m                      width: "50vw",[m
+[32m+[m[32m                      height: "600px",[m
+[32m+[m[32m                      margin: "5px 0",[m
+[32m+[m[32m                      border: "1px solid #e5e7eb",[m
+[32m+[m[32m                      borderRadius: "8px",[m
+[32m+[m[32m                      overflow: "hidden",[m
+[32m+[m[32m                    }}[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <iframe[m
+[32m+[m[32m                      src="https://app.vignamlabs.com/openSimulation/SIM-07a7caa9-8648-4dcd-8eb7-8af78b03b32e?def_token=INST-5ccefcb8-1294-4adc-9975-a18b3c0b7c8d"[m
+[32m+[m[32m                      width="100%"[m
+[32m+[m[32m                      height="100%"[m
+[32m+[m[32m                      frameBorder="0"[m
+[32m+[m[32m                      id="iframe"[m
+[32m+[m[32m                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"[m
+[32m+[m[32m                      allowFullScreen[m
+[32m+[m[32m                      title="Vignam Labs Simulation"[m
+[32m+[m[32m                      onError={(e) => {[m
+[32m+[m[32m                        e.target.style.display = "none";[m
+[32m+[m[32m                        e.target.parentElement.innerHTML =[m
+[32m+[m[32m                          "Failed to load simulation. Please check your internet connection or try again later.";[m
+[32m+[m[32m                      }}[m
+[32m+[m[32m                    />[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+[32m+[m[41m                  [m
+[32m+[m[41m                [m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <div className="details-share d-flex align-items-center flex-wrap justify-content-between">[m
+[32m+[m[32m                  <ul className="details-share-info">[m
+[32m+[m[32m                    <li>Share :</li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-facebook"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-linkedin"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-instagram"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-twitter"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m[32m                  <ul className="details-share-like pt-2 pt-sm-0">[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxs-comment-detail"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxs-like"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>Like</li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <CommentBox />[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">[m
+[32m+[m[32m              <div className="cart-wrap">[m
+[32m+[m[32m                {/* Add additional content or sidebars if needed */}[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </>[m
+[32m+[m[32m  );[m
+[32m+[m[32m};[m
+[32m+[m
+[32m+[m[32mexport default IITJEE;[m
+[1mdiff --git a/pages/NEET.js b/pages/NEET.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c9f96a1[m
+[1m--- /dev/null[m
+[1m+++ b/pages/NEET.js[m
+[36m@@ -0,0 +1,472 @@[m
+[32m+[m[32m// import EducationHeader from '../components/layout/EducationHeader';[m[41m [m
+[32m+[m[32m// import NEET from '../components/Education/neet';[m
+[32m+[m[32m// import Footer from '../components/layout/footer';[m
+[32m+[m
+[32m+[m[32m// import BreadCrumb from '../components/header/breadcrumb';[m
+[32m+[m[32m// import Header from '../components/layout/header';[m
+[32m+[m[32m// import AllCounter from '../components/services/Allcounter';[m
+[32m+[m[32m// import ServicePricing from '../components/services/AllPricing';[m
+[32m+[m[32m// import AllServices from '../components/services/Allservices';[m
+[32m+[m[32m// import ServiceNewsletterRobotics from '../components/services/NewsletterRobotics';[m
+[32m+[m[32m// import SolutionArea from '../components/services/solutionsection';[m
+[32m+[m[32m// import TestimonialClient from '../components/services/TestimonialClient';[m
+[32m+[m
+[32m+[m[32m// import AboutFutured from '../components/about/AboutFutured';[m
+[32m+[m
+[32m+[m[32mimport Header from '../components/layout/header';[m
+[32m+[m[32mimport BreadCrumb from '../components/header/breadcrumb';[m
+[32m+[m[32m// import RecentPost from '../components/blog/RecentPosts';[m
+[32m+[m[32m// import RecentComments from '../components/blog/RecentComments';[m
+[32m+[m[32mimport { useState } from 'react';[m
+[32m+[m[32mimport { v4 as uuidv4 } from 'uuid';[m
+[32m+[m[32mimport CommentBox from '../components/blog/CommentBox';[m
+[32m+[m
+[32m+[m[32mconst NEET = () => {[m
+[32m+[m[32m  const [Tabs, setTabs] = useState([[m
+[32m+[m[32m    'Physics',[m
+[32m+[m[32m    'Chemistry',[m
+[32m+[m[32m    'Biology',[m
+[32m+[m[32m    'NEET Syllabus',[m
+[32m+[m[32m    'Exam Strategy',[m
+[32m+[m[32m    'Preparation Tips',[m
+[32m+[m[32m    'Mock Tests',[m
+[32m+[m[32m    'Important Topics',[m
+[32m+[m[32m  ]);[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <>[m
+[32m+[m[32m      <header>[m
+[32m+[m[32m        <Header />[m
+[32m+[m[32m        <BreadCrumb pagename="NEET Coaching" />[m
+[32m+[m[32m      </header>[m
+[32m+[m
+[32m+[m[32m      <div className="blog-details-area">[m
+[32m+[m[32m        <div className="container">[m
+[32m+[m[32m          <div className="row">[m
+[32m+[m[32m            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">[m
+[32m+[m[32m              <div className="blog-post-wrap blog-post-details">[m
+[32m+[m[32m                <h1>[m
+[32m+[m[32m                  <a href="blog-details.html">[m
+[32m+[m[32m                    NEET Coaching for Medical Aspirants[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </h1>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-person-fill"></i>{' '}[m
+[32m+[m[32m                    <a href="blog-details.html">by Zenith LMS</a>[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-calendar3"></i>{' '}[m
+[32m+[m[32m                    <a href="blog-details.html">Updated March 2025</a>[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <div className="details-post-img">[m
+[32m+[m[32m                  <img[m
+[32m+[m[32m                    className="w-100"[m
+[32m+[m[32m                    src="/assets/images/neet-coaching/banner.jpg"[m
+[32m+[m[32m                    alt="NEET Coaching for Medical Aspirants"[m
+[32m+[m[32m                  />[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <p>[m
+[32m+[m[32m                NEET is a national-level entrance examination in India for students seeking admission to undergraduate medical and dental courses (MBBS and BDS) in various government and private medical colleges across the country. The organizing body for NEET is National Testing Agency (NTA) which is instrumental in conducting NEET smoothly and fairly every year. The body is responsible for everything related to NEET, right from announcing dates to issuing admit cards and assessing the answer sheets.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div className="blog-details-wrap">[m
+[32m+[m[32m                <div className="details-post-content">[m
+[32m+[m[32m                  <h1 className="pb-2">NEET 2025 Exam Dates</h1>[m
+[32m+[m[32m                  <p>[m
+[32m+[m[32m                  The NEET aspirants eagerly wait for the exam dates.[m[41m [m
+[32m+[m[32m                  NEET is the gateway to their dreams of pursuing undergraduate medical[m
+[32m+[m[32m                   and dental courses.[m[41m [m
+[32m+[m[32m                   It is very important for them to keep a close eye in NEET 2025 dates.[m[41m [m
+[32m+[m[32m                   The exam dates as announced by the NTA determines a crucial time period[m[41m [m
+[32m+[m[32m                   for the entire preparation. The anticipation surrounding NEET exam dates[m
+[32m+[m[32m                    is a significant part of the journey, as it represents the culmination[m[41m [m
+[32m+[m[32m                    of months of hard work, dedication, and preparation for students aspiring[m
+[32m+[m[32m                     to secure admissions in prestigious medical and dental colleges across the[m[41m [m
+[32m+[m[32m                     country.[m
+[32m+[m[32m                   The NEET 2025 important dates will be updated in the table provided below:[m
+[32m+[m[41m                   [m
+[32m+[m[32m                  </p>[m
+[32m+[m[32m                  <ul>[m
+[32m+[m[32m                    <li><strong>Exam Date:</strong> May 4, 2025</li>[m
+[32m+[m[32m                    <li><strong>Registration Period:</strong> February 7 to March 7, 2025</li>[m
+[32m+[m[32m                    <li><strong>Exam Time:</strong> 2 PM to 5:20 PM</li>[m
+[32m+[m[32m                    <li><strong>Cities:</strong> Over 550 cities across India and abroad</li>[m
+[32m+[m[32m                    <li><strong>Syllabus:</strong> Physics, Chemistry, and Biology (NEET UG syllabus)</li>[m
+[32m+[m[32m                    <li><strong>Exam Pattern:</strong> 180 questions in 180 minutes (pre-COVID era pattern)</li>[m
+[32m+[m[32m                    <li><strong>Age Limit:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                        <li>Candidates should have completed 17 years by the time of admission</li>[m
+[32m+[m[32m                        <li>Or should complete 17 years before December 31st of the admission year</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">NEET 2025 Exam Pattern</h1>[m
+[32m+[m[32m                  <p>[m
+[32m+[m[32m                  The NEET 2025 exam pattern is an important aspect for all the[m
+[32m+[m[32m                 NEET aspirants. The NEET 2025 exam pattern typically includes[m
+[32m+[m[32m                  multiple-choice questions (MCQs) across three[m
+[32m+[m[32m                subjects: Physics, Chemistry, and Biology (Botany and Zoology).[m
+[32m+[m[32m                 Students are evaluated on their knowledge, understanding, and[m
+[32m+[m[32m                  application of these subjects. The exam usually comprises 180[m
+[32m+[m[32m                   questions, with 45 questions in each subject. Correct answers[m
+[32m+[m[32m                    earn marks, and incorrect answers may result in negative[m[41m [m
+[32m+[m[32m                    marking. Additionally, the NEET exam pattern may include[m[41m [m
+[32m+[m[32m                    specific sections to assess analytical skills, logical[m[41m [m
+[32m+[m[32m                    reasoning, and problem-solving. Understanding the exam[m[41m [m
+[32m+[m[32m                    pattern and practicing with mock tests is essential for[m
+[32m+[m[32m                     aspirants to excel and secure a seat in the medical or[m
+[32m+[m[32m                      dental college of their choice. You can find the NEET[m
+[32m+[m[32m                       exam pattern provided below for reference. If there[m[41m [m
+[32m+[m[32m                       are any latest updates and changes in the NEET 2025[m[41m [m
+[32m+[m[32m                       exam pattern here,[m[41m [m
+[32m+[m[32m                it will be updated here:[m[41m [m
+[32m+[m[32m                  </p>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><strong>• Exam Mode:</strong> The exam will be conducted in offline or pen-and-paper format (OMR-based).</li>[m
+[32m+[m[32m                    <li><strong>• Number of Questions:</strong> There will be a total of 180 questions, with 45 from Physics, 45 from Chemistry, and 90 from Biology (Botany and Zoology).</li>[m
+[32m+[m[32m                    <li><strong>• Question Type:</strong> All questions will be multiple-choice, objective-type.</li>[m
+[32m+[m[32m                    <li><strong>• Exam Duration:</strong> The exam duration will be 180 minutes (3 hours).</li>[m
+[32m+[m[32m                    <li><strong>• Marking Scheme:</strong> Each question carries 4 marks, and there is negative marking for incorrect answers.</li>[m
+[32m+[m[32m                    <li><strong>• Syllabus:</strong> The syllabus for NEET 2025 will be based on Class 11 and 12 Physics, Chemistry, and Biology.</li>[m
+[32m+[m[32m                    <li><strong>• Optional Section Removed:</strong> The optional section (Section B) introduced during the COVID pandemic, which allowed candidates to choose questions, has been discontinued, and the exam will revert to the pre-COVID format.</li>[m
+[32m+[m[32m                    <li><strong>• Exam Conducted in Single Shift:</strong> The exam will be conducted in a single shift on a single day.</li>[m
+[32m+[m[32m                    <li><strong>• Total Marks:</strong> The total marks for the exam are 720.</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">NEET 2025 Eligibility Criteria</h1>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><strong>Academic Qualifications:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Candidates should have passed or be scheduled to appear for the Class 12 Board exam or equivalent.</li>[m
+[32m+[m[32m                            <li>• The subjects must include <strong>Chemistry</strong>, <strong>Physics</strong>, <strong>Biology/Biotechnology</strong>, and <strong>English</strong>.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>Minimum Marks Requirement:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• <strong>General category candidates:</strong> Must secure a minimum of 50% aggregate marks.</li>[m
+[32m+[m[32m                            <li>• <strong>Reserved category candidates:</strong>[m
+[32m+[m[32m                                <ul>[m
+[32m+[m[32m                                    <li>• <strong>General-PWD:</strong> 45% aggregate marks.</li>[m
+[32m+[m[32m                                    <li>• <strong>SC, ST, OBC, Reserved PWD:</strong> 40% aggregate marks.</li>[m
+[32m+[m[32m                                </ul>[m
+[32m+[m[32m                            </li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>Age Criteria:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Candidates must have attained the age of 17 years at the time of admission or will attain it by <strong>December 31, 2025</strong>.</li>[m
+[32m+[m[32m                            <li>• The <strong>minimum date of birth</strong> should be <strong>December 31, 2008</strong>.</li>[m
+[32m+[m[32m                            <li>• <strong>No upper age limit</strong> for NEET 2025.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>Nationality:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• <strong>Indian nationals</strong> and <strong>Overseas Citizens of India (OCIs)</strong> are eligible.</li>[m
+[32m+[m[32m                            <li>• Those wishing to pursue <strong>MBBS/BDS</strong> from a <strong>foreign university</strong> must also qualify for NEET 2025.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025: Expected Changes in the Exam Pattern</h1>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><strong>Aadhar Card Requirement:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Candidates will not need to present their Aadhar card to fill out the NEET 2025 application form. They can use any valid ID proof.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>Languages for the Exam:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Students will be able to appear for the NEET 2025 exam in any of the two languages they prefer, in addition to the standard English language.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>BSc Nursing Admission:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• NEET 2025 scores will also be considered for admission to BSc Nursing courses.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>Eligibility of Students from Specific Institutions:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Students from State Open Schools, NIOS, or private institutions will not be considered eligible to sit for the NEET 2025 exam.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m
+[32m+[m[32m                    <li><strong>15% All India Quota Scheme:</strong>[m
+[32m+[m[32m                        <ul>[m
+[32m+[m[32m                            <li>• Telangana and Andhra Pradesh will also be a part of the 15% All India Quota scheme.</li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Application Fee</h1>[m
+[32m+[m
+[32m+[m[32m                <p>Here's the NEET fee structure based on last year's trends for different categories. The updated fee structure will be provided below in case there are any changes in the NEET 2025 fee amount. Besides this, GST and processing charges are levied on the application fee.</p>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><strong>General/NRI:</strong> ₹1,700</li>[m
+[32m+[m[32m                    <li><strong>General-EWS/OBC-NCL:</strong> ₹1,600</li>[m
+[32m+[m[32m                    <li><strong>SC/ST/PwD/Third Gender:</strong> ₹1,000</li>[m
+[32m+[m[32m                    <li><strong>NRI/OCI/PIO/Foreigners:</strong> ₹9,500</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Admit Card</h1>[m
+[32m+[m
+[32m+[m[32m                <p>As per the process, firstly provisional NEET 2025 admit card is released for the candidates only if the eligibility criteria are met. As per the latest update, the NEET 2025 Admit card will be released one or two weeks before the exam. Here are the details that are mentioned on the admit card:</p>[m
+[32m+[m
+[32m+[m[32m                <ol>[m
+[32m+[m[32m                    <li><strong>Candidate's name</strong></li>[m
+[32m+[m[32m                    <li><strong>Father's name</strong></li>[m
+[32m+[m[32m                    <li><strong>Roll number</strong></li>[m
+[32m+[m[32m                    <li><strong>Category</strong></li>[m
+[32m+[m[32m                    <li><strong>Date of examination</strong></li>[m
+[32m+[m[32m                    <li><strong>Exam centre venue</strong></li>[m
+[32m+[m[32m                    <li><strong>Reporting time</strong></li>[m
+[32m+[m[32m                    <li><strong>Exam Duration</strong></li>[m
+[32m+[m[32m                    <li><strong>Photograph</strong></li>[m
+[32m+[m[32m                </ol>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">How to Download NEET 2025 Admit Card?</h1>[m
+[32m+[m
+[32m+[m[32m                <p>The NEET 2025 admit card will be uploaded on the agency's official website a week before the examination. Candidates should follow the steps given below to download it:</p>[m
+[32m+[m
+[32m+[m[32m                <ol>[m
+[32m+[m[32m                    <li>Visit the NEET official website <a href="http://www.neet.nta.nic.in" target="_blank">www.neet.nta.nic.in</a>.</li>[m
+[32m+[m[32m                    <li>On the homepage, click on the latest news section.</li>[m
+[32m+[m[32m                    <li>Select the NEET 2025 admit card option.</li>[m
+[32m+[m[32m                    <li>A new page will open. Enter the required credentials.</li>[m
+[32m+[m[32m                    <li>Click on the submit option.</li>[m
+[32m+[m[32m                    <li>The NEET 2025 Admit card will appear on your screen.</li>[m
+[32m+[m[32m                    <li>Check it carefully for any discrepancies.</li>[m
+[32m+[m[32m                    <li>Download the admit card.</li>[m
+[32m+[m[32m                    <li>Take a printout.</li>[m
+[32m+[m[32m                </ol>[m
+[32m+[m
+[32m+[m[32m                <p>As soon as you download the NEET admit card, make sure that all these details are correct. In case of any discrepancy, you should contact the NEET helpline immediately.</p>[m
+[32m+[m
+[32m+[m[32m                <p>On the day of the exam, you need to present your NEET 2025 admit card to the exam coordinators and invigilators, failing which you will not be allowed to appear in the exam. You should keep the admit card safe even after the exam, as you will need to carry it to the counselling rounds as well. Experts suggest that you should keep your admit card safe until you finally get admission to an institute.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Counselling</h1>[m
+[32m+[m
+[32m+[m[32m                <p>NEET 2025 counselling is a crucial phase in the journey of aspiring medical and dental students in India. After the results of the National Eligibility cum Entrance Test (NEET) are declared, the counselling process begins, where successful candidates get the opportunity to secure admission to their preferred medical or dental colleges.</p>[m
+[32m+[m
+[32m+[m[32m                <p>Counselling for NEET 2025 will begin 1-2 months later than the result announcement. The admission process for NEET 2025 will be carried out in the following phases:</p>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><strong>National-level counselling</strong> for admission in MBBS and BDS Courses conducted by MCC.</li>[m
+[32m+[m[32m                    <li><strong>State Level counselling</strong> for admission in MBBS and BDS Courses conducted by various state government representatives.</li>[m
+[32m+[m[32m                    <li><strong>AYUSH counselling</strong> for admission in BAMS, BHMS, BUMS, and other AYUSH courses.</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Syllabus</h1>[m
+[32m+[m
+[32m+[m[32m                <p>The NEET syllabus is determined under the recommendations made by the National Medical Commission of India (NMC). The syllabi of different states are taken into review as well as the proposed curriculum by CBSE, NCERT, and COBSE before deciding on the final curriculum. This ensures fairness and impartiality when assessing candidates for admission into medical courses in India.</p>[m
+[32m+[m
+[32m+[m[32m                <p>The NTA has not specified the syllabus for NEET 2025 yet, but students preparing for NEET 2025 can refer to the NEET syllabus for 2024 as there are no major changes expected in the NEET syllabus.</p>[m
+[32m+[m
+[32m+[m[32m                <h1>NEET 2025 Preparation Books</h1>[m
+[32m+[m
+[32m+[m[32m                <p>Preparing for the National Eligibility cum Entrance Test (NEET) is a significant milestone for aspiring medical and dental students in India. Success in NEET requires a solid foundation in the right study materials. The NCERT books should be your number one source of preparation for NEET 2025 preparation. Most of the questions asked in NEET are from NCERT books. Use other books for reference to truly understand concepts and take your preparation to the next level.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Mock Tests</h1>[m
+[32m+[m
+[32m+[m[32m                <p>It is important to solve as many NEET 2025 Mock tests as possible, as it gives you an experience close to giving the NEET exams. The more you practice, the better you get at handling the exam pressure, managing your time, prioritizing the questions, and revising your answers.</p>[m
+[32m+[m
+[32m+[m[32m                <p>Mock tests will help you prepare for NEET 2025 rigorously. Go through as many mock tests, NEET previous year question papers, and sample papers as possible to leave no stone unturned in your exam preparation. This way, when you sit for the actual NEET 2025 exam, you will be confident and able to tap into your strengths to perform your best.</p>[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Results</h1>[m
+[32m+[m
+[32m+[m[32m                <p>The National Eligibility cum Entrance Test (NEET) is a highly competitive examination that paves the way for aspiring medical and dental students to secure seats in prestigious colleges across India. Once the exam is over, the answer scripts are evaluated by NTA officials based on standard protocols. To find out the result of NEET 2025, you will have to check out NEET's official website.</p>[m
+[32m+[m
+[32m+[m[32m                <p>After the results, a NEET merit list is created based on these results in accordance with guidelines from the Ministry of Health and Welfare and the Ministry of AYUSH, the Admission Central Counselling Committee, and DGHS.</p>[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Participating Institutions, Reservation, and Seats Availability</h1>[m
+[32m+[m
+[32m+[m[32m                <p>Once the NEET results are declared, every candidate is given an All India Rank (AIR). The counselling process then begins, in which medical and dental undergraduate seats are allotted to candidates based on merit and their choice. The Medical Council of India conducts NEET counselling for 15% of central institutes, state seats, and deemed universities. Respective state medical boards do the counselling for the rest 85% of the seats. In addition, each state prepares its merit list based on NEET-UG results itself.</p>[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Cut-off</h1>[m
+[32m+[m
+[32m+[m[32m                <p>To qualify for NEET 2025, you need to achieve a minimum score, also known as the cut-off score. This score is specified by the NTA and announced on the official NEET website. The NEET 2025 results are typically published on the official NEET website, and candidates can access them by entering their roll number and other required details. Keep a close eye on the official NEET website and stay updated on the announcement of the result date. The NEET 2025 cut-off scores will be released alongside the NEET 2025 results. Cut-offs differ from category to category. The merit list for counselling and admission procedure is based on this score.</p>[m
+[32m+[m
+[32m+[m[32m                <p>The NEET 2025 results are typically published on the official NEET website, and candidates can access them by entering their roll number and other required details. Keep a close eye on the official NEET website and stay updated on the announcement of the result date.</p>[m
+[32m+[m
+[32m+[m[32m                <p>Two main factors decide the NEET cut-off score for a particular year:</p>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li>Number of candidates appearing for the exam</li>[m
+[32m+[m[32m                    <li>The difficulty level of the exam</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 Answer Key</h1>[m
+[32m+[m
+[32m+[m[32m                <p>Not all sets of NEET 2025 question papers are expected to be the same. NEET question papers are coded, and once the exam is over, the NTA releases the answer key to all the sets of question papers. NEET Answer Keys are usually released around one week after the exam. The OMR response sheets of all the candidates who appeared in the exam are also uploaded so that there is transparency in the evaluation process. If you find any discrepancy when you verify your responses against the NEET answer key by NTA, you can challenge it for a fee of Rs. 1000 per challenge. You get a few days to file your challenges.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <h1 className="pb-2">NEET 2025 FAQs</h1>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q1: What is the full form of NEET?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> The full form of the NEET examination is the 'National Eligibility Cum Entrance Test'. It's a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q2: Do I need to appear for NEET for admission to the MBBS course in AIIMS Delhi?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> Yes, candidates must appear for the NEET examination and qualify on the merit list to pursue MBBS from AIIMS Delhi.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q3: Will the NEET Exam be conducted twice in 2025?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> No. The NEET 2025 exam will be conducted once. The application form will be made live on the official NEET website once the NTA announces the NEET 2025 schedule.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q4: Are there any changes in the NEET 2025 exam pattern?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> As of now, there are no changes in the exam pattern for NEET 2025. You can refer to the NEET exam pattern provided on this page and also the NEET official website.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q5: Can a 12th pass-out candidate appear directly in the NEET examination?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> Yes, you can appear for NEET if you have just passed out of class 12. You can even sit for the exam if you are appearing for your 10+2 exam that year. The only thing to note here is that your level of preparation at this stage may not be at par with what it takes to qualify for NEET. However, it is still a good idea to appear for the exam to experience what it is like.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q6: How can I qualify for NEET 2025?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> To qualify for NEET 2025, you need to achieve a minimum score, also known as the cut-off score. This score is specified by the NTA and announced on the official NEET website.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q7: Which authority conducts the NEET exam?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> The National Testing Agency (NTA) is the organising body for NEET and it is instrumental in conducting NEET smoothly and fairly every year.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q8: What is the fee structure for NEET 2025 for the general category?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> The NEET 2025 exam fee for the general category is expected to be Rs 1700/- (based on last year), which can be submitted after filling the application form.</p>[m
+[32m+[m
+[32m+[m[32m                <p><strong>Q9: Can a student outside India sit for NEET 2025?</strong></p>[m
+[32m+[m[32m                <p><strong>Answer:</strong> Yes. Students outside India can also sit for NEET 2025. The fee for such candidates is expected to be Rs 9500/- like the last year.</p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <div[m
+[32m+[m[32m                    style={{[m
+[32m+[m[32m                      width: "50vw",[m
+[32m+[m[32m                      height: "600px",[m
+[32m+[m[32m                      margin: "5px 0",[m
+[32m+[m[32m                      border: "1px solid #e5e7eb",[m
+[32m+[m[32m                      borderRadius: "8px",[m
+[32m+[m[32m                      overflow: "hidden",[m
+[32m+[m[32m                    }}[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <iframe[m
+[32m+[m[32m                      src="https://app.vignamlabs.com/openSimulation/SIM-b3f74d6b-4e81-4b56-bf4e-3b49c6e2b1f1?def_token=INST-5ccefcb8-1294-4adc-9975-a18b3c0b7c8d"[m
+[32m+[m[32m                      width="100%"[m
+[32m+[m[32m                      height="100%"[m
+[32m+[m[32m                      frameBorder="0"[m
+[32m+[m[32m                      id="iframe"[m
+[32m+[m[32m                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"[m
+[32m+[m[32m                      allowFullScreen[m
+[32m+[m[32m                      title="Vignam Labs Simulation"[m
+[32m+[m[32m                      onError={(e) => {[m
+[32m+[m[32m                        e.target.style.display = "none";[m
+[32m+[m[32m                        e.target.parentElement.innerHTML =[m
+[32m+[m[32m                          "Failed to load simulation. Please check your internet connection or try again later.";[m
+[32m+[m[32m                      }}[m
+[32m+[m[32m                    />[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+[32m+[m[41m                  [m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div className="details-share d-flex align-items-center flex-wrap justify-content-between">[m
+[32m+[m[32m                  <ul className="details-share-info">[m
+[32m+[m[32m                    <li>Share :</li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-facebook"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-linkedin"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-instagram"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxl-twitter"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m[32m                  <ul className="details-share-like pt-2 pt-sm-0">[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxs-comment-detail"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <a href="#">[m
+[32m+[m[32m                        <i className="bx bxs-like"></i>[m
+[32m+[m[32m                      </a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>Like</li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m
+[32m+[m[32m              <CommentBox />[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">[m
+[32m+[m[32m              <div className="cart-wrap">[m
+[32m+[m[32m                {/* <div className="single-cart search-cart">[m
+[32m+[m[32m                  <form action="#" className="cart-form">[m
+[32m+[m[32m                    <a href="#">[m
+[32m+[m[32m                      <i className="bi bi-search"></i>[m
+[32m+[m[32m                    </a>[m
+[32m+[m[32m                    <input type="text" placeholder="Search here..." />[m
+[32m+[m[32m                  </form>[m
+[32m+[m[32m                </div>[m
+[32m+[m
+[32m+[m[32m                <RecentPost />[m
+[32m+[m
+[32m+[m[32m                <RecentComments />[m
+[32m+[m
+[32m+[m[32m                <div className="single-cart">[m
+[32m+[m[32m                  <div className="cart-title">[m
+[32m+[m[32m                    <h2>Keywords</h2>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                  <div className="keywords-tag">[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                      {Tabs.map((tab) => {[m
+[32m+[m[32m                        return ([m
+[32m+[m[32m                          <li key={uuidv4()}>[m
+[32m+[m[32m                            <a href="#">{tab}</a>[m
+[32m+[m[32m                          </li>[m
+[32m+[m[32m                        );[m
+[32m+[m[32m                      })}[m
+[32m+[m[32m                    </ul>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                </div> */}[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </>[m
+[32m+[m[32m  );[m
+[32m+[m[32m};[m
+[32m+[m
+[32m+[m[32mexport default NEET;[m
+[1mdiff --git a/pages/foundation.js b/pages/foundation.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7884200[m
+[1m--- /dev/null[m
+[1m+++ b/pages/foundation.js[m
+[36m@@ -0,0 +1,182 @@[m
+[32m+[m[32mimport Header from '../components/layout/header';[m
+[32m+[m[32mimport BreadCrumb from '../components/header/breadcrumb';[m
+[32m+[m[32m// import RecentPost from '../components/blog/RecentPosts';[m
+[32m+[m[32m// import RecentComments from '../components/blog/RecentComments';[m
+[32m+[m[32mimport { useState } from 'react';[m
+[32m+[m[32mimport { v4 as uuidv4 } from 'uuid';[m
+[32m+[m[32mimport CommentBox from '../components/blog/CommentBox';[m
+[32m+[m
+[32m+[m[32mconst Foundation = () => {[m
+[32m+[m[32m  const [Tabs, setTabs] = useState([[m
+[32m+[m[32m    'CBSE',[m
+[32m+[m[32m    'ICSE',[m
+[32m+[m[32m    'Class 7',[m
+[32m+[m[32m    'Class 8',[m
+[32m+[m[32m    'Class 9',[m
+[32m+[m[32m    'Class 10',[m
+[32m+[m[32m    'Mathematics',[m
+[32m+[m[32m    'Science',[m
+[32m+[m[32m  ]);[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <>[m
+[32m+[m[32m      <header>[m
+[32m+[m[32m        <Header />[m
+[32m+[m[32m        <BreadCrumb pagename="Foundation Classes" />[m
+[32m+[m[32m      </header>[m
+[32m+[m
+[32m+[m[32m      <div  className="blog-details-area">[m
+[32m+[m[32m        <div className="container">[m
+[32m+[m[32m          <div className="row">[m
+[32m+[m[32m            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">[m
+[32m+[m[32m              <div className="blog-post-wrap blog-post-details">[m
+[32m+[m[32m                <h1>[m
+[32m+[m[32m                  <a href="blog-details.html">[m
+[32m+[m[32m                    Foundation Classes for CBSE and ICSE Students[m
+[32m+[m[32m                  </a>[m
+[32m+[m[32m                </h1>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-person-fill"></i>{' '}[m
+[32m+[m[32m                    <a href="blog-details.html">by Zenith LMS</a>[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                  <li>[m
+[32m+[m[32m                    <i className="bi bi-calendar3"></i>{' '}[m
+[32m+[m[32m                    <a href="blog-details.html">Updated March 2025</a>[m
+[32m+[m[32m                  </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <div className="details-post-img">[m
+[32m+[m[32m                  <img[m
+[32m+[m[32m                    className="w-100"[m
+[32m+[m[32m                    src="/assets/images/foundation-classes/banner.jpg"[m
+[32m+[m[32m                    alt="Foundation Classes for CBSE and ICSE"[m
+[32m+[m[32m                  />[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <p >[m
+[32m+[m[32m                  Welcome to the ultimate learning platform for CBSE and ICSE students in classes 7 to 10. Our foundation classes are designed to strengthen your core concepts in Mathematics, Science, and other subjects, ensuring academic excellence and preparing you for competitive exams like Olympiads, NTSE, and more.[m
+[32m+[m[32m                </p>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div className="blog-details-wrap">[m
+[32m+[m[32m                <div className="details-post-content">[m
+[32m+[m[32m                  <h1>Why Choose Our Foundation Classes?</h1>[m
+[32m+[m[32m                  <p>[m
+[32m+[m[32m                    Our foundation classes are tailored to meet the unique needs of both CBSE and ICSE students. Here’s why students and parents trust us:[m
+[32m+[m[32m                  </p>[m
+[32m+[m[32m                  <ul >[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>Comprehensive Curriculum:</strong> Covers all essential topics for CBSE and ICSE boards.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>Expert Faculty:</strong> Learn from experienced teachers who specialize in foundational education.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>Interactive Learning:</strong> Engaging classes with real-life examples and practical applications.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>Exam Preparation:</strong> Focused training for school exams, Olympiads, NTSE, and more.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">What is CBSE?</h1>[m
+[32m+[m[32m                  <p >[m
+[32m+[m[32m                    The full form of CBSE is <strong>Central Board of Secondary Education</strong>. It is one of the most popular education boards in India, known for its structured curriculum and focus on preparing students for national-level competitive exams like JEE and NEET.[m
+[32m+[m[32m                  </p>[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">What is ICSE?</h1>[m
+[32m+[m[32m                  <p  >[m
+[32m+[m[32m                    The full form of ICSE is <strong>Indian Certificate of Secondary Education</strong>. It is a private board of education in India, managed by the Council for the Indian School Certificate Examinations (CISCE). ICSE is known for its comprehensive and detailed syllabus, which emphasizes practical knowledge and analytical skills.[m
+[32m+[m[32m                  </p>[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">Is ICSE and CBSE the Same?</h1>[m
+[32m+[m[32m                  <p >[m
+[32m+[m[32m                    No, ICSE and CBSE are not the same. While both are recognized education boards in India, they differ in their curriculum, teaching methodologies, and focus areas. CBSE is more focused on theoretical knowledge and national-level competitive exams, whereas ICSE emphasizes practical learning and a broader range of subjects.[m
+[32m+[m[32m                  </p>[m
+[32m+[m
+[32m+[m[32m                  <h1 className="pb-2">ICSE vs CBSE: Which is Better?</h1>[m
+[32m+[m[32m                  <p>[m
+[32m+[m[32m                    The choice between ICSE and CBSE depends on the student goals and preferences:[m
+[32m+[m[32m                  </p>[m
+[32m+[m[32m                  <ul>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>CBSE:</strong> Ideal for students aiming for national-level competitive exams like JEE and NEET. It has a structured and concise syllabus.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                      <strong>ICSE:</strong> Suitable for students who want a detailed and practical approach to learning. It is also beneficial for students planning to study abroad.[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                  </ul>[m
+[32m+[m
+[32m+[m[32m                  <div[m
+[32m+[m[32m                    style={{[m
+[32m+[m[32m                      width: "50vw",[m
+[32m+[m[32m                      height: "600px",[m
+[32m+[m[32m                      margin: "5px 0",[m
+[32m+[m[32m                      border: "1px solid #e5e7eb",[m
+[32m+[m[32m                      borderRadius: "8px",[m
+[32m+[m[32m                      overflow: "hidden",[m
+[32m+[m[32m                    }}[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <iframe[m
+[32m+[m[32m                      src="https://app.vignamlabs.com/openSimulation/SIM-fb7b502d-0fee-4ad1-b753-e88dd46c654a?def_token=INST-5ccefcb8-1294-4adc-9975-a18b3c0b7c8d"[m
+[32m+[m[32m                      width="100%"[m
+[32m+[m[32m                      height="100%"[m
+[32m+[m[32m                      frameBorder="0"[m
+[32m+[m[32m                      id="iframe"[m
+[32m+[m[32m                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"[m
+[32m+[m[32m                      allowFullScreen[m
+[32m+[m[32m                      title="Vignam Labs Simulation"[m
+[32m+[m[32m                      onError={(e) => {[m
+[32m+[m[32m                        e.target.style.display = "none";[m
+[32m+[m[32m                        e.target.parentElement.innerHTML =[m
+[32m+[m[32m                          "Failed to load simulation. Please check your internet connection or try again later.";[m
+[32m+[m[32m                      }}[m
+[32m+[m[32m                    />[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m              </div>[m
+[32m+[m
+[32m+[m[32m              <CommentBox />[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">[m
+[32m+[m[32m              <div className="cart-wrap">[m
+[32m+[m[32m                {/*[m[41m [m
+[32m+[m[32m                <div className="single-cart search-cart">[m
+[32m+[m[32m                  <form action="#" className="cart-form">[m
+[32m+[m[32m                    <a href="#">[m
+[32m+[m[32m                      <i className="bi bi-search"></i>[m
+[32m+[m[32m                    </a>[m
+[32m+[m[32m                    <input type="text" placeholder="Search here..." />[m
+[32m+[m[32m                  </form>[m
+[32m+[m[32m                </div>[m
+[32m+[m
+[32m+[m[32m                <RecentPost />[m
+[32m+[m[41m                [m
+[32m+[m[32m                <RecentComments />[m
+[32m+[m
+[32m+[m[32m                <div className="single-cart">[m
+[32m+[m[32m                  <div className="cart-title">[m
+[32m+[m[32m                    <h2>Keywords</h2>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                  <div className="keywords-tag">[m
+[32m+[m[32m                    <ul>[m
+[32m+[m[32m                      {Tabs.map((tab) => {[m
+[32m+[m[32m                        return ([m
+[32m+[m[32m                          <li key={uuidv4()}>[m
+[32m+[m[32m                            <a href="#">{tab}</a>[m
+[32m+[m[32m                          </li>[m
+[32m+[m[32m                        );[m
+[32m+[m[32m                      })}[m
+[32m+[m[32m                    </ul>[m
+[32m+[m[32m                  </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                */}[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </>[m
+[32m+[m[32m  );[m
+[32m+[m[32m};[m
+[32m+[m
+[32m+[m[32mexport default Foundation;[m
+[1mdiff --git a/styles/style.css b/styles/style.css[m
+[1mindex 2cebfbe..4853c51 100644[m
+[1m--- a/styles/style.css[m
+[1m+++ b/styles/style.css[m
+[36m@@ -6300,8 +6300,24 @@[m [mAgency Menu Css[m
+   font-style: normal;[m
+   font-size: 36px;[m
+   color: #3B3B3B;[m
+[32m+[m[32m  margin-top: 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.blog-details-wrap .details-post-content h3 {[m
+[32m+[m[32m  margin-top: 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.blog-details-wrap .details-post-content p {[m
+[32m+[m[32m  margin-top: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.blog-details-wrap .details-post-content ol {[m
+[32m+[m[32m  margin-top: 10px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.blog-details-wrap .details-post-content ul {[m
+[32m+[m[32m  margin-top: 10px;[m
+ }[m
+ [m
+[32m+[m
+ .details-post-img {[m
+   position: relative;[m
+   overflow: hidden;[m
