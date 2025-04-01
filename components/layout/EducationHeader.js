@@ -88,6 +88,17 @@ return(
                         <li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
                     </ul>
                 </li>
+                <li className="has-child-menu">
+                    <Link href="/about"legacyBehavior><a >Courses</a></Link>
+                    <i className="fl" >+</i>
+                    <ul className="sub-menu">
+                        <li><Link href="/IITJEE"legacyBehavior><a>IIT JEE</a></Link></li>
+                        <li><Link href="/NEET"legacyBehavior><a>NEET</a></Link></li>
+                        <li><Link href="/robotics"legacyBehavior><a>Robotics & AI</a></Link></li>
+                        <li><Link href="/foundation"legacyBehavior><a>Foundation Class 7-10</a></Link></li>
+                        <li><Link href="/"legacyBehavior><a>Olimpiad</a></Link></li>
+                    </ul>
+                </li>
                 <li><Link href="/services"legacyBehavior><a>Courses</a></Link></li>
                 <li><Link href="/results"legacyBehavior><a>Results</a></Link></li>
                 <li className="has-child-menu">
