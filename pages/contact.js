@@ -159,16 +159,11 @@ const Contact = () => {
             <div className="col-lg-12">
               <div className="location-map mt-100">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6402798935696!2d88.33860187530105!3d22.59255347947747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ea32fd9ac3%3A0x390cc6d67fa2d5e1!2sZenith%20Institute%20Howrah-%20IITJEE%20%7C%20NEET%20%7C%20FOUNDATION-%20Best%20Coaching%20In%20Kolkata!5e0!3m2!1sen!2sin!4v1743589545750!5m2!1sen!2sin" 
-              style={{ border: 0 }}
-              aria-hidden="false"
-              tabIndex="0"
-              allowFullScreen=""></iframe>
-                {/* <iframe
-                  style={{ border: 0 }}
-                  aria-hidden="false"
-                  tabIndex="0"
-                  allowFullScreen=""
-                ></iframe> */}
+                style={{ border: 0 }}
+                aria-hidden="false"
+                tabIndex="0"
+                allowFullScreen="">
+              </iframe>
               </div>
             </div>
           </div>
