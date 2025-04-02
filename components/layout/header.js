@@ -110,7 +110,7 @@ const Header = () => {
 											<i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
 											<ul className="sub-menu">
 												<li><Link href="/"legacyBehavior><a>Blog</a></Link></li>
-												<li><Link href="/"legacyBehavior><a>Blog Details</a></Link></li>
+												{/* <li><Link href="/"legacyBehavior><a>Blog Details</a></Link></li> */}
 											</ul>
 										</li>
 										<li><Link href="/contact"legacyBehavior><a className={isActive("/contact")}>Contact</a></Link></li>

@@ -141,7 +141,7 @@ const Contact = () => {
                     <div className="contact-details-info">
                       <ul>
                         <li>
-                          <i className="bi bi-geo-alt-fill"></i>14 Watkins Lane, Gokul Apartment, Block B, 1st Floor, Howrah - 711101
+                          <i className="bi bi-geo-alt-fill"></i>Block B, 1st Floor, Gokul Apartment, 14, Watkins Ln, near Howrah Motor Training, Babudanga, Pilkhana, Howrah, West Bengal 711101
                         </li>
                       </ul>
                     </div>
@@ -158,13 +158,17 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="location-map mt-100">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8875746394356!2d88.34951967526091!3d22.594213385168503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a92365a7af%3A0xe02c5d246bfcabf5!2s14%20Watkins%20Ln%2C%20Gokul%20Apartment%2C%20Block%20B%2C%201st%20Floor%2C%20Howrah%2C%20West%20Bengal%20711101!5e0!3m2!1sen!2sin!4v1695127958214!5m2!1sen!2sin"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6402798935696!2d88.33860187530105!3d22.59255347947747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ea32fd9ac3%3A0x390cc6d67fa2d5e1!2sZenith%20Institute%20Howrah-%20IITJEE%20%7C%20NEET%20%7C%20FOUNDATION-%20Best%20Coaching%20In%20Kolkata!5e0!3m2!1sen!2sin!4v1743589545750!5m2!1sen!2sin" 
+              style={{ border: 0 }}
+              aria-hidden="false"
+              tabIndex="0"
+              allowFullScreen=""></iframe>
+                {/* <iframe
                   style={{ border: 0 }}
                   aria-hidden="false"
                   tabIndex="0"
                   allowFullScreen=""
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
           </div>

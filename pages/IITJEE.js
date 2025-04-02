@@ -41,7 +41,7 @@ const IITJEE = () => {
                 <div className="details-post-img">
                   <img
                     className="w-100"
-                    src="/assets/images/iit-jee-coaching/banner.jpg"
+                    src="/assets/images/iit-jee-coaching/banner.png"
                     alt="IIT JEE Coaching for Engineering Aspirants"
                   />
                 </div>

@@ -48,7 +48,7 @@ const Foundation = () => {
                 <div className="details-post-img">
                   <img
                     className="w-100"
-                    src="/assets/images/foundation-classes/banner.jpg"
+                    src="/assets/images/foundation-classes/banner.png"
                     alt="Foundation Classes for CBSE and ICSE"
                   />
                 </div>

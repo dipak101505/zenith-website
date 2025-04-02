@@ -31,12 +31,12 @@ return(
             <div className="footer-widget">
                 <h4 className="footer-widget-title">Courses</h4>
                 <ul className="footer-links">
-                    <li><Link href="/"legacyBehavior><a>IIT JEE</a></Link></li>
-                    <li><Link href="/"legacyBehavior><a>WBJEE</a></Link></li>
-                    <li><Link href="/"legacyBehavior><a>NEET</a></Link></li>
-                    <li><Link href="/"legacyBehavior><a>Foundation</a></Link></li>
+                    <li><Link href="/IITJEE"legacyBehavior><a>IIT JEE</a></Link></li>
+                    <li><Link href="/WBJEE"legacyBehavior><a>WBJEE</a></Link></li>
+                    <li><Link href="/NEET"legacyBehavior><a>NEET</a></Link></li>
+                    <li><Link href="/foundation"legacyBehavior><a>Foundation</a></Link></li>
                     <li><Link href="/robotics" legacyBehavior><a>Robotics & AI</a></Link></li>
-                    <li><Link href="/"legacyBehavior><a>Olympiads - SOF</a></Link></li>
+                    <li><Link href="/olympiads"legacyBehavior><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>
         </div>  

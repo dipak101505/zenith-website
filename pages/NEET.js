@@ -63,7 +63,7 @@ const NEET = () => {
                 <div className="details-post-img">
                   <img
                     className="w-100"
-                    src="/assets/images/neet-coaching/banner.jpg"
+                    src="/assets/images/neet-coaching/banner.png"
                     alt="NEET Coaching for Medical Aspirants"
                   />
                 </div>
