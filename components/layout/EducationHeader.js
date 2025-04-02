@@ -99,7 +99,7 @@ return(
                         <li><Link href="/"legacyBehavior><a>Olimpiad</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="/services"legacyBehavior><a>Courses</a></Link></li>
+                
                 <li><Link href="/results"legacyBehavior><a>Results</a></Link></li>
                 <li className="has-child-menu">
                     <a>Blog</a>
