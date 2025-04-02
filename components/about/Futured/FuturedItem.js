@@ -15,6 +15,7 @@ const FuturedItem = (props) => {
           <div className="featured-content">
             <h2>{props.title}</h2>
             <p>{props.desc}</p>
+            <p>{props.phone}</p>
 
             {/* Left-Aligned Know More Button */}
             {props.link && (
