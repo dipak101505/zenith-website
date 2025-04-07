@@ -42,7 +42,7 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-          <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+          <Link href="/"legacyBehavior><a><Image src={NavConstant.Logo} alt="" width="173" height="50"/></a></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">
@@ -53,38 +53,38 @@ return(
         </div>
         <nav className="main-nav" ref={navToggle}> 
             <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                <a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a>
+                <a><Image src={NavConstant.Logo} alt="" width="173" height="50"/></a>
             </div>
             <ul>
                 <li className="has-child-menu">
-                    <Link href="/"><a className="active">Home</a></Link>
+                    <Link href="/"legacyBehavior><a className="active">Home</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="https://lms-eight-chi.vercel.app"><a>Online Course</a></Link></li>
-                        <li><Link href="https://zenithinstitute.theonlinetests.com/"><a>Online Test</a></Link></li>
+                        <li><Link href="https://lms-eight-chi.vercel.app"legacyBehavior><a>Online Course</a></Link></li>
+                        <li><Link href="https://zenithinstitute.theonlinetests.com/"legacyBehavior><a>Online Test</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="/about"><a>About</a></Link></li>
-                <li><Link href="/services"><a>Courses</a></Link></li>
-                <li><Link href="/results"><a>Results</a></Link></li>
+                <li><Link href="/about"legacyBehavior><a>About</a></Link></li>
+                <li><Link href="/services"legacyBehavior><a>Courses</a></Link></li>
+                <li><Link href="/results"legacyBehavior><a>Results</a></Link></li>
                 <li className="has-child-menu">
-                    <Link href="/"><a>Blog</a></Link>
+                    <Link href="/"legacyBehavior><a>Blog</a></Link>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="/"><a>Blog</a></Link></li>
-                        <li><Link href="/"><a>Blog Details</a></Link></li>
+                        <li><Link href="/"legacyBehavior><a>Blog</a></Link></li>
+                        <li><Link href="/"legacyBehavior><a>Blog Details</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="/contact"><a>Contact </a></Link></li>
+                <li><Link href="/contact"legacyBehavior><a>Contact </a></Link></li>
             </ul>
             <div className="menu-btn-wrap d-block d-lg-none">
-            <Link href="/contact"><a className="tri-btn-fill">Contact</a></Link>
+            <Link href="/contact"legacyBehavior><a className="tri-btn-fill">Contact</a></Link>
             </div>
         </nav>
     </div>
     <div className="col-xxl-3 col-xl-4 col-lg-2 d-none d-lg-block">
         <div className="menu-btn-wrap">
-            <Link href="/"><a className="tri-btn-fill">Contact</a></Link>
+            <Link href="/"legacyBehavior><a className="tri-btn-fill">Contact</a></Link>
         </div>
     </div>
 </div>

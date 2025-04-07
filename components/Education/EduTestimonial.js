@@ -27,7 +27,7 @@ return(
 <div className="row align-items-center justify-content-between gy-4">
 <div className="col-xxl-7 col-lg-7">
 <div className="edu-testimonial-carusol-wrap position-relative">
-    <div className="edu-testimonial-card floted-testmonial-card d-none d-md-block animated wow fadeInUp" data-wow-delay="0ms" data-wow-duration="2500ms">
+    {/* <div className="edu-testimonial-card floted-testmonial-card d-none d-md-block animated wow fadeInUp" data-wow-delay="0ms" data-wow-duration="2500ms">
         <div className="testi-card-header">
             <div className="reviwer-info">
                 <div className="reviewer-avater">
@@ -53,12 +53,38 @@ return(
                 “I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level.” 
             </p>
         </div>
-    </div>
+    </div> */}
     <div className="edu-testimonial-silder">
        <Carousel
         vertical={true}
         speed={1000}
        >
+        <div className="edu-testimonial-card">
+            <div className="testi-card-header">
+                <div className="reviwer-info">
+                    <div className="reviewer-avater">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fstudent3.png?alt=media&token=25e04ef2-d934-4350-854b-11cb1c72cfa2" alt=""/>
+                    </div>
+                    <div className="reviewer-self">
+                        <h4>Pranay Agarwal</h4>
+                        <span>IIT Kanpur
+                        </span>
+                    </div>
+                </div>
+                <ul className="reviewer-rating d-flex">
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                    <li><i className="bi bi-star-fill"></i></li>
+                </ul>
+            </div>
+            <div className="testi-card-body">
+                <p>
+                “I joined Zenith and after attending classes for a month, I felt motivated that I could do it and it helped me work even harder. The teachers motivated me at every step and helped me get to the level.” 
+                </p>
+            </div>
+        </div>
         <div className="edu-testimonial-card">
             <div className="testi-card-header">
                 <div className="reviwer-info">

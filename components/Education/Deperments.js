@@ -57,7 +57,7 @@ return(
     {/* <div className="row justify-content-center mt-60">
         <div className="col-lg-5 text-center">
             <div className="view-more-btn">
-                <Link href="/"><a className="edu-btn-fill">View All Department</a></Link>
+                <Link href="/"legacyBehavior><a className="edu-btn-fill">View All Department</a></Link>
             </div>
         </div>
     </div> */}

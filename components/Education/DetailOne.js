@@ -10,7 +10,7 @@ return(
     <div className="col-lg-6">
         <div className="success-student-image position-relative">
             <img src={EducationDetailTwo.CoverImg} alt="" className="img-fluid "/>
-            <Link href={EducationDetailTwo.VideoURL}>
+            <Link href={EducationDetailTwo.VideoURL}legacyBehavior>
             <a target="_blank" className="success-play-btn wow animated zoomIn popup-youtube" data-wow-duration="2000ms">
                 <i className="bi bi-play-fill"></i>
             </a>
@@ -27,7 +27,7 @@ return(
             </h2>
             <p>{EducationDetailTwo.subTitle}</p>
             <div className="success-btn">
-                <Link href="results"><a className="edu-btn-fill">{EducationDetailTwo.actionBtn}</a></Link>
+                <Link href="results"legacyBehavior><a className="edu-btn-fill">{EducationDetailTwo.actionBtn}</a></Link>
             </div>
         </div>
     </div>
