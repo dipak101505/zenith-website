@@ -3,39 +3,43 @@ import AboutTeamItem from './Team/item';
 
 const AboutTeam=()=>{
 
-const SliderSetting = {
-    dots: true,
-    speed: 1000,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: false,
-    pauseOnDotsHover: true,
-    responsive: [
-        {
+    const SliderSetting = {
+        dots: true,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        pauseOnDotsHover: true,
+        autoplay: true,               // <-- Enable auto sliding
+        autoplaySpeed: 1500,          // <-- Slide every  ___ seconds (adjust as needed)
+        pauseOnHover: false, 
+        responsive: [
+          {
             breakpoint: 1224,
             settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
-        },
-        {
+          },
+          {
             breakpoint: 1024,
             settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
+              slidesToShow: 2,
+              slidesToScroll: 1
             }
-        },
-        {
+          },
+          {
             breakpoint: 800,
             settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
-        }
+          }
         ]
-};
+      };
+      
        
 
 return(
@@ -94,15 +98,16 @@ return(
         />
 
         <AboutTeamItem 
-            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F1.%20Payel%20Kundu%20-%20Mentor%20Biology%20-%20M.Sc%20in%20Zoology.png?alt=media&token=0cab216d-c43b-4a09-adb7-7863754613db"
-            name="Payel Kundu"
-            position={
-                <>
-                    Biology Mentor<br />
-                    MSc Calcutta University
-                </>
-            }
+        pic="/assets/images/about/parikshit-dubey.png"
+        name="Parikshit Dubey"
+        position={
+            <>
+            Chief Biology Mentor<br />
+            MSc Calcutta University
+            </>
+        }
         />
+
 
         <AboutTeamItem 
             pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F2.%20Sandipan%20Shah%20-%20Mentor%20Physics%20-%20M.Sc%20Astrophysics.png?alt=media&token=0c70dc58-14bb-4737-8ee0-f4fd9a96f781"
