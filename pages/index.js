@@ -11,6 +11,7 @@ import posthog from 'posthog-js'
 import EduFAQ from '../components/Education/EduFaq';
 import AboutFutured from '../components/about/AboutFutured';
 import AllCounter from '../components/services/Allcounter';
+import AboutTeam from '../components/about/AboutTeam';
 
 posthog.init('phc_nmyGRxvQ6rV7nYaLfKMO4g1reR4wRpNwJS9Ajoo31FD',
     {
@@ -32,7 +33,8 @@ const Home = () => {
       <AllCounter />
       <EducationDetailOne />
       <EducationDepertment />
-      <EducationTeacher />
+      <AboutTeam />
+      {/* <EducationTeacher /> */}
       <EducationTestimonial />
       <EduFAQ />
       <RegisterBanner />
