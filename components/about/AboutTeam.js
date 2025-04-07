@@ -102,7 +102,7 @@ return(
         name="Parikshit Dubey"
         position={
             <>
-            Chief Biology Mentor<br />
+            Chief Mentor Biology<br />
             MSc Calcutta University
             </>
         }
@@ -149,6 +149,38 @@ return(
                 <>
                     Career Counsellor<br />
                     University of Bath
+                </>
+            }
+        />
+
+        <AboutTeamItem 
+            pic="/assets/images/about/deepak.png"
+            name="Dipak Agarwal"
+            position={
+                <>
+                    Chief Mentor Robotics & AI <br />
+                    IIT Kharagpur
+                </>
+            }
+        />
+
+        <AboutTeamItem 
+            pic="/assets/images/about/ranajit.png"
+            name="Ranajit Chakraborty"
+            position={
+                <>
+                    Marketing Head
+                </>
+            }
+        />
+
+        <AboutTeamItem 
+            pic="/assets/images/about/abira.png"
+            name="Abira Das Gupta"
+            position={
+                <>
+                    HOD <br />
+                    Board Mock
                 </>
             }
         />
