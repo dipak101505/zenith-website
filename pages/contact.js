@@ -83,6 +83,18 @@ const Contact = () => {
               phone="8777434458"
             />
             <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
+              title="Dunlop"
+              desc="Bhajan Complex, Near Dunlop Old Gurudwara, Behind Monginis, Dunlop, Saket Nagar, Bonhooghly Government Colony, Kolkata, Baranagar, West Bengal 700108, India."
+              phone="9836644061"
+            />
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
+              title="VIP Road"
+              desc="137 VIP Road, P.S Magnum, Above Domino’s, Unit No. 110/109, PIN- 700052"
+              phone="9903312612"
+            />
+            <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
               title="Raiganj"
               desc="Raiganj, Uttardinajpur, West Bengal -733134 (Near NBSTC Bus stand)"
@@ -129,7 +141,7 @@ const Contact = () => {
                     <div className="contact-details-info">
                       <ul>
                         <li>
-                          <i className="bi bi-geo-alt-fill"></i>14 Watkins Lane, Gokul Apartment, Block B, 1st Floor, Howrah - 711101
+                          <i className="bi bi-geo-alt-fill"></i>Block B, 1st Floor, Gokul Apartment, 14, Watkins Ln, near Howrah Motor Training, Babudanga, Pilkhana, Howrah, West Bengal 711101
                         </li>
                       </ul>
                     </div>
@@ -146,13 +158,12 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="location-map mt-100">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.8875746394356!2d88.34951967526091!3d22.594213385168503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a92365a7af%3A0xe02c5d246bfcabf5!2s14%20Watkins%20Ln%2C%20Gokul%20Apartment%2C%20Block%20B%2C%201st%20Floor%2C%20Howrah%2C%20West%20Bengal%20711101!5e0!3m2!1sen!2sin!4v1695127958214!5m2!1sen!2sin"
-                  style={{ border: 0 }}
-                  aria-hidden="false"
-                  tabIndex="0"
-                  allowFullScreen=""
-                ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6402798935696!2d88.33860187530105!3d22.59255347947747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ea32fd9ac3%3A0x390cc6d67fa2d5e1!2sZenith%20Institute%20Howrah-%20IITJEE%20%7C%20NEET%20%7C%20FOUNDATION-%20Best%20Coaching%20In%20Kolkata!5e0!3m2!1sen!2sin!4v1743589545750!5m2!1sen!2sin" 
+                style={{ border: 0 }}
+                aria-hidden="false"
+                tabIndex="0"
+                allowFullScreen="">
+              </iframe>
               </div>
             </div>
           </div>
