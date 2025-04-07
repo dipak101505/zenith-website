@@ -154,7 +154,7 @@ return(
         />
 
         <AboutTeamItem 
-            pic="/assets/images/about/deepak.png"
+            pic="/assets/images/about/Deepak.png"
             name="Dipak Agarwal"
             position={
                 <>
