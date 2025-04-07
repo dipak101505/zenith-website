@@ -47,7 +47,7 @@ const AboutFutured = () => {
 
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
-              title="Olympiad"
+              title="Olympiads"
               desc="Foundation courses are apt for students taking Science & Maths Olympiads."
               link="/"
             />
