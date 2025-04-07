@@ -10,6 +10,8 @@ import EducationHeader from '../components/layout/EducationHeader';
 import posthog from 'posthog-js'
 import EduFAQ from '../components/Education/EduFaq';
 import AboutFutured from '../components/about/AboutFutured';
+import AllCounter from '../components/services/Allcounter';
+
 
 posthog.init('phc_nmyGRxvQ6rV7nYaLfKMO4g1reR4wRpNwJS9Ajoo31FD',
     {
@@ -28,6 +30,7 @@ const Home = () => {
       <div style={{ marginTop: '40px' }}>
       <AboutFutured/>
       </div>
+      <AllCounter />
       <EducationDetailOne />
       <EducationDepertment />
       <EducationTeacher />
