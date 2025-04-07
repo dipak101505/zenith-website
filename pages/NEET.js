@@ -225,7 +225,9 @@ const NEET = () => {
 
                 <h1 className="pb-2">NEET 2025 Application Fee</h1>
 
-                <p>Here&apos;s the NEET fee structure based on last year&apos;s trends for different categories. The updated fee structure will be provided below in case there are any changes in the NEET 2025 fee amount. Besides this, GST and processing charges are levied on the application fee.</p>
+
+                <p>Here is the NEET fee structure based on last years trends for different categories. The updated fee structure will be provided below in case there are any changes in the NEET 2025 fee amount. Besides this, GST and processing charges are levied on the application fee.</p>
+
 
                 <ul>
                     <li><strong>General/NRI:</strong> ₹1,700</li>
@@ -242,8 +244,9 @@ const NEET = () => {
                 <p>As per the process, firstly provisional NEET 2025 admit card is released for the candidates only if the eligibility criteria are met. As per the latest update, the NEET 2025 Admit card will be released one or two weeks before the exam. Here are the details that are mentioned on the admit card:</p>
 
                 <ol>
-                    <li><strong>Candidate&apos;s name</strong></li>
-                    <li><strong>Father&apos;s name</strong></li>
+
+                    <li><strong>Candidate name</strong></li>
+                    <li><strong>Fathers name</strong></li>
                     <li><strong>Roll number</strong></li>
                     <li><strong>Category</strong></li>
                     <li><strong>Date of examination</strong></li>
@@ -257,18 +260,23 @@ const NEET = () => {
 
                 <h1 className="pb-2">How to Download NEET 2025 Admit Card?</h1>
 
-                <p>The NEET 2025 admit card will be uploaded on the agency&apos;s official website a week before the examination. Candidates should follow the steps given below to download it:</p>
+                <p>The NEET 2025 admit card will be uploaded on the agency official website a week before the examination. Candidates should follow the steps given below to download it:</p>
 
                 <ol>
-                    <li>Visit the NEET official website <a href="http://www.neet.nta.nic.in" target="_blank" rel="noreferrer">www.neet.nta.nic.in</a>.</li>
-                    <li>On the homepage, click on the latest news section.</li>
-                    <li>Select the NEET 2025 admit card option.</li>
-                    <li>A new page will open. Enter the required credentials.</li>
-                    <li>Click on the submit option.</li>
-                    <li>The NEET 2025 Admit card will appear on your screen.</li>
-                    <li>Check it carefully for any discrepancies.</li>
-                    <li>Download the admit card.</li>
-                    <li>Take a printout.</li>
+                  <li>
+                    Visit the NEET official website{' '}
+                    <a href="http://www.neet.nta.nic.in" target="_blank" rel="noreferrer">
+                      www.neet.nta.nic.in
+                    </a>.
+                  </li>
+                  <li>On the homepage, click on the latest news section.</li>
+                  <li>Select the NEET 2025 admit card option.</li>
+                  <li>A new page will open. Enter the required credentials.</li>
+                  <li>Click on the submit option.</li>
+                  <li>The NEET 2025 Admit card will appear on your screen.</li>
+                  <li>Check it carefully for any discrepancies.</li>
+                  <li>Download the admit card.</li>
+                  <li>Take a printout.</li>
                 </ol>
 
                 <p>As soon as you download the NEET admit card, make sure that all these details are correct. In case of any discrepancy, you should contact the NEET helpline immediately.</p>
@@ -309,7 +317,8 @@ const NEET = () => {
 
                 <h1 className="pb-2">NEET 2025 Results</h1>
 
-                <p>The National Eligibility cum Entrance Test (NEET) is a highly competitive examination that paves the way for aspiring medical and dental students to secure seats in prestigious colleges across India. Once the exam is over, the answer scripts are evaluated by NTA officials based on standard protocols. To find out the result of NEET 2025, you will have to check out NEET&apos;s official website.</p>
+
+                <p>The National Eligibility cum Entrance Test (NEET) is a highly competitive examination that paves the way for aspiring medical and dental students to secure seats in prestigious colleges across India. Once the exam is over, the answer scripts are evaluated by NTA officials based on standard protocols. To find out the result of NEET 2025, you will have to check out NEETs official website.</p>
 
                 <p>After the results, a NEET merit list is created based on these results in accordance with guidelines from the Ministry of Health and Welfare and the Ministry of AYUSH, the Admission Central Counselling Committee, and DGHS.</p>
 
@@ -337,7 +346,12 @@ const NEET = () => {
                 <h1 className="pb-2">NEET 2025 FAQs</h1>
 
                 <p><strong>Q1: What is the full form of NEET?</strong></p>
-                <p><strong>Answer:</strong> The full form of the NEET examination is the &apos;National Eligibility Cum Entrance Test&apos;. It&apos;s a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>
+
+                <p>
+  The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;.
+</p>
+
+                <p><strong>Answer:</strong> The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;. It is a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>
 
                 <p><strong>Q2: Do I need to appear for NEET for admission to the MBBS course in AIIMS Delhi?</strong></p>
                 <p><strong>Answer:</strong> Yes, candidates must appear for the NEET examination and qualify on the merit list to pursue MBBS from AIIMS Delhi.</p>
