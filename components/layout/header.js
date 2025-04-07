@@ -75,24 +75,8 @@ const Header = () => {
 												<li><Link href="https://zenithinstitute.theonlinetests.com/"legacyBehavior><a>Online Test</a></Link></li>
 											</ul>
 										</li>
-										<li className="has-child-menu">
-											<Link href="/about"legacyBehavior><a className={isActive("/about")}>About</a></Link>
-											<i className="fl" onClick={ToggleSubMenu}>+</i>
-											<ul className="sub-menu">
-												<li><Link href="/about/howrah"legacyBehavior><a>Howrah</a></Link></li>
-												<li><Link href="/about/Serampore"legacyBehavior><a>Serampore</a></Link></li>
-												<li><Link href="/about/andul"legacyBehavior><a>Andul</a></Link></li>
-												<li><Link href="/about/phoolbagan"legacyBehavior><a>Phoolbagan</a></Link></li>
-												<li><Link href="/about/saltlake"legacyBehavior><a>Salt Lake</a></Link></li>
-												<li><Link href="/about/chandannagar"legacyBehavior><a>Chandannagar</a></Link></li>
-												<li><Link href="/about/mogra"legacyBehavior><a>Mogra</a></Link></li>
-												<li><Link href="/about/rampurHat"legacyBehavior><a>Rampurhat</a></Link></li>
-												<li><Link href="/about/viproad"legacyBehavior><a>VIP Road</a></Link></li>
-                    							<li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
-													<li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
-													<li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
-											</ul>
-										</li>
+										<li><Link href="/about"legacyBehavior><a className={isActive("/about")}>About</a></Link></li>
+										
 										<li className="has-child-menu">
 												<Link href="/about"legacyBehavior><a >Courses</a></Link>
 												<i className="fl" >+</i>
@@ -105,12 +89,30 @@ const Header = () => {
 												</ul>
 											</li>
 										<li><Link href="/results"legacyBehavior><a className={isActive("/results")}>Results</a></Link></li>
-										<li className="has-child-menu">
+										{/* <li className="has-child-menu">
 											<Link href="/"legacyBehavior><a className={isActive("/blog")||isActive("/blog-detail")}>Blog</a></Link>
 											<i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
 											<ul className="sub-menu">
 												<li><Link href="/"legacyBehavior><a>Blog</a></Link></li>
-												{/* <li><Link href="/"legacyBehavior><a>Blog Details</a></Link></li> */}
+												<li><Link href="/"legacyBehavior><a>Blog Details</a></Link></li>
+											</ul>
+										</li> */}
+										<li className="has-child-menu">
+											<Link href="/about"legacyBehavior><a className={isActive("/about/howrah")}>Our Centers</a></Link>
+											<i className="fl" onClick={ToggleSubMenu}>+</i>
+											<ul className="sub-menu">
+												<li><Link href="/about/howrah"legacyBehavior><a>Howrah</a></Link></li>
+												<li><Link href="/about/Serampore"legacyBehavior><a>Serampore</a></Link></li>
+												<li><Link href="/about/andul"legacyBehavior><a>Andul</a></Link></li>
+												<li><Link href="/about/phoolbagan"legacyBehavior><a>Phoolbagan</a></Link></li>
+												<li><Link href="/about/saltlake"legacyBehavior><a>Salt Lake</a></Link></li>
+												<li><Link href="/about/chandannagar"legacyBehavior><a>Chandannagar</a></Link></li>
+												<li><Link href="/about/mogra"legacyBehavior><a>Mogra</a></Link></li>
+												<li><Link href="/about/rampurHat"legacyBehavior><a>Rampurhat</a></Link></li>
+												<li><Link href="/about/viproad"legacyBehavior><a>VIP Road</a></Link></li>
+                    							<li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
+												<li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
+												<li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
 											</ul>
 										</li>
 										<li><Link href="/contact"legacyBehavior><a className={isActive("/contact")}>Contact</a></Link></li>
