@@ -6450,6 +6450,15 @@ Agency Menu Css
           transform: unset;
 }
 
+.details-post-content li + li {
+  margin-top: 10px;
+}
+
+
+
+
+
+
 /*
 ============================================
 ============= Preloader CSS ================
