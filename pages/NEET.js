@@ -225,7 +225,9 @@ const NEET = () => {
 
                 <h1 className="pb-2">NEET 2025 Application Fee</h1>
 
+
                 <p>Here is the NEET fee structure based on last years trends for different categories. The updated fee structure will be provided below in case there are any changes in the NEET 2025 fee amount. Besides this, GST and processing charges are levied on the application fee.</p>
+
 
                 <ul>
                     <li><strong>General/NRI:</strong> ₹1,700</li>
@@ -242,6 +244,7 @@ const NEET = () => {
                 <p>As per the process, firstly provisional NEET 2025 admit card is released for the candidates only if the eligibility criteria are met. As per the latest update, the NEET 2025 Admit card will be released one or two weeks before the exam. Here are the details that are mentioned on the admit card:</p>
 
                 <ol>
+
                     <li><strong>Candidate name</strong></li>
                     <li><strong>Fathers name</strong></li>
                     <li><strong>Roll number</strong></li>
@@ -314,6 +317,7 @@ const NEET = () => {
 
                 <h1 className="pb-2">NEET 2025 Results</h1>
 
+
                 <p>The National Eligibility cum Entrance Test (NEET) is a highly competitive examination that paves the way for aspiring medical and dental students to secure seats in prestigious colleges across India. Once the exam is over, the answer scripts are evaluated by NTA officials based on standard protocols. To find out the result of NEET 2025, you will have to check out NEETs official website.</p>
 
                 <p>After the results, a NEET merit list is created based on these results in accordance with guidelines from the Ministry of Health and Welfare and the Ministry of AYUSH, the Admission Central Counselling Committee, and DGHS.</p>
@@ -342,6 +346,7 @@ const NEET = () => {
                 <h1 className="pb-2">NEET 2025 FAQs</h1>
 
                 <p><strong>Q1: What is the full form of NEET?</strong></p>
+
                 <p>
   The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;.
 </p>
