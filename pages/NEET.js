@@ -20,6 +20,8 @@ import BreadCrumb from '../components/header/breadcrumb';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import CommentBox from '../components/blog/CommentBox';
+import Image from 'next/image';
+
 
 const NEET = () => {
   const [Tabs, setTabs] = useState([
@@ -61,11 +63,15 @@ const NEET = () => {
                   </li>
                 </ul>
                 <div className="details-post-img">
-                  <img
-                    className="w-100"
-                    src="/assets/images/neet-coaching/banner.png"
-                    alt="NEET Coaching for Medical Aspirants"
-                  />
+                <Image
+                  className="w-100"
+                  src="/assets/images/neet-coaching/banner.png"
+                  alt="NEET Coaching for Medical Aspirants"
+                  width={616} // set proper width
+                  height={95} // set proper height
+                  // priority // optional: loads faster, especially for banner images
+                />
+
                 </div>
                 <p>
                 NEET is a national-level entrance examination in India for students seeking admission to undergraduate medical and dental courses (MBBS and BDS) in various government and private medical colleges across the country. The organizing body for NEET is National Testing Agency (NTA) which is instrumental in conducting NEET smoothly and fairly every year. The body is responsible for everything related to NEET, right from announcing dates to issuing admit cards and assessing the answer sheets.
