@@ -342,9 +342,11 @@ const NEET = () => {
                 <h1 className="pb-2">NEET 2025 FAQs</h1>
 
                 <p><strong>Q1: What is the full form of NEET?</strong></p>
-                <p>The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;.</p>
+                <p>
+  The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;.
+</p>
 
-                <p><strong>Answer:</strong> The full form of the NEET examination is the "National Eligibility Cum Entrance Test". It is a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>
+                <p><strong>Answer:</strong> The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;. It is a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>
 
                 <p><strong>Q2: Do I need to appear for NEET for admission to the MBBS course in AIIMS Delhi?</strong></p>
                 <p><strong>Answer:</strong> Yes, candidates must appear for the NEET examination and qualify on the merit list to pursue MBBS from AIIMS Delhi.</p>
