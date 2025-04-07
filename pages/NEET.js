@@ -260,15 +260,20 @@ const NEET = () => {
                 <p>The NEET 2025 admit card will be uploaded on the agency official website a week before the examination. Candidates should follow the steps given below to download it:</p>
 
                 <ol>
-                    <li>Visit the NEET official website <a href="http://www.neet.nta.nic.in" target="_blank">www.neet.nta.nic.in</a>.</li>
-                    <li>On the homepage, click on the latest news section.</li>
-                    <li>Select the NEET 2025 admit card option.</li>
-                    <li>A new page will open. Enter the required credentials.</li>
-                    <li>Click on the submit option.</li>
-                    <li>The NEET 2025 Admit card will appear on your screen.</li>
-                    <li>Check it carefully for any discrepancies.</li>
-                    <li>Download the admit card.</li>
-                    <li>Take a printout.</li>
+                  <li>
+                    Visit the NEET official website{' '}
+                    <a href="http://www.neet.nta.nic.in" target="_blank" rel="noreferrer">
+                      www.neet.nta.nic.in
+                    </a>.
+                  </li>
+                  <li>On the homepage, click on the latest news section.</li>
+                  <li>Select the NEET 2025 admit card option.</li>
+                  <li>A new page will open. Enter the required credentials.</li>
+                  <li>Click on the submit option.</li>
+                  <li>The NEET 2025 Admit card will appear on your screen.</li>
+                  <li>Check it carefully for any discrepancies.</li>
+                  <li>Download the admit card.</li>
+                  <li>Take a printout.</li>
                 </ol>
 
                 <p>As soon as you download the NEET admit card, make sure that all these details are correct. In case of any discrepancy, you should contact the NEET helpline immediately.</p>
@@ -337,6 +342,8 @@ const NEET = () => {
                 <h1 className="pb-2">NEET 2025 FAQs</h1>
 
                 <p><strong>Q1: What is the full form of NEET?</strong></p>
+                <p>The full form of the NEET examination is the &quot;National Eligibility Cum Entrance Test&quot;.</p>
+
                 <p><strong>Answer:</strong> The full form of the NEET examination is the "National Eligibility Cum Entrance Test". It is a national-level medical entrance test conducted in India for admission to MBBS, BDS, BAMS, BSMS, BUMS, BHMS, and other undergraduate medical courses.</p>
 
                 <p><strong>Q2: Do I need to appear for NEET for admission to the MBBS course in AIIMS Delhi?</strong></p>
