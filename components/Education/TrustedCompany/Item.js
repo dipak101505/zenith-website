@@ -16,7 +16,7 @@ const TrustedCompanList = (props) => {
           onMouseOver={(e) => e.target.style.backgroundColor = '#ffa600'} 
           onMouseOut={(e) => e.target.style.backgroundColor = '#ffc107'}
           >
-          <Link href="/">
+          <Link href="/"legacyBehavior>
             <a>
               {/* <img src={props.img} alt=""/> */}
               {props.val}
