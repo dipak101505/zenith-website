@@ -11,6 +11,8 @@ const SliderSetting = {
     slidesToScroll: 1,
     arrows: false,
     pauseOnDotsHover: true,
+    autoplay: true,            // enables auto sliding
+    autoplaySpeed: 3000,       // 3 seconds between slides
     responsive: [
         {
             breakpoint: 1224,

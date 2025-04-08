@@ -5395,8 +5395,8 @@ Agency Menu Css
 }
 
 .single-about-team:hover .single-about-team-img img {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
