@@ -2,7 +2,7 @@ import Header from '../../components/layout/header';
 import BreadCrumb from '../../components/header/breadcrumb';
 import { useState } from 'react';
 import CommentBox from '../../components/blog/CommentBox';
-import EducationFooter from '../../components/layout/EducationFooter';
+import Footer from '../../components/layout/footer';
 
 const JobsPage = () => {
   const [Tabs, setTabs] = useState([
@@ -72,7 +72,7 @@ const JobsPage = () => {
           </div>
         </div>
       </div>
-      <EducationFooter/>
+      <Footer/>
 
       <style jsx>{`
         h1, h2 {

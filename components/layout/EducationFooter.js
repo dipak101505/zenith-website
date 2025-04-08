@@ -49,7 +49,7 @@ return(
                     <li><Link href="/franchisee"legacyBehavior><a>Franchisee</a></Link></li>
                     <li><Link href="/footerpages/job-openings"legacyBehavior><a>Job Openings</a></Link></li>  
                     <li><Link href="/footerpages/privacypolicy"legacyBehavior><a>Privacy Policy</a></Link></li>  
-                    <li><Link href="/school-tie-up"legacyBehavior><a>School Tie-up	</a></Link></li>       
+                    <li><Link href="/footerpages/school-tie-up"legacyBehavior><a>School Tie-up	</a></Link></li>       
                 </ul>
             </div>
         </div>

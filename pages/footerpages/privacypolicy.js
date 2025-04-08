@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import CommentBox from '../../components/blog/CommentBox';
 import Image from 'next/image';
-import EducationFooter from '../../components/layout/EducationFooter';
+import Footer from '../../components/layout/footer';
 
 const PrivacyPolicy = () => {
   const [Tabs, setTabs] = useState([
@@ -116,7 +116,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
-      <EducationFooter/>
+      <Footer/>
 
       <style jsx>{`
         h4 {
