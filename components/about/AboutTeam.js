@@ -9,7 +9,7 @@ const AboutTeam=()=>{
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        pauseOnDotsHover: true,
+        pauseOnDotsHover: false,
         autoplay: true,               // <-- Enable auto sliding
         autoplaySpeed: 2500,          // <-- Slide every  ___ seconds (adjust as needed)
         pauseOnHover: true, 
