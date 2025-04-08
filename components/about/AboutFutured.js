@@ -42,14 +42,14 @@ const AboutFutured = () => {
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-4.png?alt=media&token=e65c9cfe-8ef6-45cd-acb5-b951370e6dc3"
               title="Foundation Class 7-10"
               desc="This course is apt for students aspiring for Engineering & Medical Entrance Exams."
-              link="/foundationclass7-10"
+              link="/foundation"
             />
 
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
               title="Olympiads"
               desc="Foundation courses are apt for students taking Science & Maths Olympiads."
-              link="/"
+              link="/olympiad"
             />
           </div>
         </div>

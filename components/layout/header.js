@@ -85,7 +85,7 @@ const Header = () => {
 													<li><Link href="/NEET"legacyBehavior><a>NEET</a></Link></li>
 													<li><Link href="/robotics"legacyBehavior><a>Robotics & AI</a></Link></li>
 													<li><Link href="/foundation"legacyBehavior><a>Foundation Class 7-10</a></Link></li>
-													<li><Link href="/"legacyBehavior><a>Olympiad</a></Link></li>
+													<li><Link href="/olympiad"legacyBehavior><a>Olympiad</a></Link></li>
 												</ul>
 											</li>
 										<li><Link href="/results"legacyBehavior><a className={isActive("/results")}>Results</a></Link></li>

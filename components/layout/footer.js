@@ -39,7 +39,7 @@ return (
                         <li><Link href="/NEET"legacyBehavior><a>NEET</a></Link></li>
                         <li><Link href="/foundation"legacyBehavior><a>Foundation</a></Link></li>
                         <li><Link href="/robotics" legacyBehavior><a>Robotics & AI</a></Link></li>
-                        <li><Link href="/olympiads"legacyBehavior><a>Olympiads - SOF</a></Link></li>
+                        <li><Link href="/olympiad"legacyBehavior><a>Olympiads - SOF</a></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ return (
                             <li><Link href="/"legacyBehavior><a>Results</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>Franchisee</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>Job Openings</a></Link></li>
-                            <li><Link href="/"legacyBehavior><a>Privacy Policy</a></Link></li>
+                            <li><Link href="/footerpages/privacypolicy"legacyBehavior><a>Privacy Policy</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>School Tie-up</a></Link></li>
                         </ul>
                     </div>

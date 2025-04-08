@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import CommentBox from '../components/blog/CommentBox';
 import Image from 'next/image';
+import SideSubjectFlotingBarIITJEE from '../components/SubjectMatter/SideSubjectFlotingBarIITJEE.js';
+
 
 const IITJEE = () => {
   const [Tabs, setTabs] = useState([
@@ -19,6 +21,7 @@ const IITJEE = () => {
 
   return (
     <>
+      
       <header>
         <Header />
         <BreadCrumb pagename="IIT JEE Coaching" />
@@ -97,6 +100,7 @@ const IITJEE = () => {
 
 
               </div>
+              
               <div className="blog-details-wrap">
                 <div className="details-post-content">
                     <h1>JEE Main 2025 Reservation Criteria</h1>
@@ -423,6 +427,7 @@ const IITJEE = () => {
 
 
                 </div>
+                
 
 
 
@@ -456,6 +461,8 @@ const IITJEE = () => {
                       }}
                     />
                   </div>
+
+                  <SideSubjectFlotingBarIITJEE/>
 
                   
                 
@@ -510,14 +517,46 @@ const IITJEE = () => {
               </div>
               <CommentBox />
             </div>
+
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">
               <div className="cart-wrap">
-                {/* Add additional content or sidebars if needed */}
+                {/* <div className="single-cart search-cart">
+                  <form action="#" className="cart-form">
+                    <a href="#">
+                      <i className="bi bi-search"></i>
+                    </a>
+                    <input type="text" placeholder="Search here..." />
+                  </form>
+                </div> */}
+
+                <SideSubjectFlotingBarIITJEE/>
+
+                
+
+                {/* <div className="single-cart">
+                  <div className="cart-title">
+                    <h2>Keywords</h2>
+                  </div>
+                  <div className="keywords-tag">
+                    <ul>
+                      {Tabs.map((tab) => {
+                        return (
+                          <li key={uuidv4()}>
+                            <a href="#">{tab}</a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
+
+          
         </div>
       </div>
+      
     </>
   );
 };
