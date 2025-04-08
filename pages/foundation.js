@@ -1,4 +1,6 @@
 import Header from '../components/layout/header';
+import RecentPost from '../components/blog/RecentPosts';
+import RecentComments from '../components/blog/RecentComments';
 import BreadCrumb from '../components/header/breadcrumb';
 // import RecentPost from '../components/blog/RecentPosts';
 // import RecentComments from '../components/blog/RecentComments';
@@ -142,23 +144,23 @@ const Foundation = () => {
               <CommentBox />
             </div>
 
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">
-              <div className="cart-wrap">
-                {/* 
-                <div className="single-cart search-cart">
+            {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50"> */}
+              {/* <div className="cart-wrap"> */}
+                
+                {/* <div className="single-cart search-cart">
                   <form action="#" className="cart-form">
                     <a href="#">
                       <i className="bi bi-search"></i>
                     </a>
                     <input type="text" placeholder="Search here..." />
                   </form>
-                </div>
+                </div> */}
 
-                <RecentPost />
+                {/* <RecentPost /> */}
                 
-                <RecentComments />
+                {/* <RecentComments /> */}
 
-                <div className="single-cart">
+                {/* <div className="single-cart">
                   <div className="cart-title">
                     <h2>Keywords</h2>
                   </div>
@@ -173,10 +175,10 @@ const Foundation = () => {
                       })}
                     </ul>
                   </div>
-                </div>
-                */}
-              </div>
-            </div>
+                </div> */}
+               
+              {/* </div> */}
+            {/* </div> */}
           </div>
         </div>
       </div>
