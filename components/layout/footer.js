@@ -54,7 +54,7 @@ return (
                             <li><Link href="/"legacyBehavior><a>About</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>Results</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>Franchisee</a></Link></li>
-                            <li><Link href="/"legacyBehavior><a>Job Openings</a></Link></li>
+                            <li><Link href="/footerpages/job-openings"legacyBehavior><a>Job Openings</a></Link></li>
                             <li><Link href="/footerpages/privacypolicy"legacyBehavior><a>Privacy Policy</a></Link></li>
                             <li><Link href="/"legacyBehavior><a>School Tie-up</a></Link></li>
                         </ul>
