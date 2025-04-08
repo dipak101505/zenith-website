@@ -19,6 +19,7 @@ const Services = () => {
       <SolutionArea 
         title="Welcome to Zenith <span>VIP Road</span>"
         image="/assets/images/about/vip.png"
+        description="Zenith VIP Road "
       />
       <AboutFutured />
       <ServicePricing />
