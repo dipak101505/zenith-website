@@ -9,10 +9,10 @@ const AboutTeam=()=>{
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        pauseOnDotsHover: true,
+        pauseOnDotsHover: false,
         autoplay: true,               // <-- Enable auto sliding
-        autoplaySpeed: 1500,          // <-- Slide every  ___ seconds (adjust as needed)
-        pauseOnHover: false, 
+        autoplaySpeed: 2500,          // <-- Slide every  ___ seconds (adjust as needed)
+        pauseOnHover: true, 
         responsive: [
           {
             breakpoint: 1224,
