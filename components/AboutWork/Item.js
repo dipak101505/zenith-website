@@ -9,7 +9,7 @@ return(
     <div className="latest-work-hover-child">
     <p>{props.name}</p>
     <h2>{props.title}</h2>
-    <Link href="/"><a>Read More <i className="bi bi-arrow-right"></i></a></Link>
+    {/* <Link href="/"><a>Read More <i className="bi bi-arrow-right"></i></a></Link> */}
     </div>
 </div>
 </div>
