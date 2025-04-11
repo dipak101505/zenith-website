@@ -8,6 +8,7 @@ import SolutionArea from '../../components/services/solutionsection';
 import TestimonialClient from '../../components/services/TestimonialClient';
 import Footer from '../../components/layout/footer';
 import AboutFutured from '../../components/about/AboutFutured';
+import RphTeacher from '../../components/TeacherCenterWise/RphTeacher';
 
 const Services = () => {
   return (
@@ -22,6 +23,7 @@ const Services = () => {
         description="Zenith Rampurhat "
       />
       <AboutFutured />
+      <RphTeacher/>
       <ServicePricing />
       <AllCounter />
       <TestimonialClient />
