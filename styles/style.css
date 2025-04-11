@@ -6707,7 +6707,7 @@ Style Sheet for Robotics and AI Page
 }
 
 /* Responsive: Stack on small screens */
-@media (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .robotics-grid {
     grid-template-columns: 1fr; /* Single column */
     text-align: center;
@@ -6715,6 +6715,11 @@ Style Sheet for Robotics and AI Page
 
   .robotics-title-description {
     text-align: center;
+    width: 350px;
+  }
+
+  .robotics-video{
+    width: 350px;
   }
 }
 
@@ -6880,6 +6885,47 @@ Style Sheet for Robotics and AI Page
     align-items: center; /* Optional: Centers content vertically */
   }
   
+}
+
+
+/* .image-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.side-image {
+  position: absolute;
+  z-index: 10;
+}
+
+/* Specific positions */
+.left.top {
+  top: 0;
+  left: 0;
+}
+
+.left.bottom {
+  bottom: 0;
+  left: 0;
+}
+
+.right.top {
+  top: 0;
+  right: 0;
+}
+
+.right.bottom {
+  bottom: 0;
+  right: 0;
+}
+
+/* Responsive adjustments for mobile if needed */
+@media only screen and (max-width: 576px) {
+  .side-image {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
 
 /* ================================================================================================================================
