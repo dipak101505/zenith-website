@@ -8,6 +8,7 @@ import SolutionArea from '../../components/services/solutionsection';
 import TestimonialClient from '../../components/services/TestimonialClient';
 import Footer from '../../components/layout/footer';
 import AboutFutured from '../../components/about/AboutFutured';
+import SrpTeacher from '../../components/TeacherCenterWise/SrpTeacher.js';
 
 const Services = () => {
   return (
@@ -18,6 +19,7 @@ const Services = () => {
       </header>
       <SolutionArea />
       <AboutFutured />
+      <SrpTeacher/>
       <ServicePricing />
       <AllCounter />
       <TestimonialClient />
