@@ -22,7 +22,7 @@ const ContinuityAndDifferentiability = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Continuity and Differentiability – Class 11 Mathematics</h1>
+                <h1>Continuity and Differentiability – JEE Mains Mathematics</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>
@@ -61,16 +61,16 @@ const ContinuityAndDifferentiability = () => {
                 <h2>5. Chain Rule</h2>
                 <ul>
                   <li>Used to differentiate composite functions.</li>
-                  <li>If y = f(g(x)), then dy/dx = f′(g(x)) × g′(x)</li>
+                  <pre>If y = f(g(x)), then dy/dx = f′(g(x)) × g′(x)</pre>
                 </ul>
 
                 <h2>6. Derivatives of Inverse Trigonometric Functions</h2>
                 <ul>
                   <li>Standard derivatives include:
                     <ul>
-                      <li>d/dx(sin⁻¹x) = 1 / √(1 - x²)</li>
-                      <li>d/dx(cos⁻¹x) = -1 / √(1 - x²)</li>
-                      <li>d/dx(tan⁻¹x) = 1 / (1 + x²)</li>
+                      <pre>d/dx(sin⁻¹x) = 1 / √(1 - x²)</pre>
+                      <pre>d/dx(cos⁻¹x) = -1 / √(1 - x²)</pre>
+                      <pre>d/dx(tan⁻¹x) = 1 / (1 + x²)</pre>
                     </ul>
                   </li>
                 </ul>
@@ -90,7 +90,7 @@ const ContinuityAndDifferentiability = () => {
                 <h2>9. Mean Value Theorem</h2>
                 <ul>
                   <li><strong>Rolle’s Theorem:</strong> If a function is continuous and differentiable in [a, b], and f(a) = f(b), then there exists c ∈ (a, b) such that f′(c) = 0.</li>
-                  <li><strong>Lagrange’s Mean Value Theorem:</strong> There exists c ∈ (a, b) such that f′(c) = [f(b) – f(a)] / (b – a)</li>
+                  <li><strong>Lagrange’s Mean Value Theorem:</strong> There exists c ∈ (a, b) such that <pre>f′(c) = [f(b) – f(a)] / (b – a)</pre></li>
                 </ul>
 
                 <CommentBox />

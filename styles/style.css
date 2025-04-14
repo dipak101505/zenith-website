@@ -2433,10 +2433,10 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
           transform: translateY(-3px);
 }
 
-.apps-box:hover img {
+/* .apps-box:hover img {
   -webkit-filter: brightness(50%) hue-rotate(45deg);
           filter: brightness(50%) hue-rotate(45deg);
-}
+} */
 
 .apps-box img {
   -webkit-transition: all 1s ease 0s;

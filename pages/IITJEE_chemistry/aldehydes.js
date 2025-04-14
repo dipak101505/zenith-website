@@ -7,7 +7,7 @@ import SideSubjectFlotingBarIITJEE from '../../components/SubjectMatter/SideSubj
 
 const AldehydesKetonesCarboxylicAcids = () => {
   const [Tags] = useState([
-    'Chemistry', 'Aldehydes', 'Ketones', 'Carboxylic Acids', 'Class 11', 'Organic Chemistry'
+    'Chemistry', 'Aldehydes', 'Ketones', 'Carboxylic Acids', 'JEE Mains', 'Organic Chemistry'
   ]);
 
   return (
@@ -22,7 +22,7 @@ const AldehydesKetonesCarboxylicAcids = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Aldehydes, Ketones and Carboxylic Acids – Class 11 Chemistry</h1>
+                <h1>Aldehydes, Ketones and Carboxylic Acids – JEE Mains Chemistry</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>

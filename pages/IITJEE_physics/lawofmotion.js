@@ -7,7 +7,7 @@ import SideSubjectFlotingBarIITJEE from '../../components/SubjectMatter/SideSubj
 
 const LawsOfMotion = () => {
   const [Tags] = useState([
-    'Physics', 'Laws of Motion', 'Class 11', 'Mechanics', 'Newton’s Laws', 'Friction', 'Pulley Systems'
+    'Physics', 'Laws of Motion', 'JEE Mains', 'Mechanics', 'Newton’s Laws', 'Friction', 'Pulley Systems'
   ]);
 
   return (
@@ -22,7 +22,7 @@ const LawsOfMotion = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Laws of Motion – Class 11 Physics</h1>
+                <h1>Laws of Motion – JEE Mains Physics</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>
