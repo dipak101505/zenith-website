@@ -7,7 +7,7 @@ import SideSubjectFlotingBarIITJEE from '../../components/SubjectMatter/SideSubj
 
 const AlcoholsPhenolsEthers = () => {
   const [Tags] = useState([
-    'Chemistry', 'Alcohols', 'Phenols', 'Ethers', 'Class 11', 'Organic Chemistry'
+    'Chemistry', 'Alcohols', 'Phenols', 'Ethers', 'JEE Mains', 'Organic Chemistry'
   ]);
 
   return (
@@ -22,7 +22,7 @@ const AlcoholsPhenolsEthers = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Alcohols, Phenols and Ethers – Class 11 Chemistry</h1>
+                <h1>Alcohols, Phenols and Ethers – JEE Mains Chemistry</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>

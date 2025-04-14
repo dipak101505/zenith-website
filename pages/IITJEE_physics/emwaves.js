@@ -7,7 +7,7 @@ import SideSubjectFlotingBarIITJEE from '../../components/SubjectMatter/SideSubj
 
 const ElectromagneticWaves = () => {
   const [Tags] = useState([
-    'Physics', 'Electromagnetic Waves', 'Class 11', 'Maxwell’s Equations', 'EM Spectrum', 'Displacement Current'
+    'Physics', 'Electromagnetic Waves', 'JEE Mains', 'Maxwell’s Equations', 'EM Spectrum', 'Displacement Current'
   ]);
 
   return (
@@ -22,7 +22,7 @@ const ElectromagneticWaves = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Electromagnetic Waves – Class 11 Physics</h1>
+                <h1>Electromagnetic Waves – JEE Mains Physics</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>

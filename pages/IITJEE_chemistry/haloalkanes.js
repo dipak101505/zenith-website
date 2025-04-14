@@ -1,13 +1,13 @@
-import Header from '../../components/layout/header';
-import BreadCrumb from '../../components/header/breadcrumb';
-import CommentBox from '../../components/blog/CommentBox';
+import Header from '../../components/layout/header.js';
+import BreadCrumb from '../../components/header/breadcrumb.js';
+import CommentBox from '../../components/blog/CommentBox.js';
 import { useState } from 'react';
 import Image from 'next/image';
 import SideSubjectFlotingBarIITJEE from '../../components/SubjectMatter/SideSubjectFlotingBarIITJEE.js';
 
 const HaloalkanesHaloarenes = () => {
   const [Tags] = useState([
-    'Chemistry', 'Haloalkanes', 'Haloarenes', 'Class 11', 'Organic Chemistry'
+    'Chemistry', 'Haloalkanes', 'Haloarenes', 'JEE Mains', 'Organic Chemistry'
   ]);
 
   return (
@@ -22,7 +22,7 @@ const HaloalkanesHaloarenes = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="blog-post-wrap blog-post-details">
-                <h1>Haloalkanes and Haloarenes – Class 11 Chemistry</h1>
+                <h1>Haloalkanes and Haloarenes – JEE Mains Chemistry</h1>
                 <ul>
                   <li><a href="#">by Zenith LMS</a></li>
                   <li><a href="#">Updated April 2025</a></li>
