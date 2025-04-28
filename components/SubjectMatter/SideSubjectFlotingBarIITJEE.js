@@ -8,12 +8,26 @@ return(
     <h2>JEE Mains Physics</h2>
     </div>
 
-    <SubjectItem name="Newton&apos;s Law Of Motion" slug="IITJEE_physics/lawofmotion" />
-
-    <SubjectItem name="Electromagnetic Waves" slug="IITJEE_physics/emwaves" />
-
-    <SubjectItem name="Ray Optics and Optical Instruments" slug="IITJEE_physics/rayoptics" />
-
+        <SubjectItem name="Units and Measurements" slug="IITJEE_physics/UnitsAndMeasurements" />
+        <SubjectItem name="Kinematics" slug="IITJEE_physics/Kinematics" />
+        <SubjectItem name="Laws of Motion" slug="IITJEE_physics/LawsOfMotion" />
+        <SubjectItem name="Work, Energy and Power" slug="IITJEE_physics/WorkEnergyPower" />
+        <SubjectItem name="Rotational Motion" slug="IITJEE_physics/RotationalMotion" />
+        <SubjectItem name="Gravitation" slug="IITJEE_physics/Gravitation" />
+        <SubjectItem name="Properties of Solids and Liquids" slug="IITJEE_physics/PropertiesOfSolidsAndLiquids" />
+        <SubjectItem name="Thermodynamics" slug="IITJEE_physics/Thermodynamics" />
+        <SubjectItem name="Kinetic Theory of Gases" slug="IITJEE_physics/KineticTheoryOfGases" />
+        <SubjectItem name="Oscillations and Waves" slug="IITJEE_physics/OscillationsAndWaves" />
+        <SubjectItem name="Electrostatics" slug="IITJEE_physics/Electrostatics" />
+        <SubjectItem name="Current Electricity" slug="IITJEE_physics/CurrentElectricity" />
+        <SubjectItem name="Magnetic Effects of Current and Magnetism" slug="IITJEE_physics/MagneticEffectsOfCurrentAndMagnetism" />
+        <SubjectItem name="Electromagnetic Induction and Alternating Currents" slug="IITJEE_physics/ElectromagneticInductionAndAlternatingCurrents" />
+        <SubjectItem name="Electromagnetic Waves" slug="IITJEE_physics/ElectromagneticWaves" />
+        <SubjectItem name="Optics" slug="IITJEE_physics/Optics" />
+        <SubjectItem name="Dual Nature of Matter and Radiation" slug="IITJEE_physics/DualNatureOfMatterAndRadiation" />
+        <SubjectItem name="Atoms and Nuclei" slug="IITJEE_physics/AtomsAndNuclei" />
+        <SubjectItem name="Electronic Devices" slug="IITJEE_physics/ElectronicDevices" />
+        <SubjectItem name="Experimental Skills" slug="IITJEE_physics/ExperimentalSkills" />
 </div>
 <div className="single-cart">
     <div className="cart-title">
