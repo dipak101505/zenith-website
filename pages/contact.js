@@ -103,7 +103,7 @@ const Contact = () => {
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
               title="Balurghat"
-              desc="Opp State Bus Stand, Near Zeno Health, Balurghat, West Bengal - 733101"
+              desc="Balurghat High School Vocational Campus opposite of CMOH office Gate No - 2, Balurghat, West Bengal - 733101"
               phone="9933173579"
             />
           </div>
