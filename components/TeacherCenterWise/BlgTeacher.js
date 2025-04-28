@@ -165,6 +165,16 @@ return(
         />
 
         <AboutTeamItem 
+            pic="/assets/images/about/md mahibulla.png"
+            name="Md Mahibulla"
+            position={
+                <>
+                    Biology Mentor
+                </>
+            }
+        />
+
+        <AboutTeamItem 
             pic="/assets/images/about/ranajit.png"
             name="Ranajit Chakraborty"
             position={
