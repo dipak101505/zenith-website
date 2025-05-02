@@ -71,7 +71,7 @@ const KineticTheoryOfGases = () => {
                 <h2>6. RMS Speed of Gas Molecules</h2>
                 <ul>
                   <li>The root mean square (RMS) speed of gas molecules is the square root of the average of the squares of the velocities of the molecules.
-                    <pre>v_{rms} = √((3kT) / m)</pre>
+                    <pre>v_rms = √((3kT) / m)</pre>
                     where k is the Boltzmann constant, T is the temperature, and m is the mass of the molecule.
                   </li>
                 </ul>
