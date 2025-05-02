@@ -34,11 +34,30 @@ return(
     <h2>JEE Mains Chemistry</h2>
     </div>
 
-    <SubjectItem name="Haloalkanes and Haloarenes" slug="IITJEE_chemistry/haloalkanes" />
+    <SubjectItem name="Some Basic Concepts in Chemistry" slug="IITJEE_chemistry/SomeBasicConceptsInChemistry" />
+<SubjectItem name="Atomic Structure" slug="IITJEE_chemistry/AtomicStructure" />
+<SubjectItem name="Chemical Bonding and Molecular Structure" slug="IITJEE_chemistry/ChemicalBonding" />
+<SubjectItem name="Chemical Thermodynamics" slug="IITJEE_chemistry/ChemicalThermodynamics" />
+<SubjectItem name="Solutions" slug="IITJEE_chemistry/Solutions" />
+<SubjectItem name="Equilibrium" slug="IITJEE_chemistry/Equilibrium" />
+<SubjectItem name="Redox Reactions and Electrochemistry" slug="IITJEE_chemistry/RedoxReactionsAndElectrochemistry" />
+<SubjectItem name="Chemical Kinetics" slug="IITJEE_chemistry/ChemicalKinetics" />
+<SubjectItem name="Classification of Elements and Periodicity" slug="IITJEE_chemistry/ClassificationOfElementsAndPeriodicity" />
+<SubjectItem name="p-Block Elements" slug="IITJEE_chemistry/PBlockElements" />
+<SubjectItem name="d-Block and f-Block Elements" slug="IITJEE_chemistry/DAndFBlockElements" />
+<SubjectItem name="Coordination Compounds" slug="IITJEE_chemistry/CoordinationCompounds" />
+<SubjectItem name="Purification and Characterisation of Organic Compounds" slug="IITJEE_chemistry/PurificationAndCharacterisationOfOrganicCompounds" />
+<SubjectItem name="Some Basic Principles of Organic Chemistry" slug="IITJEE_chemistry/SomeBasicPrinciplesOfOrganicChemistry" />
+<SubjectItem name="Hydrocarbons" slug="IITJEE_chemistry/Hydrocarbons" />
+<SubjectItem name="Organic Compounds Containing Halogens" slug="IITJEE_chemistry/OrganicCompoundsContainingHalogens" />
+<SubjectItem name="Organic Compounds Containing Oxygen" slug="IITJEE_chemistry/OrganicCompoundsContainingOxygen" />
+<SubjectItem name="Organic Compounds Containing Nitrogen" slug="IITJEE_chemistry/OrganicCompoundsContainingNitrogen" />
+<SubjectItem name="Biomolecules" slug="IITJEE_chemistry/Biomolecules" />
+<SubjectItem name="Practical Chemistry Principles" slug="IITJEE_chemistry/PracticalChemistryPrinciples" />
 
-    <SubjectItem name="Alcohol, Phenols and Ethers" slug="IITJEE_chemistry/alcohol" />
 
-    <SubjectItem name="Aldehydes, Ketones and Carboxylic Acid" slug="IITJEE_chemistry/aldehydes" />
+
+
 
 </div>
 <div className="single-cart">
