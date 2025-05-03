@@ -106,6 +106,12 @@ const Contact = () => {
               desc="Balurghat High School Vocational Campus opposite of CMOH office Gate No - 2, Balurghat, West Bengal - 733101"
               phone="9933173579"
             />
+                  <FuturedItem
+                      icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
+                      title="Berhampore"
+                      desc="119,R N TAGORE RD. LALDIGHI, BERHAMPORE, P C CHANDRA BUILDING, (Beside Berhampore Municipality)."
+                      phone="7076299403/9476179519"
+                  />
           </div>
               </form>
             </div>
