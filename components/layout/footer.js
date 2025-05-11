@@ -80,6 +80,7 @@ return (
                             <li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
                             <li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
                             <li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
+                            <li><Link href="/about/Berhampore"legacyBehavior><a>Berhampore</a></Link></li>
                         </ul>
                     </div>
                 </div>
