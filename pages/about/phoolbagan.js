@@ -8,7 +8,7 @@ import SolutionArea from '../../components/services/solutionsection';
 import TestimonialClient from '../../components/services/TestimonialClient';
 import Footer from '../../components/layout/footer';
 import AboutFutured from '../../components/about/AboutFutured';
-import CoreTeacher from '../../components/TeacherCenterWise/CoreTeacher';
+import PBTeacher from '../../components/TeacherCenterWise/PBTeacher';
 
 const Services = () => {
   return (
@@ -19,8 +19,8 @@ const Services = () => {
       </header>
       <SolutionArea />
       <AboutFutured />
-      <CoreTeacher/>
-      <ServicePricing />
+      <PBTeacher/>
+      {/* <ServicePricing /> */}
       <AllCounter />
       <TestimonialClient />
       <ServiceNewsletter />

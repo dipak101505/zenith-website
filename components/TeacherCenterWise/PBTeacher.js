@@ -2,7 +2,7 @@ import Carousel from 'react-slick';
 import AboutTeamItem from '../about/Team/item';
 
 
-const CoreTeacher=()=>{
+const PBTeacher=()=>{
 
     const SliderSetting = {
         dots: true,
@@ -155,6 +155,16 @@ return(
                 </>
             }
         />
+        <AboutTeamItem 
+            pic="/assets/images/about/md mahibulla.png"
+            name="Md Mahibulla"
+            position={
+                <>
+                    Biology Mentor
+                </>
+            }
+        />
+
 
         <AboutTeamItem 
             pic="/assets/images/about/ranajit.png"
@@ -184,4 +194,4 @@ return(
 </>
 )
 }
-export default CoreTeacher
+export default PBTeacher

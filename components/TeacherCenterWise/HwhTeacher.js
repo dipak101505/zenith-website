@@ -2,7 +2,7 @@ import Carousel from 'react-slick';
 import AboutTeamItem from '../about/Team/item';
 
 
-const CoreTeacher=()=>{
+const HwhTeacher=()=>{
 
     const SliderSetting = {
         dots: true,
@@ -109,8 +109,8 @@ return(
         }
         />
 
-
-        {/* <AboutTeamItem 
+{/* 
+        <AboutTeamItem 
             pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F2.%20Sandipan%20Shah%20-%20Mentor%20Physics%20-%20M.Sc%20Astrophysics.png?alt=media&token=0c70dc58-14bb-4737-8ee0-f4fd9a96f781"
             name="Sandipan Shah"
             position={
@@ -119,9 +119,9 @@ return(
                     MSc Astrophysics
                 </>
             }
-        /> */}
+        />
 
-        {/* <AboutTeamItem 
+        <AboutTeamItem 
             pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F3.%20Swagata%20Saha%20-%20M.Sc%20in%20Chemistry%20-%20IIT%20Hyderabad.png?alt=media&token=1bcfa030-ff4b-4b6f-8048-d125ab8360cc"
             name="Swagata Saha"
             position={
@@ -155,6 +155,15 @@ return(
                 </>
             }
         />
+        <AboutTeamItem 
+            pic="/assets/images/about/md mahibulla.png"
+            name="Md Mahibulla"
+            position={
+                <>
+                    Biology Mentor
+                </>
+            }
+        />
 
         <AboutTeamItem 
             pic="/assets/images/about/ranajit.png"
@@ -184,4 +193,4 @@ return(
 </>
 )
 }
-export default CoreTeacher
+export default HwhTeacher
