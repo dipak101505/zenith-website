@@ -462,7 +462,7 @@ const IITJEE = () => {
                     />
                   </div>
 
-                  <SideSubjectFlotingBarIITJEE/>
+                  
 
                   
                 

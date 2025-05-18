@@ -24,7 +24,7 @@ const Services = () => {
       />
       <AboutFutured />
       <CdnTeacher/>
-      <ServicePricing />
+      {/* <ServicePricing /> */}
       <AllCounter />
       <TestimonialClient />
       <ServiceNewsletter />

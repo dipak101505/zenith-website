@@ -131,16 +131,7 @@ return(
             }
         />
 
-        <AboutTeamItem 
-            pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FAmit%20Sarkar%20-%20Mentor%20Maths%20-%20Msc%20Mathematics.png?alt=media&token=f4ce300c-2066-4b10-843a-c561d2d97d8c"
-            name="Amit Sarkar"
-            position={
-                <>  
-                    Mathematics Mentor<br />
-                    MSc Mathematics
-                </>
-            }
-        />
+        
 
         <AboutTeamItem 
             pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FAlpheswar%20Pandit%20-%20Administration%20Head%20-%20University%20of%20Bath.png?alt=media&token=8404d374-e969-4ede-96e0-c5bfb810807f"

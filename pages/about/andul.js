@@ -20,7 +20,7 @@ const Services = () => {
       <SolutionArea />
       <AboutFutured />
       <AndulTeacher/>
-      <ServicePricing />
+      {/* <ServicePricing /> */}
       <AllCounter />
       <TestimonialClient />
       <ServiceNewsletter />
