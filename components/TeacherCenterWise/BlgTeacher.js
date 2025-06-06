@@ -155,7 +155,7 @@ return(
             }
         />
 
-        <AboutTeamItem 
+        {/* <AboutTeamItem 
             pic="/assets/images/about/md mahibulla.png"
             name="Md Mahibulla"
             position={
@@ -163,7 +163,7 @@ return(
                     Biology Mentor
                 </>
             }
-        />
+        /> */}
 
         <AboutTeamItem 
             pic="/assets/images/about/ranajit.png"
