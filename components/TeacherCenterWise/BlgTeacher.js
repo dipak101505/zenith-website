@@ -11,7 +11,7 @@ const BlgTeacher=()=>{
         arrows: false,
         pauseOnDotsHover: false,
         autoplay: true,               // <-- Enable auto sliding
-        autoplaySpeed: 2500,          // <-- Slide every  ___ seconds (adjust as needed)
+        autoplaySpeed: 1500,          // <-- Slide every  ___ seconds (adjust as needed)
         pauseOnHover: true, 
         responsive: [
           {

@@ -3,7 +3,7 @@ const EducationDetailOne3 = {
   subTitle:
     'We are starting new centres at Andul & Rampurhat. Admission going on for NEET | IITJEE | FOUNDATION | AI & ROBOTICS',
   actionBtn: 'Enquire',
-  flotingMail: { title: 'New Centers!', subTitle: 'Admission Open' },
+  flotingMail: { title: 'New Centers!', subTitle: 'Admission Open for' },
   flotingStudent: {
     number: '5k +',
     title: 'Happy Students',
