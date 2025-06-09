@@ -8,22 +8,22 @@ import SolutionArea from '../../components/services/solutionsection';
 import TestimonialClient from '../../components/services/TestimonialClient';
 import Footer from '../../components/layout/footer';
 import AboutFutured from '../../components/about/AboutFutured';
-import RphTeacher from '../../components/TeacherCenterWise/RphTeacher';
+import CoreTeacher from '../../components/TeacherCenterWise/CoreTeacher';
 
 const Services = () => {
   return (
     <>
       <header>
         <Header />
-        <BreadCrumb pagename="Zenith Rampurhat" />
+        <BreadCrumb pagename="Zenith Agartala" />
       </header>
       <SolutionArea 
-        title="Welcome to Zenith <span>Rampurhat</span>"
-        image="/assets/images/about/Rampurhat.png"
-        description="Zenith Rampurhat "
-      />
+              title="Welcome to Zenith <span>Agartala</span>"
+              image="/assets/images/about/Agartala.png"
+              description="Zenith Agartala "
+            />
       <AboutFutured />
-      <RphTeacher/>
+      <CoreTeacher/>
       {/* <ServicePricing /> */}
       <AllCounter />
       <TestimonialClient />

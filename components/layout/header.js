@@ -115,6 +115,10 @@ const Header = () => {
 												<li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
 												<li><Link href="/about/Berhampore"legacyBehavior><a>Berhampore</a></Link></li>
 
+												<li><Link href="/about/agartala"legacyBehavior><a>Agartala</a></Link></li>
+                                				<li><Link href="/about/gariahat"legacyBehavior><a>Gariahat</a></Link></li>
+
+
 											</ul>
 										</li>
 										<li><Link href="/contact"legacyBehavior><a className={isActive("/contact")}>Contact</a></Link></li>

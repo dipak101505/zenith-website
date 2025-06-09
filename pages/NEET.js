@@ -21,6 +21,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import CommentBox from '../components/blog/CommentBox';
 import Image from 'next/image';
+import Footer from '../components/layout/footer';
 
 
 const NEET = () => {
@@ -485,6 +486,7 @@ const NEET = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

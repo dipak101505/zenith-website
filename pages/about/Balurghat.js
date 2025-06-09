@@ -17,7 +17,11 @@ const Services = () => {
         <Header />
         <BreadCrumb pagename="Zenith Balurghat" />
       </header>
-      <SolutionArea />
+      <SolutionArea 
+              title="Welcome to Zenith <span>Balurghat</span>"
+              image="/assets/images/about/Balurghat.png"
+              description="Zenith Balurghat "
+            />
       <AboutFutured />
       <BlgTeacher/>
       {/* <ServicePricing /> */}

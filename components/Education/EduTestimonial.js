@@ -56,8 +56,14 @@ return(
     </div> */}
     <div className="edu-testimonial-silder">
        <Carousel
-        vertical={true}
-        speed={1000}
+        ref={carouselRef}
+  vertical={true}
+  speed={1000}
+  autoplay={true}
+  autoplaySpeed={3000}
+  infinite={true}
+  dots={false}
+  arrows={false}
        >
         <div className="edu-testimonial-card">
             <div className="testi-card-header">
