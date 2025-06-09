@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import CommentBox from '../components/blog/CommentBox';
 import Image from 'next/image';
 import SideSubjectFlotingBarIITJEE from '../components/SubjectMatter/SideSubjectFlotingBarIITJEE.js';
-
+import Footer from '../components/layout/footer';
 
 const IITJEE = () => {
   const [Tabs, setTabs] = useState([
@@ -556,6 +556,7 @@ const IITJEE = () => {
           
         </div>
       </div>
+      <Footer/>
       
     </>
   );

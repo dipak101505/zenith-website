@@ -12,6 +12,7 @@ import EduFAQ from '../components/Education/EduFaq';
 import AboutFutured from '../components/about/AboutFutured';
 import AllCounter from '../components/services/Allcounter';
 import AboutTeam from '../components/about/AboutTeam';
+import Head from 'next/head';
 
 posthog.init('phc_nmyGRxvQ6rV7nYaLfKMO4g1reR4wRpNwJS9Ajoo31FD',
     {
@@ -23,6 +24,12 @@ posthog.init('phc_nmyGRxvQ6rV7nYaLfKMO4g1reR4wRpNwJS9Ajoo31FD',
 const Home = () => {
   return (
     <>
+    <Head>
+        <title>Best Coaching Institutein Kolkata for IITJEE | NEET | WBJEE |Foundation |AI & Robotics - Zenith Institute </title>
+        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+      </Head>
       <header>
         <EducationHeader />
         <EducationHeaderBottom />

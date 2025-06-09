@@ -19,7 +19,7 @@ const Services = () => {
       </header>
       <SolutionArea 
         title="Welcome to Zenith <span>Chandannagar</span>"
-        image="/assets/images/about/CDN.png"
+        image="/assets/images/about/Chandannagar.png"
         description="Zenith Chandannnagar "
       />
       <AboutFutured />
