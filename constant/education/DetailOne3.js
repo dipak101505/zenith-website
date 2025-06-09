@@ -1,5 +1,5 @@
 const EducationDetailOne3 = {
-  Title: 'Admission Open\n      Session 2025',
+  Title: 'Admission Open for\n      Session 2025',
   subTitle:
     'We are starting new centres at Andul & Rampurhat. Admission going on for NEET | IITJEE | FOUNDATION | AI & ROBOTICS',
   actionBtn: 'Enquire',
