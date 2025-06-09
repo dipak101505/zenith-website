@@ -26,7 +26,7 @@ const Home = () => {
     <>
     <Head>
         <meta name="google-site-verification" content="2XsGYvnNPVa14c-6_blvsMGZtnKSSB970gz41j_q-1c" />
-        <title>Best Coaching Institutein Kolkata for IITJEE | NEET | WBJEE |Foundation |AI & Robotics - Zenith Institute </title>
+        <title>Best Coaching Institute in Kolkata for IITJEE | NEET | WBJEE |Foundation |AI & Robotics - Zenith Institute </title>
         <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
