@@ -38,8 +38,8 @@ const Robotics = () => {
                     <iframe 
                         width="560" 
                         height="315" 
-                        src="https://www.youtube.com/embed/0kiPtA97LH4" 
-                        title="YouTube video player" 
+                        src="https://www.youtube.com/embed/0qwURw8kRic" 
+                        title="AI &amp; Robotics in Action | Zenith Institute Students | Future Technology | 3D Desgin" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen>
