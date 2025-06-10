@@ -1,9 +1,29 @@
+import React, { useState, useEffect } from 'react';
 import BreadCrumb from '../components/header/breadcrumb';
 import Header from '../components/layout/header';
 import Footer from '../components/layout/footer';
+import StudentForm from '../components/header/StudentForm'; 
 import FuturedItem from '../components/about/Futured/FuturedItem';
 
 const Contact = () => {
+  const [showForm, setShowForm] = useState(false);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setShowForm(true);
+      }, 1500);
+  
+      return () => clearTimeout(timer);
+    }, []);
+  
+    const handleActionButtonClick = (e) => {
+      e?.preventDefault();
+      setShowForm(true);
+    };
+  
+    const handleCloseForm = () => {
+      setShowForm(false);
+    };
   return (
     <>
       <header>
@@ -192,6 +212,7 @@ const Contact = () => {
         </div>
       </div>
       <Footer />
+      {showForm && <StudentForm onClose={handleCloseForm} />}
     </>
   );
 };

@@ -15,8 +15,9 @@ const Services = () => {
   return (
     <>
     <Head>
-        <title>IITJEE | NEET | Foundation </title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Best Coaching in Saltlake – IIT JEE, NEET, Robotics | Zenith Institute</title>
+        <meta name="description" content="Zenith Institute Saltlake – Premier coaching for IIT-JEE, NEET, Foundation, and Robotics near Salt Lake Bypass. Expert faculty and top results."/>
+        <meta name="keywords" content="Saltlake coaching, IIT JEE Saltlake, NEET Saltlake, Robotics classes Saltlake, Zenith Institute Saltlake, Foundation course"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

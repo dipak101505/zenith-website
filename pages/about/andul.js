@@ -15,8 +15,9 @@ const Services = () => {
   return (
     <>
     <Head>
-        <title>IITJEE | NEET | Foundation </title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Zenith Institute Andul – NEET, JEE & Robotics Coaching</title>
+        <meta name="description" content="Join Zenith Andul for expert coaching in IIT-JEE, NEET, Foundation & Robotics. Located near Dr. Lal Path Lab, Andul Road."/>
+        <meta name="keywords" content="Andul coaching, NEET classes Andul, IIT JEE Andul, Zenith Institute Andul, Robotics Andul, foundation coaching"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

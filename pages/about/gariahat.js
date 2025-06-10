@@ -15,8 +15,9 @@ const Services = () => {
   return (
     <>
     <Head>
-        <title>IITJEE | NEET</title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Zenith Gariahat – Top Coaching for NEET, JEE, Foundation</title>
+        <meta name="description" content="Located in Gariahat – Zenith offers NEET, IIT-JEE, Robotics & Foundation coaching with expert faculty and dedicated support."/>
+        <meta name="keywords" content="Gariahat coaching, IIT NEET Gariahat, Zenith Gariahat, Robotics training Gariahat, Foundation coaching Gariahat"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

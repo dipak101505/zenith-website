@@ -27,12 +27,14 @@ const Home = () => {
     <Head>
         <meta name="google-site-verification" content="2XsGYvnNPVa14c-6_blvsMGZtnKSSB970gz41j_q-1c" />
         <title># Best IITJEE, NEET Coaching - Zenith Institute </title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <meta name="description" content="Zenith Institute is a leading coaching center for IIT JEE, NEET, Foundation, Olympiads, and Robotics/AI across West Bengal & Tripura. Expert faculty, result-oriented teaching, smart classrooms, and personalized mentoring." />
+        <meta name="keywords" content="Coaching for Class 8, Class 9, Class 10, Class 11, Class 12, NEET Preparation, JEE Main and Advanced Classes, Olympiad Preparation, Foundation Courses, Premier NEET Institutes, Best JEE Tutorials, Competitive Exam Training, Advanced Science Coaching, Top Ranked Coaching Institutes, AI & Robotics, Best Coaching center for  IITJEE NEET in Kolkata, Best Coaching center for IITJEE NEET near me, Best Coaching center for  IITJEE NEET in Howrah" />
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
+        <link rel="canonical" href="https://www.zenithinstitute.co.in" />
       </Head>
       <header>
         <EducationHeader />
