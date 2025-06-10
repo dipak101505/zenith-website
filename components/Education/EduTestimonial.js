@@ -57,15 +57,99 @@ return(
     <div className="edu-testimonial-silder">
        <Carousel
         ref={carouselRef}
-  vertical={true}
-  speed={1000}
-  autoplay={true}
-  autoplaySpeed={3000}
-  infinite={true}
-  dots={false}
-  arrows={false}
+        horizontal={true}
+        speed={1000}
+        autoplay={false}
+        autoplaySpeed={3000}
+        infinite={true}
+        dots={true}
+        arrows={false}
        >
         <div className="edu-testimonial-card">
+            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/vnc837Ymnjo" 
+                title="IIT Dhanbad - Drishti Sen - Zenith Institute" 
+                frameBorder="0" 
+                allow="accelerometer; 
+                  autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+                loading=lazy
+                </iframe>                
+  </div>
+
+  <div className="edu-testimonial-card">
+            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/-ChY3CHoSko" 
+            title="IIT Dhanbad - Rohan Gupta - Zenith Institute"
+                frameBorder="0" 
+                allow="accelerometer; 
+                  autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+                loading=lazy
+                </iframe>                
+  </div>
+
+  <div className="edu-testimonial-card">
+            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/hFIpawRJYIg" title="JEE Advanced Success Mantra - Krish Agarwal - Zenith Institute - IIT Kharagpur"
+                frameBorder="0" 
+                allow="accelerometer; 
+                  autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+                loading=lazy
+                </iframe>                
+  </div>
+
+  <div className="edu-testimonial-card">
+            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/ddeJfhWThWI" title="JEE Advanced Success Mantra - Kushal Gupta - IIT Kharagpur"
+            frameBorder="0" 
+                allow="accelerometer; 
+                  autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+                loading=lazy
+                </iframe>                
+  </div>
+
+  <div className="edu-testimonial-card">
+            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/N2ljGE4eDG4" title="IIT Bombay CSE - Arpana Prajapati Success Mantra"
+             frameBorder="0" 
+                allow="accelerometer; 
+                  autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture; 
+                web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+                loading=lazy
+                </iframe>                
+  </div>
+
+
+
+        {/* <div className="edu-testimonial-card">
             <div className="testi-card-header">
                 <div className="reviwer-info">
                     <div className="reviewer-avater">
@@ -143,7 +227,7 @@ return(
                 “The mentors at Zenith helped me throughout the 2 years. The credit for my success goes to all the three mentors Varun Sir, Radhesh Sir, Amit Sir. They were available at every stage for any query that I had whilst guiding me on how to crack the examination.” 
                 </p>
             </div>
-        </div>
+        </div> */}
         {/* <div className="edu-testimonial-card">
             <div className="testi-card-header">
                 <div className="reviwer-info">
