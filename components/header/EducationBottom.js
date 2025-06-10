@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import EducationDetailOne from "../../constant/education/DetailOne";
-import StudentForm from './StudentForm';  // Make sure to adjust the import path as needed
+import StudentForm from './StudentForm';  
 // import Slider from 'react-slick/lib/slider';
 import Slider from "react-slick";
 
@@ -10,6 +10,9 @@ import Slider from "react-slick";
 
 import EducationDetailOne2 from '../../constant/education/DetailOne2';
 import EducationDetailOne3 from '../../constant/education/DetailOne3';
+import EducationDetailOne4 from '../../constant/education/DetailOne4';
+import EducationDetailOne5 from '../../constant/education/DetailOne5';
+import EducationDetailOne6 from '../../constant/education/DetailOne6';
 
 const EducationHeaderBottom = () => {
   const [showForm, setShowForm] = useState(false);
@@ -39,7 +42,7 @@ const EducationHeaderBottom = () => {
           arrows={false}
           dots={true}
           autoplay={true}  // Enables automatic sliding
-          autoplaySpeed={3000}  // Changes slide every 3 seconds
+          autoplaySpeed={6000}  // Changes slide every 3 seconds
           pauseOnHover={false}  // Pauses autoplay when hovering
           speed={1000}  // Smooth transition (1 sec)
         >
@@ -63,7 +66,7 @@ const EducationHeaderBottom = () => {
 
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fedu-hero-figure.png?alt=media&token=3795d40f-815f-434e-9951-b68bcf352813" alt="" className="img-fulid"/>
+                <img src="assets//images//agency//edu-hero-figure1.png" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>
@@ -102,7 +105,7 @@ const EducationHeaderBottom = () => {
 
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Frobotics.png?alt=media&token=b546ddac-d547-47ce-b0ec-5bf981b0546c" alt="" className="img-fulid"/>
+                <img src="assets//images//agency//robotics.png" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>
@@ -138,10 +141,10 @@ const EducationHeaderBottom = () => {
                 </div>
               </div>
             </div>
-
+        
             <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
               <div className="ag-hero-figure">
-                <img src="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fnew-centre.png?alt=media&token=17f0814b-8cbc-4e23-8d6f-4e81de78b717" alt="" className="img-fulid"/>
+                <img src="assets//images//agency//new-centre (1).png" alt="" className="img-fulid"/>
 
                 <div className="florting-mail-label" onClick={handleActionButtonClick} style={{ cursor: 'pointer' }}>
                   <div className="icon"><i className="bi bi-envelope"></i></div>
@@ -158,6 +161,82 @@ const EducationHeaderBottom = () => {
             </div>
           </div>
         </div>
+{/* jee adv */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne4.Title}
+                </h2>
+                <p>{EducationDetailOne4.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne4.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//jee25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+{/* 10th board */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne5.Title}
+                </h2>
+                <p>{EducationDetailOne5.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne5.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//10board25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+{/* 12th board  */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne6.Title}
+                </h2>
+                <p>{EducationDetailOne6.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne6.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//12board25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
         </Slider>
       </div>
       {showForm && <StudentForm onClose={handleCloseForm} />}

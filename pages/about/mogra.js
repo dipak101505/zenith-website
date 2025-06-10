@@ -14,8 +14,9 @@ import Head from 'next/head';
 const Services = () => {
   return (
     <><Head>
-        <title>IITJEE | NEET | Foundation </title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Best Coaching in Mogra for IIT JEE, NEET | Zenith Institute</title>
+        <meta name="description" content="Zenith Institute Mogra – Coaching for IIT-JEE, NEET, Olympiads & Foundation on Triveni Road, Hooghly."/>
+        <meta name="keywords" content="Mogra coaching, Zenith Mogra, NEET Mogra, JEE Mogra, Robotics classes Mogra, Olympiads training Mogra"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

@@ -15,8 +15,9 @@ const Services = () => {
   return (
     <>
     <Head>
-        <title>IITJEE | NEET</title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Zenith Institute Raiganj – Top Coaching for NEET & JEE</title>
+        <meta name="description" content="Coaching near NBSTC Bus Stand – IIT-JEE, NEET, Robotics & Foundation programs. Zenith Raiganj ensures success."/>
+        <meta name="keywords" content="Raiganj coaching, NEET coaching Raiganj, IIT JEE Raiganj, Zenith Institute Raiganj, Robotics Raiganj"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

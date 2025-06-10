@@ -15,8 +15,9 @@ const Services = () => {
   return (
     <>
     <Head>
-        <title>IITJEE | NEET | Foundation </title>
-        <meta name="description" content="The idea of Zenith was sparked by a mission to revolutionize competitive exam prep — challenging outdated methods and guiding students toward success in IIT JEE, WBJEE, NEET, and Foundation like never before." />
+        <title>Zenith Institute Berhampore – Coaching for IIT JEE, NEET & More</title>
+        <meta name="description" content="Berhampore’s trusted institute for IIT-JEE, NEET, Foundation & Robotics. Located near Laldighi."/>
+        <meta name="keywords" content="Berhampore coaching, NEET Berhampore, IIT coaching Berhampore, Robotics training Berhampore, Zenith Institute Berhampore"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins1.png?alt=media&token=1ee73676-393f-4a21-a614-2a799f55543e" />
         <meta property="og:image:width" content="92" />
         <meta property="og:image:height" content="92" />

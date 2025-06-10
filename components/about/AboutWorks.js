@@ -12,6 +12,21 @@ const [Items,setItems] = useState([
         name: "Zenith Institute",
         title: "An Altar for Science Enthusiasts"
     },{
+        tab: ["all","2025"],
+        img: "/assets/images/10 board25.png",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
+    },{
+        tab: ["all","2025"],
+        img: "/assets/images/12 board25.png",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
+    },{
+        tab: ["all","2025"],
+        img: "/assets/images/jee mains 25.png",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
+    },{
         tab: ["all","2024"],
         img: "/assets/images/batch24.png",
         name: "Zenith Institute",
