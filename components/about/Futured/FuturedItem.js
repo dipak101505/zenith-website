@@ -25,7 +25,7 @@ const FuturedItem = (props) => {
                     style={{
                       display: "inline-block",
                       padding: "8px 16px",
-                      backgroundColor: "#ffa600",
+                      backgroundColor: "#cc6600",
                       color: "#fff",
                       textDecoration: "none",
                       borderRadius: "5px",

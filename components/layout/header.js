@@ -108,14 +108,16 @@ const Header = () => {
 												<li><Link href="/about/saltlake"legacyBehavior><a>Salt Lake</a></Link></li>
 												<li><Link href="/about/chandannagar"legacyBehavior><a>Chandannagar</a></Link></li>
 												<li><Link href="/about/mogra"legacyBehavior><a>Mogra</a></Link></li>
-												<li><Link href="/about/rampurHat"legacyBehavior><a>Rampurhat</a></Link></li>
+												<li><Link href="/about/Rampurhat"legacyBehavior><a>Rampurhat</a></Link></li>
 												<li><Link href="/about/viproad"legacyBehavior><a>VIP Road</a></Link></li>
                     							<li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
 												<li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
 												<li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
 												<li><Link href="/about/Berhampore"legacyBehavior><a>Berhampore</a></Link></li>
+
 												<li><Link href="/about/agartala"legacyBehavior><a>Agartala</a></Link></li>
                                 				<li><Link href="/about/gariahat"legacyBehavior><a>Gariahat</a></Link></li>
+
 
 											</ul>
 										</li>
