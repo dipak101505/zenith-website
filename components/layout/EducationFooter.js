@@ -27,7 +27,7 @@ return(
 </div>
 <div className="col-lg-6">
     <div className="row">
-        <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
+        <div className="col-lg-3 col-md-3 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
             <div className="footer-widget">
                 <h4 className="footer-widget-title">Courses</h4>
                 <ul className="footer-links">
@@ -39,8 +39,9 @@ return(
                     <li><Link href="/olympiad"legacyBehavior><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>
+
         </div>  
-        <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
+        <div className="col-lg-3 col-md-3 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
             <div className="footer-widget ">
                 <h4 className="footer-widget-title">Company</h4>
                 <ul className="footer-links">
@@ -53,35 +54,44 @@ return(
                 </ul>
             </div>
         </div>
-        <div className="col-lg-4 col-md-4 d-flex justify-content-lg-center pt-4 pt-lg-0">
+        <div className="col-lg-3 col-md-3 d-flex justify-content-lg-center pt-4 pt-lg-0 ps-5">
             <div className="footer-widget">
+                <h4 className="footer-widget-title">Our</h4>
+
+                <div className="d-flex justify-content-between gap-4 flex-wrap">
+                    <ul className="footer-links">
+                        <li><Link href="/about/saltlake" legacyBehavior><a>Saltlake</a></Link></li>
+                        <li><Link href="/about/phoolbagan" legacyBehavior><a>Phoolbagan</a></Link></li>
+                        <li><Link href="/about/howrah" legacyBehavior><a>Howrah</a></Link></li>
+                        <li><Link href="/about/andul" legacyBehavior><a>Andul</a></Link></li>
+                        <li><Link href="/about/Serampore" legacyBehavior><a>Serampore</a></Link></li>
+                        <li><Link href="/about/chandannagar" legacyBehavior><a>Chandannagar</a></Link></li>
+                        <li><Link href="/about/mogra" legacyBehavior><a>Mogra</a></Link></li>
+                        <li><Link href="/about/Rampurhat" legacyBehavior><a>Rampurhat</a></Link></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="footer-widget ps-2">
                 <h4 className="footer-widget-title">Centres</h4>
-                <ul className="footer-links">
-                    <li><Link href="/about/saltlake"legacyBehavior><a>Saltlake</a></Link></li>
-                    <li><Link href="/about/phoolbagan"legacyBehavior><a>Phoolbagan</a></Link></li>
-                    <li><Link href="/about/howrah"legacyBehavior><a>Howrah</a></Link></li>
-                    <li><Link href="/about/andul"legacyBehavior><a>Andul</a></Link></li>
-                    <li><Link href="/about/Serampore"legacyBehavior><a>Serampore</a></Link></li>
-                    <li><Link href="/about/chandannagar"legacyBehavior><a>Chandannagar</a></Link></li>
-                    <li><Link href="/about/mogra"legacyBehavior><a>Mogra</a></Link></li>
-                    <li><Link href="/about/Rampurhat"legacyBehavior><a>Rampurhat</a></Link></li>
-                    <li><Link href="/about/viproad"legacyBehavior><a>VIP Road</a></Link></li>
-                    <li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
-                    <li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
-                    <li><Link href="/about/Balurghat"legacyBehavior><a>Balurghat</a></Link></li>
-                    <li><Link href="/about/Berhampore"legacyBehavior><a>Berhampore</a></Link></li>
 
-                    <li><Link href="/about/agartala"legacyBehavior><a>Agartala</a></Link></li>
-                    <li><Link href="/about/gariahat"legacyBehavior><a>Gariahat</a></Link></li>
+                <div className="d-flex justify-content-between gap-4 flex-wrap">
+                    <ul className="footer-links">
+                        <li><Link href="/about/viproad" legacyBehavior><a>VIP Road</a></Link></li>
+                        <li><Link href="/about/dunlop" legacyBehavior><a>Dunlop</a></Link></li>
+                        <li><Link href="/about/Raiganj" legacyBehavior><a>Raiganj</a></Link></li>
+                        <li><Link href="/about/Balurghat" legacyBehavior><a>Balurghat</a></Link></li>
+                        <li><Link href="/about/Berhampore" legacyBehavior><a>Berhampore</a></Link></li>
+                        <li><Link href="/about/agartala" legacyBehavior><a>Agartala</a></Link></li>
+                        <li><Link href="/about/gariahat" legacyBehavior><a>Gariahat</a></Link></li>
+                    </ul>
+                </div>
 
-
-
-                </ul>
             </div>
         </div>
+
     </div>
 </div>
-<div className="col-lg-3 col-md-6 d-lg-flex justify-content-end pt-4 pt-lg-0">
+<div className="col-lg-2 col-md-6 d-lg-flex justify-content-end pt-4 pt-lg-0">
     <div className="footer-widget">
         <h4 className="footer-widget-title">Contact</h4>
         <ul className="footer-contact-links">

@@ -46,6 +46,82 @@ const EducationHeaderBottom = () => {
           pauseOnHover={false}  // Pauses autoplay when hovering
           speed={1000}  // Smooth transition (1 sec)
         >
+          {/* jee adv */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne4.Title}
+                </h2>
+                <p>{EducationDetailOne4.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne4.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//jee25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+{/* 10th board */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne5.Title}
+                </h2>
+                <p>{EducationDetailOne5.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne5.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//10board25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+{/* 12th board  */}
+        <div className="container">
+          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
+            <div className="col-lg-5 order-1 order-lg-0">
+              <div className="edu-hero-content">
+                <h2 className="edu-hero-title">
+                  {EducationDetailOne6.Title}
+                </h2>
+                <p>{EducationDetailOne6.subTitle}</p>
+                <div className="edu-hero-btn">
+                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
+                    {EducationDetailOne6.actionBtn}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
+              <div className="ag-hero-figure">
+                <img src="assets//images//agency//12board25.png" alt="" className="img-fulid"/>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div className="container">
           <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
             <div className="col-lg-5 order-1 order-lg-0">
@@ -161,81 +237,8 @@ const EducationHeaderBottom = () => {
             </div>
           </div>
         </div>
-{/* jee adv */}
-        <div className="container">
-          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
-            <div className="col-lg-5 order-1 order-lg-0">
-              <div className="edu-hero-content">
-                <h2 className="edu-hero-title">
-                  {EducationDetailOne4.Title}
-                </h2>
-                <p>{EducationDetailOne4.subTitle}</p>
-                <div className="edu-hero-btn">
-                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
-                    {EducationDetailOne4.actionBtn}
-                  </a>
-                </div>
-              </div>
-            </div>
 
-            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
-              <div className="ag-hero-figure">
-                <img src="assets//images//agency//jee25.png" alt="" className="img-fulid"/>
 
-              </div>
-            </div>
-          </div>
-        </div>
-{/* 10th board */}
-        <div className="container">
-          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
-            <div className="col-lg-5 order-1 order-lg-0">
-              <div className="edu-hero-content">
-                <h2 className="edu-hero-title">
-                  {EducationDetailOne5.Title}
-                </h2>
-                <p>{EducationDetailOne5.subTitle}</p>
-                <div className="edu-hero-btn">
-                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
-                    {EducationDetailOne5.actionBtn}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
-              <div className="ag-hero-figure">
-                <img src="assets//images//agency//10board25.png" alt="" className="img-fulid"/>
-
-              </div>
-            </div>
-          </div>
-        </div>
-{/* 12th board  */}
-        <div className="container">
-          <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
-            <div className="col-lg-5 order-1 order-lg-0">
-              <div className="edu-hero-content">
-                <h2 className="edu-hero-title">
-                  {EducationDetailOne6.Title}
-                </h2>
-                <p>{EducationDetailOne6.subTitle}</p>
-                <div className="edu-hero-btn">
-                  <a href="#" className="edu-btn-fill" onClick={handleActionButtonClick}>
-                    {EducationDetailOne6.actionBtn}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-7 col-md-10 py-lg-5 py-4 order-0 order-lg-1">
-              <div className="ag-hero-figure">
-                <img src="assets//images//agency//12board25.png" alt="" className="img-fulid"/>
-
-              </div>
-            </div>
-          </div>
-        </div>
 
         </Slider>
       </div>
