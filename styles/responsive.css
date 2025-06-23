@@ -1096,6 +1096,9 @@
         padding-top: 100px;
         padding-bottom: 120px;
     }
+    .edu-section-title{
+        padding-top: 50px;
+    }
    .edu-success-style, .ag-working-process, .ag-newslatter-style, .ag-service-style, .ag-blog-style, .ag-client-logo-style, .ag-testimonial-style, .edu-department-style, .edu-success-style, .edu-testimonial-style{
         margin-top: 100px;
     }
