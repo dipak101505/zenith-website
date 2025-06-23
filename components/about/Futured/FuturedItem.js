@@ -27,6 +27,7 @@ const FuturedItem = (props) => {
                       padding: "8px 16px",
                       backgroundColor: "#ffa600",
                       color: "#000",
+
                       textDecoration: "none",
                       borderRadius: "5px",
                       fontWeight: "bold",

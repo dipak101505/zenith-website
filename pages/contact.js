@@ -126,6 +126,7 @@ const Contact = () => {
               desc="Balurghat High School Vocational Campus opposite of CMOH office Gate No - 2, Balurghat, West Bengal - 733101"
               phone="9933173579"
             />
+
             <FuturedItem
                 icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-5.png?alt=media&token=24aec600-e1ea-4a96-8114-592b7b1642ee"
                 title="Berhampore"
@@ -146,6 +147,7 @@ const Contact = () => {
               desc="Gariahat Crossing"
               phone="9051509444"
             />
+
           </div>
               </form>
             </div>
