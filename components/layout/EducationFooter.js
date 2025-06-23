@@ -39,6 +39,7 @@ return(
                     <li><Link href="/olympiad"legacyBehavior><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>
+
         </div>  
         <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-lg-center pt-4 pt-lg-0">
             <div className="footer-widget ">
@@ -75,6 +76,8 @@ return(
                 </ul>
             </div>
         </div>
+
+
     </div>
 </div>
 <div className="col-lg-3 col-md-6 d-lg-flex justify-content-end pt-4 pt-lg-0">
