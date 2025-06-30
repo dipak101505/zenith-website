@@ -120,6 +120,41 @@ return(
             }
         />
 
+         <AboutTeamItem
+             pic="/assets/images/about/Basudev Majhi.png"
+             name="Basudev Majhi"
+             position={
+                 <>
+                     Mathematics Mentor<br />
+                     B.Technology<br />GIET
+                 </>
+             }
+         />
+
+         <AboutTeamItem
+             pic="/assets/images/about/Tarun Roy.png"
+             name="Tarun Roy"
+             position={
+                 <>
+                     Physics Mentor<br />
+                     B.Tech | M.Tech<br />IIT KGP
+                 </>
+             }
+         />
+
+         <AboutTeamItem
+             pic="/assets/images/about/Tamal Das.png"
+             name="Tamal Das"
+             position={
+                 <>
+                     Physics Mentor<br />
+                     B.Tech | M.Tech<br />HIT
+                 </>
+             }
+         />
+
+
+
         <AboutTeamItem 
             pic="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2F3.%20Swagata%20Saha%20-%20M.Sc%20in%20Chemistry%20-%20IIT%20Hyderabad.png?alt=media&token=1bcfa030-ff4b-4b6f-8048-d125ab8360cc"
             name="Swagata Saha"
