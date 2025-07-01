@@ -61,14 +61,14 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
+            <div className="col-lg-3 col-md-3 d-flex justify-content-lg-center pt-4 pt-lg-0 ps-5">
                 <div className="single-widget">
                     <div className="footer-title">
-                        <h3>Centres</h3>
+                        <h3>Our</h3>
                     </div>
                     <div className="footer-link">
                         <ul>
-                        <li><Link href="/about/saltlake">Saltlake</Link></li>
+                            <li><Link href="/about/saltlake">Saltlake</Link></li>
                             <li><Link href="/about/phoolbagan"legacyBehavior><a>Phoolbagan</a></Link></li>
                             <li><Link href="/about/howrah"legacyBehavior><a>Howrah</a></Link></li>
                             <li><Link href="/about/andul"legacyBehavior><a>Andul</a></Link></li>
@@ -76,6 +76,18 @@ return (
                             <li><Link href="/about/chandannagar"legacyBehavior><a>Chandannagar</a></Link></li>
                             <li><Link href="/about/mogra"legacyBehavior><a>Mogra</a></Link></li>
                             <li><Link href="/about/Rampurhat"legacyBehavior><a>Rampurhat</a></Link></li>
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div className="single-widget ps-2">
+                    <div className="footer-title">
+                        <h3>Centres</h3>
+                    </div>
+                    <div className="footer-link">
+                        <ul>
+
                             <li><Link href="/about/viproad"legacyBehavior><a>VIP Road</a></Link></li>
                             <li><Link href="/about/dunlop"legacyBehavior><a>Dunlop</a></Link></li>
                             <li><Link href="/about/Raiganj"legacyBehavior><a>Raiganj</a></Link></li>
@@ -87,6 +99,7 @@ return (
 
                         </ul>
                     </div>
+                    
                 </div>
             </div>
             <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6"> 
@@ -109,8 +122,8 @@ return (
         </div>
         <div className="row">
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-        <div className="copy-right-area">
-        <p className="copy-text">{FooterConstant.copyrightText}</p>
+        <div className="footer-copyright text-">
+        <p>{FooterConstant.copyrightText}</p>
         </div>
         </div>
         </div>
