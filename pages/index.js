@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
     <Head>
-        <meta name="google-site-verification" content="2XsGYvnNPVa14c-6_blvsMGZtnKSSB970gz41j_q-1c" />
+        <meta name="google-site-verification" content="IyADBMFayncRyUFoEv7rEejCgc-70g0o7B6VAg92Xhg" />
         <title># Best IITJEE, NEET Coaching - Zenith Institute </title>
         <meta name="description" content="Zenith Institute is a leading coaching center for IIT JEE, NEET, Foundation, Olympiads, and Robotics/AI across West Bengal & Tripura. Expert faculty, result-oriented teaching, smart classrooms, and personalized mentoring." />
         <meta name="keywords" content="Coaching for Class 8, Class 9, Class 10, Class 11, Class 12, NEET Preparation, JEE Main and Advanced Classes, Olympiad Preparation, Foundation Courses, Premier NEET Institutes, Best JEE Tutorials, Competitive Exam Training, Advanced Science Coaching, Top Ranked Coaching Institutes, AI & Robotics, Best Coaching center for  IITJEE NEET in Kolkata, Best Coaching center for IITJEE NEET near me, Best Coaching center for  IITJEE NEET in Howrah" />
