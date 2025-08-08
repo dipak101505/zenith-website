@@ -1,15 +1,38 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          <meta name="google-site-verification" content="8ew6lZ1mNcVQ5rRnj3TovWrq6lmycRjh7I9r7a0-N0M" />
-          <meta name="google-site-verification" content="-Ygl--qJPBmuSRluRItAYw6PiNYzGRkwhioBnApMPkI" />
+          {/* Google tag (gtag.js) */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-492YKX9M6Z"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-492YKX9M6Z');
+            `,
+            }}
+          />
 
-          <script dangerouslySetInnerHTML={{
-            __html: `
+          <meta
+            name="google-site-verification"
+            content="8ew6lZ1mNcVQ5rRnj3TovWrq6lmycRjh7I9r7a0-N0M"
+          />
+          <meta
+            name="google-site-verification"
+            content="-Ygl--qJPBmuSRluRItAYw6PiNYzGRkwhioBnApMPkI"
+          />
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               window.FormExtension = {
                 name: 'Forms',
                 type: 'response',
@@ -115,10 +138,12 @@ class MyDocument extends Document {
                 },
               };
               console.log('FormExtension defined');
-            `
-          }} />
-          <script dangerouslySetInnerHTML={{
-            __html: `
+            `,
+            }}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
               (function(d, t) {
                 var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
                 v.onload = function() {
@@ -135,16 +160,17 @@ class MyDocument extends Document {
                 }
                 v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
               })(document, 'script');
-            `
-          }} />
+            `,
+            }}
+          />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
