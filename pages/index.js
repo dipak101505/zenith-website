@@ -35,6 +35,15 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
         <link rel="canonical" href="https://www.zenithinstitute.co.in" />
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-492YKX9M6Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-492YKX9M6Z');
+</script>
       </Head>
       <header>
         <EducationHeader />
