@@ -2,6 +2,7 @@ import Link from "next/link"
 import FooterConstant from "../../constant/FooterConstant/FooterConstant"
 
 const Footer=()=>{
+    
 return (
     <div className="footer-area hrrd-footer-area positioning pb-100">
         <div className="container">
