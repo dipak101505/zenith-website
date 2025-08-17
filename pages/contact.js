@@ -148,9 +148,15 @@ const Contact = () => {
               phone="9051509444"
             />
 
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
+              title="Simlapal - Bankura"
+              desc="Modern Academy, Bonkul, Simlapal, Bankura - 722151"
+              phone="7319127467 / 7679855964"
+            />
           </div>
-              </form>
-            </div>
+        </form>
+      </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50">
               <div className="cart-wrap">
                 <div className="single-cart">
