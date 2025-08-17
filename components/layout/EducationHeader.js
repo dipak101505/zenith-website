@@ -253,6 +253,11 @@ const EducationHeader = () => {
                             <a>Gariahat</a>
                           </Link>
                         </li>
+                        <li>
+                          <Link href="/about/simlapal-bankura" legacyBehavior>
+                            <a>Simlapal - Bankura</a>
+                          </Link>
+                        </li>
                       </ul>
                     </li>
 

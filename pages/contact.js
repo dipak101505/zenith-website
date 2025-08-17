@@ -136,8 +136,7 @@ const Contact = () => {
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
               title="Agartala"
-              desc="1st & 2nd Floor, Blood Mouth Club, Ramnagar Road no.2, (Before SBI RMS Chowmuhuni Branch), P.O.- Ramnagar, P.S.- West Tripura, Agartala-799002
-"
+              desc="1st & 2nd Floor, Blood Mouth Club, Ramnagar Road no.2, (Before SBI RMS Chowmuhuni Branch), P.O.- Ramnagar, P.S.- West Tripura, Agartala-799002"
               phone="8132996319"
             />
 
@@ -146,6 +145,13 @@ const Contact = () => {
               title="Gariahat"
               desc="Gariahat Crossing"
               phone="9051509444"
+            />
+
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
+              title="Simlapal - Bankura"
+              desc="Modern Academy, Bonkul, Simlapal, Bankura - 722151"
+              phone="7319127467 / 7679855964"
             />
 
           </div>
