@@ -122,7 +122,7 @@ return(
                         <li><Link href="/about/Berhampore"legacyBehavior><a>Berhampore</a></Link></li>
                         <li><Link href="/about/agartala"legacyBehavior><a>Agartala</a></Link></li>
                         <li><Link href="/about/gariahat"legacyBehavior><a>Gariahat</a></Link></li>
-
+                        <li><Link href="/about/Simlapal"legacyBehavior><a>Simlapal - Bankura</a></Link></li>
                     </ul>
                 </li>
                 
