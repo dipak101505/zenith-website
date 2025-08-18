@@ -106,7 +106,9 @@ const JobHeader = () => {
                       <Link href="/about" legacyBehavior>
                         <a>About</a>
                       </Link>
-                      <i className="fl">+</i>
+                      <i className="fl" onClick={ToggleSubMenu}>
+                        +
+                      </i>
                       <ul className="sub-menu">
                         <li>
                           <Link href="/about/howrah" legacyBehavior>
