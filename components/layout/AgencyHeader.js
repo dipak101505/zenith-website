@@ -110,7 +110,9 @@ const AgencyHeader = () => {
                     </li>
                     <li className="has-child-menu">
                       <Link href="/about">About</Link>
-                      <i className="fl">+</i>
+                      <i className="fl" onClick={ToggleSubMenu}>
+                        +
+                      </i>
                       <ul className="sub-menu">
                         <li>
                           <Link href="/about/howrah" legacyBehavior>
