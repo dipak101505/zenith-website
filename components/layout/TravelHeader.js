@@ -67,15 +67,17 @@ const TravelHeader = () => {
                 </div>
                 <nav className="main-nav" ref={navToggle}>
                   <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                    <a>
-                      <Image
-                        src={NavConstant.Logo}
-                        alt=""
-                        width={173}
-                        height={50}
-                        className="logo-responsive"
-                      />
-                    </a>
+                    <Link href="/" legacyBehavior>
+                      <a>
+                        <Image
+                          src={NavConstant.Logo}
+                          alt=""
+                          width={173}
+                          height={50}
+                          className="logo-responsive"
+                        />
+                      </a>
+                    </Link>
                   </div>
                   <ul>
                     <li className="has-child-menu">
