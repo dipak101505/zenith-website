@@ -125,7 +125,9 @@ const Header = () => {
                       <Link href="/about" legacyBehavior>
                         <a>Courses</a>
                       </Link>
-                      <i className="fl">+</i>
+                      <i className="fl" onClick={ToggleSubMenu}>
+                        +
+                      </i>
                       <ul className="sub-menu">
                         <li>
                           <Link href="/IITJEE" legacyBehavior>
@@ -249,11 +251,6 @@ const Header = () => {
                         <li>
                           <Link href="/about/gariahat" legacyBehavior>
                             <a>Gariahat</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/about/simlapal-bankura" legacyBehavior>
-                            <a>Simlapal - Bankura</a>
                           </Link>
                         </li>
                       </ul>
