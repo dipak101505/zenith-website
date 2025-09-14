@@ -228,6 +228,21 @@ const EducationFooter = () => {
                               <a>Gariahat</a>
                             </Link>
                           </li>
+                          <li>
+                            <Link href="/about/simlapal" legacyBehavior>
+                              <a>Simlapal</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/about/pasighat" legacyBehavior>
+                              <a>Pasighat</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/about/liluah" legacyBehavior>
+                              <a>Liluah</a>
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     </div>

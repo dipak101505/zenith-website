@@ -57,7 +57,7 @@ const Contact = () => {
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
               title="Phoolbagan"
               desc="1st Floor, 263, Hem Chandra Naskar Road, Kolkata, West Bengal 700010
-(Near Phoolbagan Metro)"
+                    (Near Phoolbagan Metro)"
               phone="9051509444"
             />
 
@@ -123,7 +123,7 @@ const Contact = () => {
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
               title="Balurghat"
-              desc="Balurghat High School Vocational Campus opposite of CMOH office Gate No - 2, Balurghat, West Bengal - 733101"
+              desc="Near Mahamaya Club , Balurghat, Dakshin Dinajpur , Pin – 733101"
               phone="9933173579"
             />
 
@@ -143,7 +143,7 @@ const Contact = () => {
             <FuturedItem
               icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-3.png?alt=media&token=8c945ab4-9c2b-4c43-9a9d-208137f25e43"
               title="Gariahat"
-              desc="Gariahat Crossing"
+              desc="Gariahat Road connects Ballygunge Phari with Prince Anwar Shah Road and Raja SC Mullick Road near Jadavpur Police station in the southern part of Kolkata, India."
               phone="9051509444"
             />
 
@@ -152,6 +152,20 @@ const Contact = () => {
               title="Simlapal - Bankura"
               desc="Modern Academy, Bonkul, Simlapal, Bankura - 722151"
               phone="7319127467 / 7679855964"
+            />
+
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-2.png?alt=media&token=ff0569aa-55d0-4d4d-89ba-9d1340dfdc1d"
+              title="PASIGHAT"
+              desc="Mirsam, Pasighat, East Siang District, Arunachal Pradesh – 791102"
+              phone="96128 35523"
+            />
+
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
+              title="LILUAH"
+              desc="105/2, Girish Ghosh Rd, Vivekananda Colony, Liluah, Howrah, West Bengal 711204"
+              phone="070442 53353"
             />
 
           </div>
