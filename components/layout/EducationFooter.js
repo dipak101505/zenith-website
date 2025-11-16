@@ -139,108 +139,106 @@ const EducationFooter = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 d-flex justify-content-lg-center pt-4 pt-lg-0 ps-5">
-                    <div className="footer-widget">
-                      <h4 className="footer-widget-title">Our</h4>
-
-                      <div className="d-flex justify-content-between gap-4 flex-wrap">
-                        <ul className="footer-links">
-                          <li>
+                  <div className="col-lg-3 col-md-3 d-flex justify-content-lg-center pt-4 pt-lg-0">
+                    <div className="footer-widget" style={{ width: '100%' }}>
+                      <h4 className="footer-widget-title">Our Centres</h4>
+                      <div className="d-flex" style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: '2.5rem' }}>
+                        <ul className="footer-links" style={{ margin: 0, padding: 0, listStyle: 'none', flex: '0 1 auto', minWidth: '140px' }}>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/saltlake" legacyBehavior>
                               <a>Saltlake</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/phoolbagan" legacyBehavior>
                               <a>Phoolbagan</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/howrah" legacyBehavior>
                               <a>Howrah</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/andul" legacyBehavior>
                               <a>Andul</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/Serampore" legacyBehavior>
                               <a>Serampore</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/chandannagar" legacyBehavior>
                               <a>Chandannagar</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/mogra" legacyBehavior>
                               <a>Mogra</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/Rampurhat" legacyBehavior>
                               <a>Rampurhat</a>
                             </Link>
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="footer-widget ps-2">
-                      <h4 className="footer-widget-title">Centres</h4>
-
-                      <div className="d-flex justify-content-between gap-4 flex-wrap">
-                        <ul className="footer-links">
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/viproad" legacyBehavior>
                               <a>VIP Road</a>
                             </Link>
                           </li>
-                          <li>
+                        </ul>
+                        <ul className="footer-links" style={{ margin: 0, padding: 0, listStyle: 'none', flex: '0 1 auto', minWidth: '140px' }}>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/dunlop" legacyBehavior>
                               <a>Dunlop</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/Raiganj" legacyBehavior>
                               <a>Raiganj</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/Balurghat" legacyBehavior>
                               <a>Balurghat</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/Berhampore" legacyBehavior>
                               <a>Berhampore</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/agartala" legacyBehavior>
                               <a>Agartala</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/gariahat" legacyBehavior>
                               <a>Gariahat</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/simlapal" legacyBehavior>
                               <a>Simlapal</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/pasighat" legacyBehavior>
                               <a>Pasighat</a>
                             </Link>
                           </li>
-                          <li>
+                          <li style={{ marginBottom: '0.5rem' }}>
                             <Link href="/about/liluah" legacyBehavior>
                               <a>Liluah</a>
+                            </Link>
+                          </li>
+                          <li style={{ marginBottom: '0.5rem' }}>
+                            <Link href="/about/fatehpur" legacyBehavior>
+                              <a>SIP-Amrit Vidya Ashram</a>
                             </Link>
                           </li>
                         </ul>

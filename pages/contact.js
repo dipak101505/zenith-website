@@ -168,6 +168,13 @@ const Contact = () => {
               phone="070442 53353"
             />
 
+            <FuturedItem
+              icon="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Ffeatured-icon-1.png?alt=media&token=450a2226-0579-4d1f-a18c-b42701aa6cc2"
+              title="SIP-Amrit Vidya Ashram"
+              desc="Amrit Vidya Ashram - Opposite Amrit Nath Ashram - Godiya Road, Fatehpur, Shekhawati, Rajasthan - 332301"
+              phone="97733 51921 | 97733 51920"
+            />
+
           </div>
               </form>
             </div>

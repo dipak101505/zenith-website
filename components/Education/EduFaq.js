@@ -7,7 +7,7 @@ const faqData = [
   },
   {
     question: "Where can I study for the above courses at Zenith?",
-    answer: "Zenith Institute has centres at Saltlake, Phoolbagan, Howrah, Andul, Serampore, Raiganj, Balurghat, Chandannagar, VIP Road, Dunlop, Mogra and Rampurhat. Students can visit our centre and join for IITJEE, BITSAT, WBJEE, NEET and Foundation courses."
+    answer: "Zenith Institute has centres at Saltlake, Phoolbagan, Howrah, Andul, Serampore, Raiganj, Balurghat, Chandannagar, VIP Road, Dunlop, Mogra, Rampurhat, SIP-Amrit Vidya Ashram and more. Students can visit our centre and join for IITJEE, BITSAT, WBJEE, NEET and Foundation courses."
   },
   {
     question: "Can I get a scholarship at Zenith?",

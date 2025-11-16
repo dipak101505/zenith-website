@@ -173,7 +173,7 @@ const StudentForm = ({ onClose }) => {
       });
   
     const classOptions = ['Class 1-4','Class 5-6', 'Class 7-8', 'Class 9-10', 'Class 11-12','12 Pass'];
-    const centreOptions = ['Howrah', 'Phoolbagan', 'Serampore', 'Andul', 'Saltlake', 'Chandannagar', 'Mogra', 'Rampurhat', 'Raiganj','Balurghat','Beharampore','Agartala','Gariahat','VIP Road','Dunlop','Simlapal','Pasighat','Liluah'];
+    const centreOptions = ['Howrah', 'Phoolbagan', 'Serampore', 'Andul', 'Saltlake', 'Chandannagar', 'Mogra', 'Rampurhat', 'Raiganj','Balurghat','Beharampore','Agartala','Gariahat','VIP Road','Dunlop','Simlapal','Pasighat','Liluah','SIP-Amrit Vidya Ashram'];
     const courseOptions = ['IIT JEE', 'NEET','Foundation', 'Boards' ,'Olympiad','Robotics ', 'Artificial Intelligence', 'Coding', 'Maths & Aptitude'];
   
     useEffect(() => {

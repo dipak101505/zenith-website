@@ -272,6 +272,11 @@ const EducationHeader = () => {
                             <a>Liluah</a>
                           </Link>
                         </li>
+                        <li>
+                          <Link href="/about/fatehpur" legacyBehavior>
+                            <a>SIP-Amrit Vidya Ashram</a>
+                          </Link>
+                        </li>
                       </ul>
                     </li>
 
